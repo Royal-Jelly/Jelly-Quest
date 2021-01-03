@@ -9,15 +9,15 @@ Icon?
 ehthumbs.db
 Thumbs.db
 #Almost all the folders & files almost
-*/.mixin.out
-*/logs
-*/mods
-*/natives
-*/patchouli_books
-*/resourcepacks
-*/saves
+.mixin.out/
+logs/
+mods/
+natives/
+patchouli_books/
+resourcepacks/
+saves/
 BotaniaVars.dat
-config.json
+#config.json
 manifest.json
 options.txt
 patchouli_data.json
