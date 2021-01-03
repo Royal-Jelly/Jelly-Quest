@@ -52,10 +52,13 @@
 
     "tetra.material.mana_diamond": "Mana Diamond",
     "tetra.material.mana_diamond.prefix": "Mana Diamond",
-    "tetra.material.mana_gem": "Mana Gem",
-    "tetra.material.mana_gem.prefix": "Mana Gem",
     "tetra.material.mana_pearl": "Mana Pearl",
     "tetra.material.mana_pearl.prefix": "Mana Pearl",
+
+    "tetra.material.mana_fiber": "Manaweave String",
+    "tetra.material.mana_fiber.prefix": "Manaweave String",
+    "tetra.material.mana_weave": "Manaweave Cloth",
+    "tetra.material.mana_weave.prefix": "Manaweave Cloth",
 
     "tetra.material.dragonstone": "Dragonstone",
     "tetra.material.dragonstone.prefix": "Dragonstone",
