@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "single_socket/nether_star",
+            "category": "misc",
+            "integrity": -1,
+            "tools": {
+                "shovel": [1, 0],
+                "cut": [1, 0]
+            },
+            "glyph": {
+                "tint": "e8e2fe",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "e8e2fe"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "material": {
+                "item": "minecraft:nether_star"
+            },
+            "experienceCost": 30,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/nether_star"
+        }
+    ]
+}

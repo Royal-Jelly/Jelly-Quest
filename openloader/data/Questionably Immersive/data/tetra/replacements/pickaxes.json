@@ -1,0 +1,38 @@
+[
+    {
+        "predicate": { "item": "immersiveengineering:pickaxe_steel" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/steel"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/steel"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "botania:manasteel_pick" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/manasteel"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/manasteel"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "botania:elementium_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/elementium"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/elementium"],
+            "double/handle": ["double/basic_handle", "basic_handle/jacaranda"]
+        }
+    },
+    {
+        "predicate": { "item": "botania:terra_pick" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/terrasteel"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/terrasteel"],
+            "double/handle": ["double/basic_handle", "basic_handle/terrasteel"]
+        }
+    }
+]

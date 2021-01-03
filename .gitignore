@@ -1,0 +1,26 @@
+#Do not include with Modpack instance
+#OS generated garbage
+*/.DS_Store
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+#Almost all the folders & files almost
+*/.mixin.out
+*/logs
+*/mods
+*/natives
+*/patchouli_books
+*/resourcepacks
+*/saves
+BotaniaVars.dat
+config.json
+manifest.json
+options.txt
+patchouli_data.json
+realms_persistence.json
+usercashe.json
+usernamecache.json
