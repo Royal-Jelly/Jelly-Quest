@@ -17,6 +17,23 @@
                 "location": "tetra:items/module/sword/guard/socket/default",
                 "tint": "e8e2fe"
             }]
+        },
+        {
+            "key": "sword_socket/mana_quartz",
+            "category": "misc",
+            "integrity": -1,
+            "tools": {
+                "cut": [1, 0]
+            },
+            "glyph": {
+                "tint": "e8e2fe",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "e8e2fe"
+            }]
         }
     ]
 }

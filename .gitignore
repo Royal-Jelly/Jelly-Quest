@@ -22,5 +22,5 @@ manifest.json
 options.txt
 patchouli_data.json
 realms_persistence.json
-usercashe.json
+usercache.json
 usernamecache.json

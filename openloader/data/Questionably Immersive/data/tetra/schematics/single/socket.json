@@ -8,6 +8,14 @@
             "experienceCost": 30,
             "moduleKey": "single/socket",
             "moduleVariant": "single_socket/nether_star"
+        },
+        {
+            "material": {
+                "item": "botania:mana_quartz"
+            },
+            "experienceCost": 30,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/mana_quartz"
         }
     ]
 }
