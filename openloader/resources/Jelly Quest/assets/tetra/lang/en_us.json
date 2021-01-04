@@ -59,6 +59,8 @@
     "tetra.material.mana_diamond.prefix": "Mana Diamond",
     "tetra.material.mana_pearl": "Mana Pearl",
     "tetra.material.mana_pearl.prefix": "Mana Pearl",
+    "tetra.material.mana_quartz": "Mana Quartz",
+    "tetra.material.mana_quartz.prefix": "Mana Quart",
 
     "tetra.material.manaweave_fibre": "Manaweave Thread",
     "tetra.material.manaweave_fibre.prefix": "Manaweave Thread",
@@ -69,6 +71,13 @@
     "tetra.material.dragonstone.prefix": "Dragonstone",
     "tetra.material.gaia": "Gaia",
     "tetra.material.gaia.prefix": "Gaia",
+
+    "tetra.material.fire_dragon": "Fire Dragon Scales",
+    "tetra.material.fire_dragon.prefix": "Fire Dragon Scales",
+    "tetra.material.ice_dragon": "Ice Dragon Scales",
+    "tetra.material.ice_dragon.prefix": "Ice Dragon Scales",
+    "tetra.material.lightning_dragon": "Lightning Dragon Scales",
+    "tetra.material.lightning_dragon.prefix": "Lightning Dragon Scales",
 
     "tetra.variant.double_binding/manaweave_fibre": "Manaweave Thread Binding",
     "tetra.variant.single_binding/manaweave_fibre": "Manaweave Thread Binding",
