@@ -23,7 +23,7 @@
         "modules": {
             "double/head_left": ["double/basic_axe_left", "basic_axe/elementium"],
             "double/head_right": ["double/butt_right", "butt/elementium"],
-            "double/handle": ["double/basic_handle", "basic_handle/livingwood"]
+            "double/handle": ["double/basic_handle", "basic_handle/dreamwood"]
         }
     },
     {

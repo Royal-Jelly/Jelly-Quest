@@ -14,5 +14,13 @@
             "single/basic_shovel": ["single/basic_shovel", "basic_shovel/manasteel"],
             "single/handle": ["single/basic_handle", "basic_handle/livingwood"]
         }
+    },
+    {
+        "predicate": { "item": "botania:elementium_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/elementium"],
+            "single/handle": ["single/basic_handle", "basic_handle/dreamwood"]
+        }
     }
 ]

@@ -24,7 +24,7 @@
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": ["sword/basic_blade", "basic_blade/elementium"],
-            "sword/hilt": ["sword/basic_hilt", "basic_hilt/livingwood"],
+            "sword/hilt": ["sword/basic_hilt", "basic_hilt/dreamwood"],
             "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/elementium"],
             "sword/guard": ["sword/makeshift_guard", "makeshift_guard/elementium"]
         }

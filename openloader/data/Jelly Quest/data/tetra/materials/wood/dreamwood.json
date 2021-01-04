@@ -1,5 +1,5 @@
 {
-  "key": "livingwood",
+  "key": "dreamwood",
   "category": "wood",
   "primary": "4",
   "secondary": "2.5",
@@ -7,7 +7,7 @@
   "durability": "220",
   "integrityCost": "2",
   "integrityGain": "5",
-  "magicCapacity": "108",
+  "magicCapacity": "116",
   "toolLevel": "2",
   "toolEfficiency": "4",
   "tints": {
@@ -19,7 +19,7 @@
     "wooden"
   ],
   "material": {
-    "tag": "botania:livingwood"
+    "item": "botania:dreamwood"
   },
   "requiredTools": {
     "axe": 3

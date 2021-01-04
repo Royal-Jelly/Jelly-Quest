@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "slots": [
+    "toolbelt/belt"
+  ],
+  "materialSlotCount": 1,
+  "requirement": {
+    "type": "tetra:modular_item",
+    "variants": {
+      "belt/manaweave_buckled": "toolbelt/belt"
+    }
+  },
+  "displayType": "minor",
+  "glyph": {
+    "tint": "9f9895",
+    "textureY": 16
+  },
+  "outcomes": [
+    {
+      "material": {
+        "item": "botania:manaweave_cloth",
+        "count": 1
+      },
+      "moduleKey": "toolbelt/belt",
+      "moduleVariant": "belt/inlaid"
+    }
+  ]
+}
