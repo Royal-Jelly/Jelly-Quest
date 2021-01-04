@@ -3,7 +3,7 @@
     "variants": [
         {
             "key": "sword_socket/nether_star",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "cut": [1, 0]
@@ -20,7 +20,7 @@
         },
         {
             "key": "sword_socket/mana_quartz",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "cut": [1, 0]

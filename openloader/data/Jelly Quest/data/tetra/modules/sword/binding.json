@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "variants": [
+    {
+        "key": "sword_binding/manaweave_fibre",
+        "category": "string",
+        "integrity": 2,
+        "tools": {
+            "shovel": [1, 0],
+            "cut": [1, 0]
+        },
+        "glyph": {
+            "tint": "007b9b",
+            "textureX": 88,
+            "textureY": 16
+        },
+        "models": [{
+            "location": "tetra:items/module/sword/binding/binding/default",
+            "tint": "007b9b"
+        }]
+    }]
+}

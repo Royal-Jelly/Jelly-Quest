@@ -3,7 +3,7 @@
     "variants": [
         {
             "key": "single_socket/nether_star",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "shovel": [1, 0],
@@ -21,7 +21,7 @@
         },
         {
             "key": "single_socket/mana_quartz",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "shovel": [1, 0],

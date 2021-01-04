@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "material": {
+                "item": "botania:mana_string"
+            },
+            "experienceCost": 30,
+            "moduleKey": "sword/binding",
+            "moduleVariant": "sword_binding/manaweave_fibre"
+        }
+    ]
+}

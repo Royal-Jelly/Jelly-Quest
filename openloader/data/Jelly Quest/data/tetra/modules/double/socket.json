@@ -3,7 +3,7 @@
     "variants": [
         {
             "key": "double_socket/nether_star",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "axe": [1, 0],
@@ -22,7 +22,7 @@
         },
         {
             "key": "double_socket/mana_quartz",
-            "category": "misc",
+            "category": "gem",
             "integrity": -1,
             "tools": {
                 "axe": [1, 0],

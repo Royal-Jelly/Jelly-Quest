@@ -50,6 +50,11 @@
     "tetra.material.terrasteel": "Terrasteel",
     "tetra.material.terrasteel.prefix": "Terrasteel",
 
+    "tetra.material.livingwood": "Livingwood",
+    "tetra.material.livingwood.prefix": "Livingwood",
+    "tetra.material.livingrock": "Livingrock",
+    "tetra.material.livingrock.prefix": "Livingrock",
+
     "tetra.material.mana_diamond": "Mana Diamond",
     "tetra.material.mana_diamond.prefix": "Mana Diamond",
     "tetra.material.mana_pearl": "Mana Pearl",
@@ -64,6 +69,10 @@
     "tetra.material.dragonstone.prefix": "Dragonstone",
     "tetra.material.gaia": "Gaia",
     "tetra.material.gaia.prefix": "Gaia",
+
+    "tetra.variant.double_binding/manaweave_fibre": "Manaweave Thread Binding",
+    "tetra.variant.single_binding/manaweave_fibre": "Manaweave Thread Binding",
+    "tetra.variant.sword_binding/manaweave_fibre": "Manaweave Thread Binding",
 
     "tetra.variant.double_socket/nether_star": "Socket [Nether Star]",
     "tetra.variant.single_socket/nether_star": "Socket [Nether Star]",
