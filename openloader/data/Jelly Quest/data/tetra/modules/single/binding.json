@@ -3,7 +3,7 @@
   "variants": [
     {
         "key": "single_binding/manaweave_fibre",
-        "category": "string",
+        "category": "fibre",
         "integrity": 2,
         "tools": {
             "shovel": [1, 0],
