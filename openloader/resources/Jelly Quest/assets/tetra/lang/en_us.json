@@ -55,10 +55,10 @@
     "tetra.material.mana_pearl": "Mana Pearl",
     "tetra.material.mana_pearl.prefix": "Mana Pearl",
 
-    "tetra.material.mana_fiber": "Manaweave String",
-    "tetra.material.mana_fiber.prefix": "Manaweave String",
-    "tetra.material.mana_weave": "Manaweave Cloth",
-    "tetra.material.mana_weave.prefix": "Manaweave Cloth",
+    "tetra.material.manaweave_fibre": "Manaweave Thread",
+    "tetra.material.manaweave_fibre.prefix": "Manaweave Thread",
+    "tetra.material.manaweave_cloth": "Manaweave Cloth",
+    "tetra.material.manaweave_cloth.prefix": "Manaweave Cloth",
 
     "tetra.material.dragonstone": "Dragonstone",
     "tetra.material.dragonstone.prefix": "Dragonstone",
@@ -67,5 +67,9 @@
 
     "tetra.variant.double_socket/nether_star": "Socket [Nether Star]",
     "tetra.variant.single_socket/nether_star": "Socket [Nether Star]",
-    "tetra.variant.sword_socket/nether_star": "Socket [Nether Star]"
+    "tetra.variant.sword_socket/nether_star": "Socket [Nether Star]",
+
+    "tetra.variant.double_socket/mana_quartz": "Socket [§bMana Quartz§r]",
+    "tetra.variant.single_socket/mana_quartz": "Socket [§bMana Quartz§r]",
+    "tetra.variant.sword_socket/mana_quartz": "Socket [§bMana Quartz§r]"
 }

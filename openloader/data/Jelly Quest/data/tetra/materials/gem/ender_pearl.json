@@ -12,6 +12,6 @@
     "toolEfficiency": "5.5",
     "tints": { "glyph": "0b4c41", "texture": "0b4c41" },
     "textures": ["shiny", "crude"],
-    "material": { "tag": "minecraft:ender_pearl", "count": 2 },
+    "material": { "item": "minecraft:ender_pearl", "count": 2 },
     "requiredTools": { "hammer": 2 }
 }

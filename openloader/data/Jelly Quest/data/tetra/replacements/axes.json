@@ -14,7 +14,7 @@
         "modules": {
             "double/head_left": ["double/basic_axe_left", "basic_axe/manasteel"],
             "double/head_right": ["double/butt_right", "butt/manasteel"],
-            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+            "double/handle": ["double/basic_handle", "basic_handle/livingwood"]
         }
     },
     {
@@ -23,7 +23,7 @@
         "modules": {
             "double/head_left": ["double/basic_axe_left", "basic_axe/elementium"],
             "double/head_right": ["double/butt_right", "butt/elementium"],
-            "double/handle": ["double/basic_handle", "basic_handle/jacaranda"]
+            "double/handle": ["double/basic_handle", "basic_handle/livingwood"]
         }
     },
     {
@@ -32,7 +32,7 @@
         "modules": {
             "double/head_left": ["double/basic_axe_left", "basic_axe/terrasteel"],
             "double/head_right": ["double/butt_right", "butt/terrasteel"],
-            "double/handle": ["double/basic_handle", "basic_handle/terrasteel"]
+            "double/handle": ["double/basic_handle", "basic_handle/livingwood"]
         }
     }
 ]

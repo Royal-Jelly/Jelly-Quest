@@ -11,7 +11,7 @@
         },
         {
             "material": {
-                "item": "botania:mana_quartz"
+                "item": "botania:quartz_mana"
             },
             "experienceCost": 30,
             "moduleKey": "sword/socket",
