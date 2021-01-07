@@ -62,8 +62,6 @@
     "tetra.material.mana_quartz": "Mana Quartz",
     "tetra.material.mana_quartz.prefix": "Mana Quart",
 
-    "tetra.material.manaweave_fibre": "Manaweave Thread",
-    "tetra.material.manaweave_fibre.prefix": "Manaweave Thread",
     "tetra.material.manaweave_cloth": "Manaweave Cloth",
     "tetra.material.manaweave_cloth.prefix": "Manaweave Cloth",
 
@@ -79,22 +77,5 @@
     "tetra.material.scales_lightning_dragon": "Lightning Dragon Scales",
     "tetra.material.scales_lightning_dragon.prefix": "Lightning Dragon Scales",
     "tetra.material.scales_sea_serpent": "Sea Serpent Scales",
-    "tetra.material.scales_sea_serpent.prefix": "Sea Serpent Scales",
-
-    "tetra.variant.double_binding/manaweave_fibre": "Manaweave Thread Binding",
-    "tetra.variant.single_binding/manaweave_fibre": "Manaweave Thread Binding",
-    "tetra.variant.sword_binding/manaweave_fibre": "Manaweave Thread Binding",
-
-    "tetra.variant.double_socket/nether_star": "Socket [Nether Star]",
-    "tetra.variant.single_socket/nether_star": "Socket [Nether Star]",
-    "tetra.variant.sword_socket/nether_star": "Socket [Nether Star]",
-
-    "tetra.variant.double_socket/mana_quartz": "Socket [§bMana Quartz§r]",
-    "tetra.variant.single_socket/mana_quartz": "Socket [§bMana Quartz§r]",
-    "tetra.variant.sword_socket/mana_quartz": "Socket [§bMana Quartz§r]",
-
-    "tetra/schematic/toolbelt/belt/manaweave_belt.name": "Manaweave Sash",
-    "tetra/schematic/toolbelt/belt/manaweave_belt.slot1": "Manaweave Cloth",
-    "tetra/schematic/toolbelt/belt/manaweave_belt.description": "Manaweave Cloth has magical properties woven into it, which should improve the integrity of a toolbelt greatly. It however is proven pretty dificult to cut with mudane cutting instruments."
-
+    "tetra.material.scales_sea_serpent.prefix": "Sea Serpent Scales"
 }
