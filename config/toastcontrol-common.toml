@@ -29,7 +29,7 @@
 		translucent = true
 		#How many toasts will be displayed on screen at once.
 		#Range: 1 ~ 7
-		toast_count = 3
+		toast_count = 1
 		#How long a toast must be on the screen for, in ticks.  Use 0 to use the default time.
 		#Range: 0 ~ 4000
 		force_time = 0
@@ -45,4 +45,3 @@
 		#The X offset for toasts to be drawn at.
 		#Range: -8192 ~ 8192
 		x_offset = 0
-
