@@ -45,3 +45,4 @@
 		#The X offset for toasts to be drawn at.
 		#Range: -8192 ~ 8192
 		x_offset = 0
+

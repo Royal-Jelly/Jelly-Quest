@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "": [ 
+        	{ "model": "quark:block/limestone", "weight":3 },
+        	{ "model": "quark:block/limestone0", "weight":1 },
+			{ "model": "quark:block/limestone1", "weight":1 },
+			{ "model": "quark:block/limestone2", "weight":1 },
+			{ "model": "quark:block/limestone3", "weight":1 },
+			{ "model": "quark:block/limestone4", "weight":1 },
+			{ "model": "quark:block/limestone5", "weight":1 },
+			{ "model": "quark:block/limestone6", "weight":1 },
+			{ "model": "quark:block/limestone7", "weight":1 },
+			{ "model": "quark:block/limestone8", "weight":1 }
+ 			]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "": [ 
+        	{ "model": "quark:block/slate", "weight":3 },
+        	{ "model": "quark:block/slate0", "weight":1 },
+			{ "model": "quark:block/slate1", "weight":1 },
+			{ "model": "quark:block/slate2", "weight":1 },
+			{ "model": "quark:block/slate3", "weight":1 },
+			{ "model": "quark:block/slate4", "weight":1 },
+			{ "model": "quark:block/slate5", "weight":1 },
+			{ "model": "quark:block/slate6", "weight":1 },
+			{ "model": "quark:block/slate7", "weight":1 },
+			{ "model": "quark:block/slate8", "weight":1 }
+ 			]
+    }
+}
