@@ -72,4 +72,9 @@
 	hummingbird = ["&#overworld+|minecraft:flower_forest+|minecraft:sunflower_plains+|#jungle"]
 	capuchinMonkey = ["&#overworld+|#jungle+!minecraft:bamboo_jungle+!minecraft:bamboo_jungle_hills"]
 	crimsonMosquito = ["|minecraft:crimson_forest"]
+	elephant = ["&#overworld+|@savanna+|#savanna"]
+	soulVulture = ["|minecraft:soul_sand_valley"]
+	snowLeopard = ["&#overworld+|#snowy+&#mountain"]
+	spectre = ["|minecraft:small_end_islands"]
+	crow = ["&#overworld+!#savanna+!#@savanna+|@forest+|#forest+|@plains+|#plains"]
 

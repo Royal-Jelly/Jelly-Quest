@@ -5,7 +5,7 @@
 	#Enable modular single headed implements
 	single_headed = true
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
-	development = true
+	development = false
 	#If enabled and Curios is installed, Toolbelts will only work in the Curio belt slot
 	toolbelt_curio_only = true
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
