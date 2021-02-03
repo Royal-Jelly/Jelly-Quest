@@ -1,0 +1,166 @@
+{
+  "modsRequired": ["coins"],
+  "content": [
+    {
+      "type": "item",
+      "content": "coins:coin_platinum",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8000,
+      "weight": 10
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_platinum",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 16000,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_gold",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_gold",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 4000,
+      "weight": 200
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_gold",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2000,
+      "weight": 300
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_gold",
+      "amountRange": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 1000,
+      "weight": 400
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_iron",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 800,
+      "weight": 500
+    },    
+    {
+      "type": "item",
+      "content": "coins:coin_iron",
+      "amountRange": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 400,
+      "weight": 600
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_iron",
+      "amountRange": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 200,
+      "weight": 700
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_iron",
+      "amountRange": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 100,
+      "weight": 800
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 60,
+      "weight": 900
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 20,
+      "weight": 1100
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 32
+      },
+      "unitWorth": 10,
+      "weight": 1200
+    },
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 5,
+      "weight": 1300
+    }
+,
+    {
+      "type": "item",
+      "content": "coins:coin_copper",
+      "amountRange": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 5,
+      "weight": 1400
+    }
+  ]   
+}

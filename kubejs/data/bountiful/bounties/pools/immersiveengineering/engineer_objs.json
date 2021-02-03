@@ -1,0 +1,85 @@
+{
+  "modsRequired": ["immersiveengineering"],
+  "content": [
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_copper",
+      "amountRange": {
+        "min": 2,
+        "max": 64
+      },
+      "unitWorth": 300,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_electrum",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 660,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_steel",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 550,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_structure_rope",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 10,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_structure_steel",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 300,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_redstone",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 300,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_coppper_ins",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 320,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "immersiveengineering:wirecoil_electrum_ins",
+      "amountRange": {
+        "min": 2,
+        "max": 32
+      },
+      "unitWorth": 700,
+      "weight": 1000
+    }
+  ]
+}

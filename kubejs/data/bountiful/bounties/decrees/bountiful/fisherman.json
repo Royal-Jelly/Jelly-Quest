@@ -1,0 +1,10 @@
+{
+    "spawnsInBoard": true,
+    "objectivePools": [
+      "all_villager_objs",
+      "fisherman_objs"
+    ],
+    "rewardPools": [
+      "coins_rews"
+    ]
+  }

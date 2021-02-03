@@ -1,0 +1,28 @@
+{
+    "key": "livingrock",
+    "category": "stone",
+    "primary": "3",
+    "secondary": "3.25",
+    "tertiary": "0",
+    "durability": "220",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "98",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "c0c2c4",
+        "texture": "c0c2c4"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "tag": "botania:livingrock"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

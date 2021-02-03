@@ -1,0 +1,27 @@
+{
+  "key": "scales_sea_serpent",
+  "category": "scale",
+  "primary": "4.5",
+  "secondary": "0.4",
+  "tertiary": "1",
+  "durability": "200",
+  "integrityCost": "1",
+  "integrityGain": "4",
+  "magicCapacity": "80",
+  "toolLevel": "0",
+  "toolEfficiency": "0",
+  "tints": {
+    "glyph": "shulker_glyph",
+    "texture": "shulker"
+  },
+  "textures": [
+    "crude",
+    "default"
+  ],
+  "material": {
+    "tag": "forge:scales/sea_serpent"
+  },
+  "requiredTools": {
+    "cut": 2
+  }
+}

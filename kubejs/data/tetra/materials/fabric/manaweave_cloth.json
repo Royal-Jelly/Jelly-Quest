@@ -1,0 +1,28 @@
+{
+  "key": "manaweave_cloth",
+  "category": "fabric",
+  "durability": "240",
+  "integrityCost": "1",
+  "integrityGain": "4",
+  "key": "manaweave_cloth",
+  "magicCapacity": "120",
+  "material": {
+    "item": "botania:manaweave_cloth"
+  },
+  "primary": "0.5",
+  "requiredTools": {
+    "cut": 1
+  },
+  "secondary": "0.5",
+  "tertiary": "6",
+  "textures": [
+    "crude",
+    "default"
+  ],
+  "tints": {
+    "glyph": "wool_glyph",
+    "texture": "wool"
+  },
+  "toolEfficiency": "0",
+  "toolLevel": "0"
+}
