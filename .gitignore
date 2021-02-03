@@ -1,4 +1,5 @@
 #Do not include with Modpack instance
+
 #OS generated garbage
 */.DS_Store
 .DS_Store
@@ -8,22 +9,37 @@
 Icon?
 ehthumbs.db
 Thumbs.db
-#Almost all the folders & files almost
-.mixin.out/
-crash-reports/
-local/
-logs/
-mods/
-natives/
-patchouli_books/
-resourcepacks/
-screenshots/
-saves/
-BotaniaVars.dat
-#config.json
-manifest.json
+
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+
+# Optional: Generic Modpack Ignores
+**/*.log
+/.mixin.out
+/crash-reports
+/saves
+/downloads
+/resourcepacks
+/local
+/logs
+/natives
+/screenshots
+/scripts
+/shaderpacks
+/structurize
+.curseclient
+
 options.txt
+optionsof.txt
+
+#config.json
 patchouli_data.json
 realms_persistence.json
 usercache.json
 usernamecache.json
+
+BotaniaVars.dat
