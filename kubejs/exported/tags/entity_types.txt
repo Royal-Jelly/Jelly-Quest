@@ -1,4 +1,16 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 29, 2021 10:08:30 AM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 4, 2021 2:11:48 AM
+
+#alexsmobs:snow_leopard_targets
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:mooshroom
+- minecraft:llama
+- minecraft:parrot
+- minecraft:rabbit
+- minecraft:trader_llama
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
 
 #endergetic:not_balloon_attachable
 - upgrade_aquatic:flare
@@ -45,6 +57,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:husk
 - minecraft:drowned
 - minecraft:phantom
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals
 
 #alexsmobs:crimson_mosquito_targets
 - #alexsmobs:passive_land_animals
@@ -220,6 +235,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - alexsmobs:rattlesnake
 - alexsmobs:moose
 - alexsmobs:elephant
+- alexsmobs:snow_leopard
 
 #endergetic:boof_block_resistant
 - endergetic:boof_block

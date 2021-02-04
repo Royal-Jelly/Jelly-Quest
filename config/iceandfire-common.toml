@@ -58,7 +58,7 @@
 	#Range: 1 ~ 10000
 	"Mausoleum Gen Chance" = 1800
 	#Whether to generate copper ore or not
-	"Generate Copper Ore" = true
+	"Generate Copper Ore" = false
 	#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
 	"Intelligent Dragon Pathfinding" = false
 	#Cockatrice spawn weight. Lower = lower chance to spawn
@@ -132,7 +132,7 @@
 	#Range: 1.0 ~ 10000.0
 	"Gorgon Max Health" = 100.0
 	#Whether to generate silver ore or not
-	"Generate Silver Ore" = true
+	"Generate Silver Ore" = false
 	#Turning this to true simplifies the dragon's pathfinding process, making them dumber when finding a path, but better for servers with many loaded dragons.
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
@@ -258,7 +258,7 @@
 	#Range: 0 ~ 10000
 	"Dragon Gold Search Length" = 30
 	#True if stymphalian birds can drop items registered in the ore dictionary to ingotCopper, ingotBronze, nuggetCopper, nuggetBronze.
-	"Stymphalian Birds drop ore dict items" = true
+	"Stymphalian Birds drop ore dict items" = false
 	#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
 	"Animals Fear Dragons" = true
 	#Stymphalian bird feather attack strength.

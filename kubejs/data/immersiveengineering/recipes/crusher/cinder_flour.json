@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries":
+    {
+      "chance": 0.1,
+      "output": {
+        "tag": "minecraft:glowstone_dust"
+      }
+    },
+  "result": {
+    "count": 2,
+    "base_ingredient": {
+      "tag": "create:cinder_flour"
+    }
+  },
+  "input": {
+    "tag": "minecraft:netherrack"
+  },
+  "energy": 6000
+}

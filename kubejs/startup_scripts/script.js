@@ -4,7 +4,7 @@ console.info('Hello, World! (You will only see this line once in console, during
 
 
 events.listen('block.registry', function (event) {
-  event.create('test_block').material('water').hardness(0.5).displayName('Test Block')
+  //event.create('test_block').material('water').hardness(0.5).displayName('Test Block')
 })
 
 events.listen('item.registry', function (event) {
@@ -15,4 +15,4 @@ events.listen('item.registry', function (event) {
   event.create('rubber').displayName('Ash Powder')
   event.create('rubber_mix').displayName('Rubber Powder')
   event.create('vulcanizing_agents').displayName('Vulcanizing Agents')
-  })
+})

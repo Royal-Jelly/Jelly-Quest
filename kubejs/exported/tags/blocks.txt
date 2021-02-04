@@ -1,4 +1,6 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jan 29, 2021 10:08:30 AM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 4, 2021 2:11:48 AM
+
+#create:non_movable
 
 #minecraft:soul_fire_base_blocks
 - minecraft:soul_sand
@@ -57,6 +59,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:ores/biotite
 - quark:biotite_ore
 
+#farmersdelight:unaffected_by_rich_soil
+- minecraft:grass
+- minecraft:tall_grass
+- minecraft:fern
+- minecraft:large_fern
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
+- #farmersdelight:wild_crops
+
 #quark:planks_vertical_slab
 - quark:black_stained_planks_vertical_slab
 - quark:blue_stained_planks_vertical_slab
@@ -102,6 +115,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:gravel
 - minecraft:gravel
 
+#forge:ores/arcane
+- emendatusenigmatica:arcane_ore
+- emendatusenigmatica:arcane_andesite_ore
+- emendatusenigmatica:arcane_granite_ore
+- emendatusenigmatica:arcane_diorite_ore
+- emendatusenigmatica:arcane_sand_ore
+- emendatusenigmatica:arcane_gravel_ore
+- emendatusenigmatica:arcane_netherrack_ore
+- emendatusenigmatica:arcane_blackstone_ore
+- emendatusenigmatica:arcane_end_stone_ore
+- emendatusenigmatica:arcane_gabbro_ore
+- emendatusenigmatica:arcane_c_limestone_ore
+- emendatusenigmatica:arcane_scoria_ore
+- emendatusenigmatica:arcane_weathered_limestone_ore
+- emendatusenigmatica:arcane_jasper_ore
+- emendatusenigmatica:arcane_marble_ore
+- emendatusenigmatica:arcane_slate_ore
+- emendatusenigmatica:arcane_mossy_stone_ore
+
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
 
@@ -144,8 +176,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/nickel
 - immersiveengineering:storage_nickel
+- emendatusenigmatica:nickel_block
 
 #forge:glass/colorless
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
 - minecraft:glass
 
 #botania:floating_flowers
@@ -168,6 +205,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - buzzier_bees:dark_oak_beehive
 - buzzier_bees:crimson_beehive
 - buzzier_bees:warped_beehive
+- enhanced_mushrooms:red_mushroom_beehive
+- enhanced_mushrooms:brown_mushroom_beehive
+- enhanced_mushrooms:glowshroom_beehive
 - upgrade_aquatic:driftwood_beehive
 - upgrade_aquatic:river_beehive
 - endergetic:poise_beehive
@@ -178,15 +218,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_beehive
 - atmospheric:grimwood_beehive
 - autumnity:maple_beehive
-- enhanced_mushrooms:red_mushroom_beehive
-- enhanced_mushrooms:brown_mushroom_beehive
-- enhanced_mushrooms:glowshroom_beehive
 
 #minecraft:ice
 - minecraft:ice
 - minecraft:packed_ice
 - minecraft:blue_ice
 - minecraft:frosted_ice
+
+#emendatusenigmatica:misc/enigmatic_exchanger
+- emendatusenigmatica:enigmatic_exchanger
 
 #quark:candles
 - quark:black_candle
@@ -205,6 +245,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:red_candle
 - quark:white_candle
 - quark:yellow_candle
+
+#forge:ores/zinc
+- create:zinc_ore
+- emendatusenigmatica:zinc_ore
+- emendatusenigmatica:zinc_andesite_ore
+- emendatusenigmatica:zinc_granite_ore
+- emendatusenigmatica:zinc_diorite_ore
+- emendatusenigmatica:zinc_sand_ore
+- emendatusenigmatica:zinc_gravel_ore
+- emendatusenigmatica:zinc_netherrack_ore
+- emendatusenigmatica:zinc_blackstone_ore
+- emendatusenigmatica:zinc_end_stone_ore
+- emendatusenigmatica:zinc_gabbro_ore
+- emendatusenigmatica:zinc_c_limestone_ore
+- emendatusenigmatica:zinc_scoria_ore
+- emendatusenigmatica:zinc_weathered_limestone_ore
+- emendatusenigmatica:zinc_jasper_ore
+- emendatusenigmatica:zinc_marble_ore
+- emendatusenigmatica:zinc_slate_ore
+- emendatusenigmatica:zinc_mossy_stone_ore
 
 #forge:ores/netherite_scrap
 - minecraft:ancient_debris
@@ -226,6 +286,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:end_stone
 - minecraft:iron_bars
 - minecraft:respawn_anchor
+- architects_palette:entwine_block
+- architects_palette:entwine_pillar
+- architects_palette:chiseled_entwine
+- architects_palette:entwine_bars
+- architects_palette:heavy_end_stone_bricks
+- architects_palette:heavy_cracked_end_stone_bricks
+- architects_palette:chiseled_end_stone_bricks
+- architects_palette:choral_end_stone_bricks
+- architects_palette:cracked_end_stone_bricks
+- minecraft:end_stone_bricks
 - endergetic:mystical_obsidian
 - endergetic:mystical_obsidian_wall
 - endergetic:mystical_obsidian_rune
@@ -261,16 +331,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:duskbound_block_slab
 - quark:duskbound_block_vertical_slab
 - quark:myalite_crystal
-- architects_palette:entwine_block
-- architects_palette:entwine_pillar
-- architects_palette:chiseled_entwine
-- architects_palette:entwine_bars
-- architects_palette:heavy_end_stone_bricks
-- architects_palette:heavy_cracked_end_stone_bricks
-- architects_palette:chiseled_end_stone_bricks
-- architects_palette:choral_end_stone_bricks
-- architects_palette:cracked_end_stone_bricks
-- minecraft:end_stone_bricks
 
 #minecraft:crops
 - minecraft:beetroots
@@ -279,6 +339,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wheat
 - minecraft:melon_stem
 - minecraft:pumpkin_stem
+- farmersdelight:cabbages
+- farmersdelight:onions
+- farmersdelight:rice_crop
+- farmersdelight:tall_rice_crop
+- farmersdelight:tomatoes
+
+#farmersdelight:heat_sources
+- minecraft:magma_block
+- farmersdelight:stove
+- #farmersdelight:tray_heat_sources
 
 #quark:quilted_wools
 - quark:black_quilted_wool
@@ -333,9 +403,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/redstone
 - minecraft:redstone_ore
+- emendatusenigmatica:redstone_ore
+- emendatusenigmatica:redstone_andesite_ore
+- emendatusenigmatica:redstone_granite_ore
+- emendatusenigmatica:redstone_diorite_ore
+- emendatusenigmatica:redstone_sand_ore
+- emendatusenigmatica:redstone_gravel_ore
+- emendatusenigmatica:redstone_netherrack_ore
+- emendatusenigmatica:redstone_blackstone_ore
+- emendatusenigmatica:redstone_end_stone_ore
+- emendatusenigmatica:redstone_gabbro_ore
+- emendatusenigmatica:redstone_c_limestone_ore
+- emendatusenigmatica:redstone_scoria_ore
+- emendatusenigmatica:redstone_weathered_limestone_ore
+- emendatusenigmatica:redstone_jasper_ore
+- emendatusenigmatica:redstone_marble_ore
+- emendatusenigmatica:redstone_slate_ore
+- emendatusenigmatica:redstone_mossy_stone_ore
 
 #forge:storage_blocks/uranium
 - immersiveengineering:storage_uranium
+- emendatusenigmatica:uranium_block
 
 #forge:sheetmetals/nickel
 - immersiveengineering:sheetmetal_nickel
@@ -357,6 +445,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - botania:terra_plate
 - botania:runic_altar
 
+#forge:ores/potassium_nitrate
+- emendatusenigmatica:potassium_nitrate_ore
+- emendatusenigmatica:potassium_nitrate_andesite_ore
+- emendatusenigmatica:potassium_nitrate_granite_ore
+- emendatusenigmatica:potassium_nitrate_diorite_ore
+- emendatusenigmatica:potassium_nitrate_sand_ore
+- emendatusenigmatica:potassium_nitrate_gravel_ore
+- emendatusenigmatica:potassium_nitrate_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_blackstone_ore
+- emendatusenigmatica:potassium_nitrate_end_stone_ore
+- emendatusenigmatica:potassium_nitrate_gabbro_ore
+- emendatusenigmatica:potassium_nitrate_c_limestone_ore
+- emendatusenigmatica:potassium_nitrate_scoria_ore
+- emendatusenigmatica:potassium_nitrate_weathered_limestone_ore
+- emendatusenigmatica:potassium_nitrate_jasper_ore
+- emendatusenigmatica:potassium_nitrate_marble_ore
+- emendatusenigmatica:potassium_nitrate_slate_ore
+- emendatusenigmatica:potassium_nitrate_mossy_stone_ore
+
 #forge:sheetmetals/steel
 - immersiveengineering:sheetmetal_steel
 
@@ -365,6 +472,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/iron
 - minecraft:iron_block
+
+#create:seats
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
 
 #ftbchunks:interact_whitelist
 - minecraft:crafting_table
@@ -378,6 +503,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:glass_panes/green
 - minecraft:green_stained_glass_pane
+
+#forge:storage_blocks/coke
+- emendatusenigmatica:coke_block
 
 #botania:corporea_spark_override
 - botania:corporea_block
@@ -403,6 +531,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:weeping_vines_plant
 - minecraft:twisting_vines
 - minecraft:twisting_vines_plant
+- enhanced_mushrooms:red_mushroom_ladder
+- enhanced_mushrooms:brown_mushroom_ladder
+- enhanced_mushrooms:glowshroom_ladder
 - upgrade_aquatic:driftwood_ladder
 - upgrade_aquatic:river_ladder
 - atmospheric:passion_vine
@@ -420,11 +551,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:crimson_ladder
 - quark:warped_ladder
 - quark:iron_ladder
-- enhanced_mushrooms:red_mushroom_ladder
-- enhanced_mushrooms:brown_mushroom_ladder
-- enhanced_mushrooms:glowshroom_ladder
 
 #forge:chests/trapped
+- enhanced_mushrooms:brown_mushroom_trapped_chest
+- enhanced_mushrooms:glowshroom_trapped_chest
+- quark:mushroom_trapped_chest?
 - minecraft:trapped_chest
 - upgrade_aquatic:driftwood_trapped_chest
 - upgrade_aquatic:river_trapped_chest
@@ -448,9 +579,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:purpur_trapped_chest
 - quark:prismarine_trapped_chest
 - quark:mushroom_trapped_chest
-- enhanced_mushrooms:brown_mushroom_trapped_chest
-- enhanced_mushrooms:glowshroom_trapped_chest
-- quark:mushroom_trapped_chest?
 
 #snowrealmagic:invalid_supporters
 - minecraft:ice
@@ -475,10 +603,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:stripped_dark_oak_log
 - minecraft:stripped_dark_oak_wood
 
+#farmersdelight:compost_activators
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:podzol
+- minecraft:mycelium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
+- farmersdelight:rich_soil_farmland
+- farmersdelight:brown_mushroom_colony
+- farmersdelight:red_mushroom_colony
+
 #forge:storage_blocks/steel
 - immersiveengineering:storage_steel
+- emendatusenigmatica:steel_block
 
 #quark:ladders
+- enhanced_mushrooms:red_mushroom_ladder
+- enhanced_mushrooms:brown_mushroom_ladder
+- enhanced_mushrooms:glowshroom_ladder
 - upgrade_aquatic:driftwood_ladder
 - upgrade_aquatic:river_ladder
 - endergetic:poise_ladder
@@ -498,11 +641,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:warped_ladder
 - quark:crimson_ladder
 - quark:iron_ladder
-- enhanced_mushrooms:red_mushroom_ladder
-- enhanced_mushrooms:brown_mushroom_ladder
-- enhanced_mushrooms:glowshroom_ladder
+
+#farmersdelight:tray_heat_sources
+- minecraft:campfire
+- minecraft:soul_campfire
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:lava
 
 #forge:glass_panes
+- create:tiled_glass_pane
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:vertical_framed_glass_pane
+- create:oak_window_pane
+- create:spruce_window_pane
+- create:birch_window_pane
+- create:jungle_window_pane
+- create:acacia_window_pane
+- create:dark_oak_window_pane
+- create:crimson_window_pane
+- create:warped_window_pane
+- create:ornate_iron_window_pane
 - #forge:glass_panes/colorless
 - #forge:stained_glass_panes
 - quark:dirty_glass_pane
@@ -540,6 +700,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - upgrade_aquatic:pillow_coral
 - upgrade_aquatic:chrome_coral
 - upgrade_aquatic:silk_coral
+
+#forge:storage_blocks/lumium
+- emendatusenigmatica:lumium_block
 
 #minecraft:non_flammable_wood
 - minecraft:warped_stem
@@ -606,7 +769,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:smooth_red_arid_sandstone
 
 #forge:storage_blocks/copper
+- create:copper_block
 - immersiveengineering:storage_copper
+- emendatusenigmatica:copper_block
 
 #forge:glass_panes/colorless
 - minecraft:glass_pane
@@ -617,11 +782,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:stripped_rosewood_log
 - atmospheric:stripped_rosewood
 
+#forge:ores/fluorite
+- emendatusenigmatica:fluorite_ore
+- emendatusenigmatica:fluorite_andesite_ore
+- emendatusenigmatica:fluorite_granite_ore
+- emendatusenigmatica:fluorite_diorite_ore
+- emendatusenigmatica:fluorite_sand_ore
+- emendatusenigmatica:fluorite_gravel_ore
+- emendatusenigmatica:fluorite_netherrack_ore
+- emendatusenigmatica:fluorite_blackstone_ore
+- emendatusenigmatica:fluorite_end_stone_ore
+- emendatusenigmatica:fluorite_gabbro_ore
+- emendatusenigmatica:fluorite_c_limestone_ore
+- emendatusenigmatica:fluorite_scoria_ore
+- emendatusenigmatica:fluorite_weathered_limestone_ore
+- emendatusenigmatica:fluorite_jasper_ore
+- emendatusenigmatica:fluorite_marble_ore
+- emendatusenigmatica:fluorite_slate_ore
+- emendatusenigmatica:fluorite_mossy_stone_ore
+
 #enhanced_mushrooms:red_mushroom_stems
 - enhanced_mushrooms:red_mushroom_stem
 - enhanced_mushrooms:red_mushroom_hyphae
 - enhanced_mushrooms:stripped_red_mushroom_stem
 - enhanced_mushrooms:stripped_red_mushroom_hyphae
+
+#forge:storage_blocks/cinnabar
+- emendatusenigmatica:cinnabar_block
+
+#forge:storage_blocks/potassium_nitrate
+- emendatusenigmatica:potassium_nitrate_block
 
 #alexsmobs:drops_bananas
 - minecraft:jungle_leaves
@@ -629,8 +819,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #botania:livingwood
 - botania:livingwood
 
+#forge:storage_blocks/bronze
+- emendatusenigmatica:bronze_block
+
+#create:safe_nbt
+- create:creative_motor
+- create:creative_fluid_tank
+- create:mechanical_piston
+- create:sticky_mechanical_piston
+- create:windmill_bearing
+- create:mechanical_bearing
+- create:clockwork_bearing
+- create:rope_pulley
+- create:cart_assembler
+- create:linear_chassis
+- create:secondary_linear_chassis
+- create:radial_chassis
+- create:sequenced_gearshift
+- create:rotation_speed_controller
+- create:andesite_funnel
+- create:andesite_belt_funnel
+- create:brass_funnel
+- create:brass_belt_funnel
+- create:creative_crate
+- create:redstone_link
+- create:analog_lever
+- create:adjustable_repeater
+- create:adjustable_pulse_repeater
+
 #forge:sheetmetals/gold
 - immersiveengineering:sheetmetal_gold
+
+#forge:storage_blocks/charged_certus_quartz
+- emendatusenigmatica:charged_certus_quartz_block
 
 #upgrade_aquatic:river_logs
 - upgrade_aquatic:river_log
@@ -671,55 +892,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:jungle_sapling
 - minecraft:acacia_sapling
 - minecraft:dark_oak_sapling
-- pamhc2trees:apple_sapling
-- pamhc2trees:avocado_sapling
-- pamhc2trees:candlenut_sapling
-- pamhc2trees:cherry_sapling
-- pamhc2trees:chestnut_sapling
-- pamhc2trees:gooseberry_sapling
-- pamhc2trees:lemon_sapling
-- pamhc2trees:nutmeg_sapling
-- pamhc2trees:orange_sapling
-- pamhc2trees:peach_sapling
-- pamhc2trees:pear_sapling
-- pamhc2trees:plum_sapling
-- pamhc2trees:walnut_sapling
-- pamhc2trees:spiderweb_sapling
-- pamhc2trees:hazelnut_sapling
-- pamhc2trees:pawpaw_sapling
-- pamhc2trees:soursop_sapling
-- pamhc2trees:almond_sapling
-- pamhc2trees:apricot_sapling
-- pamhc2trees:banana_sapling
-- pamhc2trees:cashew_sapling
-- pamhc2trees:cinnamon_sapling
-- pamhc2trees:coconut_sapling
-- pamhc2trees:date_sapling
-- pamhc2trees:dragonfruit_sapling
-- pamhc2trees:durian_sapling
-- pamhc2trees:fig_sapling
-- pamhc2trees:grapefruit_sapling
-- pamhc2trees:lime_sapling
-- pamhc2trees:mango_sapling
-- pamhc2trees:olive_sapling
-- pamhc2trees:papaya_sapling
-- pamhc2trees:paperbark_sapling
-- pamhc2trees:pecan_sapling
-- pamhc2trees:peppercorn_sapling
-- pamhc2trees:persimmon_sapling
-- pamhc2trees:pistachio_sapling
-- pamhc2trees:pomegranate_sapling
-- pamhc2trees:starfruit_sapling
-- pamhc2trees:vanillabean_sapling
-- pamhc2trees:breadfruit_sapling
-- pamhc2trees:guava_sapling
-- pamhc2trees:jackfruit_sapling
-- pamhc2trees:lychee_sapling
-- pamhc2trees:passionfruit_sapling
-- pamhc2trees:rambutan_sapling
-- pamhc2trees:tamarind_sapling
-- pamhc2trees:maple_sapling
-- pamhc2trees:pinenut_sapling
+- architects_palette:twisted_sapling
+- minecraft:red_mushroom
+- minecraft:brown_mushroom
+- minecraft:crimson_fungus
+- minecraft:warped_fungus
 - traverse:brown_autumnal_sapling
 - traverse:red_autumnal_sapling
 - traverse:yellow_autumnal_sapling
@@ -742,17 +919,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:pink_blossom_sapling
 - quark:yellow_blossom_sapling
 - quark:red_blossom_sapling
-- minecraft:red_mushroom
-- minecraft:brown_mushroom
-- minecraft:crimson_fungus
-- minecraft:warped_fungus
-- architects_palette:twisted_sapling
+
+#forge:storage_blocks/tin
+- emendatusenigmatica:tin_block
 
 #forge:storage_blocks/lapis
 - minecraft:lapis_block
 
 #forge:ores/copper
+- create:copper_ore
 - immersiveengineering:ore_copper
+- emendatusenigmatica:copper_ore
+- emendatusenigmatica:copper_andesite_ore
+- emendatusenigmatica:copper_granite_ore
+- emendatusenigmatica:copper_diorite_ore
+- emendatusenigmatica:copper_sand_ore
+- emendatusenigmatica:copper_gravel_ore
+- emendatusenigmatica:copper_netherrack_ore
+- emendatusenigmatica:copper_blackstone_ore
+- emendatusenigmatica:copper_end_stone_ore
+- emendatusenigmatica:copper_gabbro_ore
+- emendatusenigmatica:copper_c_limestone_ore
+- emendatusenigmatica:copper_scoria_ore
+- emendatusenigmatica:copper_weathered_limestone_ore
+- emendatusenigmatica:copper_jasper_ore
+- emendatusenigmatica:copper_marble_ore
+- emendatusenigmatica:copper_slate_ore
+- emendatusenigmatica:copper_mossy_stone_ore
 
 #minecraft:beds
 - minecraft:red_bed
@@ -780,9 +973,43 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/diamond
 - minecraft:diamond_ore
+- emendatusenigmatica:diamond_ore
+- emendatusenigmatica:diamond_andesite_ore
+- emendatusenigmatica:diamond_granite_ore
+- emendatusenigmatica:diamond_diorite_ore
+- emendatusenigmatica:diamond_sand_ore
+- emendatusenigmatica:diamond_gravel_ore
+- emendatusenigmatica:diamond_netherrack_ore
+- emendatusenigmatica:diamond_blackstone_ore
+- emendatusenigmatica:diamond_end_stone_ore
+- emendatusenigmatica:diamond_gabbro_ore
+- emendatusenigmatica:diamond_c_limestone_ore
+- emendatusenigmatica:diamond_scoria_ore
+- emendatusenigmatica:diamond_weathered_limestone_ore
+- emendatusenigmatica:diamond_jasper_ore
+- emendatusenigmatica:diamond_marble_ore
+- emendatusenigmatica:diamond_slate_ore
+- emendatusenigmatica:diamond_mossy_stone_ore
 
 #forge:ores/lead
 - immersiveengineering:ore_lead
+- emendatusenigmatica:lead_ore
+- emendatusenigmatica:lead_andesite_ore
+- emendatusenigmatica:lead_granite_ore
+- emendatusenigmatica:lead_diorite_ore
+- emendatusenigmatica:lead_sand_ore
+- emendatusenigmatica:lead_gravel_ore
+- emendatusenigmatica:lead_netherrack_ore
+- emendatusenigmatica:lead_blackstone_ore
+- emendatusenigmatica:lead_end_stone_ore
+- emendatusenigmatica:lead_gabbro_ore
+- emendatusenigmatica:lead_c_limestone_ore
+- emendatusenigmatica:lead_scoria_ore
+- emendatusenigmatica:lead_weathered_limestone_ore
+- emendatusenigmatica:lead_jasper_ore
+- emendatusenigmatica:lead_marble_ore
+- emendatusenigmatica:lead_slate_ore
+- emendatusenigmatica:lead_mossy_stone_ore
 
 #minecraft:doors
 - #minecraft:wooden_doors
@@ -857,6 +1084,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/electrum
 - immersiveengineering:storage_electrum
+- emendatusenigmatica:electrum_block
 
 #forge:mushroom_stems
 - #enhanced_mushrooms:brown_mushroom_stems
@@ -898,6 +1126,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:potted_warped_fungus
 - minecraft:potted_crimson_roots
 - minecraft:potted_warped_roots
+- architects_palette:potted_twisted_sapling
 - buzzier_bees:potted_white_clover
 - buzzier_bees:potted_pink_clover
 - buzzier_bees:potted_buttercup
@@ -959,7 +1188,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:potted_weeping_vines
 - quark:potted_wheat
 - quark:potted_yellow_blossom_sapling
-- architects_palette:potted_twisted_sapling
 
 #minecraft:wooden_fences
 - minecraft:oak_fence
@@ -970,6 +1198,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:jungle_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
+- architects_palette:twisted_fence
+- enhanced_mushrooms:red_mushroom_fence
+- enhanced_mushrooms:brown_mushroom_fence
+- enhanced_mushrooms:glowshroom_fence
 - snowrealmagic:fence
 - traverse:fir_fence
 - upgrade_aquatic:driftwood_fence
@@ -983,16 +1215,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_fence
 - atmospheric:grimwood_fence
 - autumnity:maple_fence
-- quark:oak_hedge
-- quark:birch_hedge
-- quark:spruce_hedge
-- quark:jungle_hedge
-- quark:acacia_hedge
-- quark:dark_oak_hedge
-- enhanced_mushrooms:red_mushroom_fence
-- enhanced_mushrooms:brown_mushroom_fence
-- enhanced_mushrooms:glowshroom_fence
-- architects_palette:twisted_fence
 
 #minecraft:wall_post_override
 - minecraft:torch
@@ -1004,17 +1226,47 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:pressure_plates
 - #architects_palette:cage_lanterns
 
+#forge:storage_blocks/signalum
+- emendatusenigmatica:signalum_block
+
+#forge:storage_blocks/invar
+- emendatusenigmatica:invar_block
+
 #forge:sheetmetals/constantan
 - immersiveengineering:sheetmetal_constantan
 
 #alexsmobs:rattlesnake_spawns
 - #minecraft:sand
 
+#forge:storage_blocks/dimensional
+- emendatusenigmatica:dimensional_block
+
 #forge:obsidian
 - minecraft:obsidian
 
+#forge:enderman_place_on_blacklist
+
 #forge:storage_blocks/psimetal
 - psi:psimetal_block
+
+#forge:ores/tin
+- emendatusenigmatica:tin_ore
+- emendatusenigmatica:tin_andesite_ore
+- emendatusenigmatica:tin_granite_ore
+- emendatusenigmatica:tin_diorite_ore
+- emendatusenigmatica:tin_sand_ore
+- emendatusenigmatica:tin_gravel_ore
+- emendatusenigmatica:tin_netherrack_ore
+- emendatusenigmatica:tin_blackstone_ore
+- emendatusenigmatica:tin_end_stone_ore
+- emendatusenigmatica:tin_gabbro_ore
+- emendatusenigmatica:tin_c_limestone_ore
+- emendatusenigmatica:tin_scoria_ore
+- emendatusenigmatica:tin_weathered_limestone_ore
+- emendatusenigmatica:tin_jasper_ore
+- emendatusenigmatica:tin_marble_ore
+- emendatusenigmatica:tin_slate_ore
+- emendatusenigmatica:tin_mossy_stone_ore
 
 #alexsmobs:seal_digables
 - #minecraft:sand
@@ -1063,8 +1315,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:glass/magenta
 - minecraft:magenta_stained_glass
 
+#forge:storage_blocks/saltpeter
+- emendatusenigmatica:potassium_nitrate_block
+
+#forge:storage_blocks/certus_quartz
+- emendatusenigmatica:certus_quartz_block
+
+#forge:storage_blocks/osmium
+- emendatusenigmatica:osmium_block
+
 #forge:ores/coal
 - minecraft:coal_ore
+- emendatusenigmatica:coal_ore
+- emendatusenigmatica:coal_andesite_ore
+- emendatusenigmatica:coal_granite_ore
+- emendatusenigmatica:coal_diorite_ore
+- emendatusenigmatica:coal_sand_ore
+- emendatusenigmatica:coal_gravel_ore
+- emendatusenigmatica:coal_netherrack_ore
+- emendatusenigmatica:coal_blackstone_ore
+- emendatusenigmatica:coal_end_stone_ore
+- emendatusenigmatica:coal_gabbro_ore
+- emendatusenigmatica:coal_c_limestone_ore
+- emendatusenigmatica:coal_scoria_ore
+- emendatusenigmatica:coal_weathered_limestone_ore
+- emendatusenigmatica:coal_jasper_ore
+- emendatusenigmatica:coal_marble_ore
+- emendatusenigmatica:coal_slate_ore
+- emendatusenigmatica:coal_mossy_stone_ore
 
 #minecraft:hoglin_repellents
 - minecraft:warped_fungus
@@ -1074,6 +1352,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/constantan
 - immersiveengineering:storage_constantan
+- emendatusenigmatica:constantan_block
 
 #minecraft:fire
 - minecraft:fire
@@ -1108,6 +1387,44 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:basalt
 - minecraft:blackstone
 
+#forge:ores/dimensional
+- emendatusenigmatica:dimensional_ore
+- emendatusenigmatica:dimensional_andesite_ore
+- emendatusenigmatica:dimensional_granite_ore
+- emendatusenigmatica:dimensional_diorite_ore
+- emendatusenigmatica:dimensional_sand_ore
+- emendatusenigmatica:dimensional_gravel_ore
+- emendatusenigmatica:dimensional_netherrack_ore
+- emendatusenigmatica:dimensional_blackstone_ore
+- emendatusenigmatica:dimensional_end_stone_ore
+- emendatusenigmatica:dimensional_gabbro_ore
+- emendatusenigmatica:dimensional_c_limestone_ore
+- emendatusenigmatica:dimensional_scoria_ore
+- emendatusenigmatica:dimensional_weathered_limestone_ore
+- emendatusenigmatica:dimensional_jasper_ore
+- emendatusenigmatica:dimensional_marble_ore
+- emendatusenigmatica:dimensional_slate_ore
+- emendatusenigmatica:dimensional_mossy_stone_ore
+
+#forge:ores/charged_certus_quartz
+- emendatusenigmatica:charged_certus_quartz_ore
+- emendatusenigmatica:charged_certus_quartz_andesite_ore
+- emendatusenigmatica:charged_certus_quartz_granite_ore
+- emendatusenigmatica:charged_certus_quartz_diorite_ore
+- emendatusenigmatica:charged_certus_quartz_sand_ore
+- emendatusenigmatica:charged_certus_quartz_gravel_ore
+- emendatusenigmatica:charged_certus_quartz_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_blackstone_ore
+- emendatusenigmatica:charged_certus_quartz_end_stone_ore
+- emendatusenigmatica:charged_certus_quartz_gabbro_ore
+- emendatusenigmatica:charged_certus_quartz_c_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_scoria_ore
+- emendatusenigmatica:charged_certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_jasper_ore
+- emendatusenigmatica:charged_certus_quartz_marble_ore
+- emendatusenigmatica:charged_certus_quartz_slate_ore
+- emendatusenigmatica:charged_certus_quartz_mossy_stone_ore
+
 #minecraft:wall_signs
 - minecraft:oak_wall_sign
 - minecraft:spruce_wall_sign
@@ -1117,6 +1434,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_wall_sign
 - minecraft:crimson_wall_sign
 - minecraft:warped_wall_sign
+- enhanced_mushrooms:red_mushroom_wall_sign
+- enhanced_mushrooms:brown_mushroom_wall_sign
+- enhanced_mushrooms:glowshroom_wall_sign
 - upgrade_aquatic:driftwood_wall_sign
 - upgrade_aquatic:river_wall_sign
 - endergetic:poise_wall_sign
@@ -1127,9 +1447,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_wall_sign
 - atmospheric:grimwood_wall_sign
 - autumnity:maple_sign
-- enhanced_mushrooms:red_mushroom_wall_sign
-- enhanced_mushrooms:brown_mushroom_wall_sign
-- enhanced_mushrooms:glowshroom_wall_sign
+
+#create:fan_transparent
+- create:blaze_burner
+- create:lit_blaze_burner
+- create:sail_frame
+- #minecraft:fences
+- minecraft:iron_bars
 
 #endergetic:poise_stems
 - endergetic:poise_stem
@@ -1279,6 +1603,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_leaves
 - minecraft:acacia_leaves
 - minecraft:birch_leaves
+- architects_palette:twisted_leaves
 - traverse:brown_autumnal_leaves
 - traverse:red_autumnal_leaves
 - traverse:yellow_autumnal_leaves
@@ -1302,7 +1627,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:pink_blossom_leaves
 - quark:yellow_blossom_leaves
 - quark:red_blossom_leaves
-- architects_palette:twisted_leaves
 
 #buzzier_bees:flower_blacklist
 - minecraft:wither_rose
@@ -1327,8 +1651,71 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:blackstone_wall
 - minecraft:polished_blackstone_brick_wall
 - minecraft:polished_blackstone_wall
+- architects_palette:limestone_wall
+- architects_palette:limestone_brick_wall
+- architects_palette:mushy_limestone_brick_wall
+- architects_palette:olivestone_brick_wall
+- architects_palette:olivestone_tile_wall
+- architects_palette:algal_brick_wall
+- architects_palette:overgrown_algal_brick_wall
+- architects_palette:coal_ore_brick_wall
+- architects_palette:lapis_ore_brick_wall
+- architects_palette:redstone_ore_brick_wall
+- architects_palette:iron_ore_brick_wall
+- architects_palette:gold_ore_brick_wall
+- architects_palette:emerald_ore_brick_wall
+- architects_palette:diamond_ore_brick_wall
+- architects_palette:osseous_brick_wall
+- architects_palette:withered_osseous_brick_wall
+- architects_palette:flint_tile_wall
+- architects_palette:polished_packed_ice_wall
+- architects_palette:plating_wall
+- architects_palette:warpstone_wall
+- architects_palette:basalt_tile_wall
 - buzzier_bees:honeycomb_brick_wall
 - buzzier_bees:honeycomb_tile_wall
+- create:granite_cobblestone_wall
+- create:granite_bricks_wall
+- create:fancy_granite_bricks_wall
+- create:paved_granite_wall
+- create:diorite_cobblestone_wall
+- create:diorite_bricks_wall
+- create:fancy_diorite_bricks_wall
+- create:paved_diorite_wall
+- create:andesite_cobblestone_wall
+- create:andesite_bricks_wall
+- create:fancy_andesite_bricks_wall
+- create:paved_andesite_wall
+- create:limestone_cobblestone_wall
+- create:polished_limestone_wall
+- create:limestone_bricks_wall
+- create:fancy_limestone_bricks_wall
+- create:paved_limestone_wall
+- create:weathered_limestone_cobblestone_wall
+- create:polished_weathered_limestone_wall
+- create:weathered_limestone_bricks_wall
+- create:fancy_weathered_limestone_bricks_wall
+- create:paved_weathered_limestone_wall
+- create:dolomite_cobblestone_wall
+- create:polished_dolomite_wall
+- create:dolomite_bricks_wall
+- create:fancy_dolomite_bricks_wall
+- create:paved_dolomite_wall
+- create:gabbro_cobblestone_wall
+- create:polished_gabbro_wall
+- create:gabbro_bricks_wall
+- create:fancy_gabbro_bricks_wall
+- create:paved_gabbro_wall
+- create:scoria_cobblestone_wall
+- create:polished_scoria_wall
+- create:scoria_bricks_wall
+- create:fancy_scoria_bricks_wall
+- create:paved_scoria_wall
+- create:dark_scoria_cobblestone_wall
+- create:polished_dark_scoria_wall
+- create:dark_scoria_bricks_wall
+- create:fancy_dark_scoria_bricks_wall
+- create:paved_dark_scoria_wall
 - iceandfire:dragon_bone_wall
 - snowrealmagic:wall
 - upgrade_aquatic:kelpy_cobblestone_wall
@@ -1433,27 +1820,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:soul_sandstone_wall
 - quark:twisted_blackstone_bricks_wall
 - quark:weeping_blackstone_bricks_wall
-- architects_palette:limestone_wall
-- architects_palette:limestone_brick_wall
-- architects_palette:mushy_limestone_brick_wall
-- architects_palette:olivestone_brick_wall
-- architects_palette:olivestone_tile_wall
-- architects_palette:algal_brick_wall
-- architects_palette:overgrown_algal_brick_wall
-- architects_palette:coal_ore_brick_wall
-- architects_palette:lapis_ore_brick_wall
-- architects_palette:redstone_ore_brick_wall
-- architects_palette:iron_ore_brick_wall
-- architects_palette:gold_ore_brick_wall
-- architects_palette:emerald_ore_brick_wall
-- architects_palette:diamond_ore_brick_wall
-- architects_palette:osseous_brick_wall
-- architects_palette:withered_osseous_brick_wall
-- architects_palette:flint_tile_wall
-- architects_palette:polished_packed_ice_wall
-- architects_palette:plating_wall
-- architects_palette:warpstone_wall
-- architects_palette:basalt_tile_wall
 
 #minecraft:coral_blocks
 - minecraft:tube_coral_block
@@ -1478,11 +1844,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - enhanced_mushrooms:stripped_brown_mushroom_stem
 - enhanced_mushrooms:stripped_brown_mushroom_hyphae
 
+#forge:storage_blocks/brass
+- create:brass_block
+- emendatusenigmatica:brass_block
+
 #forge:glass/green
 - minecraft:green_stained_glass
 
 #forge:storage_blocks/lead
 - immersiveengineering:storage_lead
+- emendatusenigmatica:lead_block
 
 #forge:glass_panes/gray
 - minecraft:gray_stained_glass_pane
@@ -1526,6 +1897,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:stripped_acacia_log
 - minecraft:stripped_acacia_wood
 
+#forge:storage_blocks/fluix
+- emendatusenigmatica:fluix_block
+
 #atmospheric:aspen_logs
 - atmospheric:aspen_log
 - atmospheric:aspen_wood
@@ -1568,6 +1942,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #atmospheric:rosewood_logs
 - atmospheric:rosewood_leaves
 
+#forge:storage_blocks/zinc
+- create:zinc_block
+- emendatusenigmatica:zinc_block
+
 #forge:sand/red
 - minecraft:red_sand
 - atmospheric:red_arid_sand
@@ -1593,6 +1971,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_stained_glass
 - minecraft:red_stained_glass
 - minecraft:black_stained_glass
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+- create:oak_window
+- create:spruce_window
+- create:birch_window
+- create:jungle_window
+- create:acacia_window
+- create:dark_oak_window
+- create:crimson_window
+- create:warped_window
+- create:ornate_iron_window
 - botania:elf_glass
 - botania:mana_glass
 - botania:bifrost
@@ -1625,6 +2016,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #forge:end_stones
 - minecraft:end_stone
 
+#forge:storage_blocks/fluorite
+- emendatusenigmatica:fluorite_block
+
 #autumnity:slippery_snail_slime_blocks
 - minecraft:wet_sponge
 
@@ -1637,6 +2031,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:chiseled_sandstone
 - minecraft:smooth_sandstone
 
+#create:sails
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+
 #forge:storage_blocks/terrasteel
 - botania:terrasteel_block
 
@@ -1647,6 +2058,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:birch_logs
 - #minecraft:jungle_logs
 - #minecraft:spruce_logs
+- #architects_palette:twisted_logs
+- #enhanced_mushrooms:red_mushroom_stems
+- #enhanced_mushrooms:brown_mushroom_stems
+- #enhanced_mushrooms:glowshroom_stems
 - traverse:fir_log
 - traverse:fir_wood
 - traverse:stripped_fir_log
@@ -1661,10 +2076,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #atmospheric:aspen_logs
 - #atmospheric:grimwood_logs
 - #autumnity:maple_logs
-- #enhanced_mushrooms:red_mushroom_stems
-- #enhanced_mushrooms:brown_mushroom_stems
-- #enhanced_mushrooms:glowshroom_stems
-- #architects_palette:twisted_logs
+
+#forge:ores/sulfur
+- emendatusenigmatica:sulfur_ore
+- emendatusenigmatica:sulfur_andesite_ore
+- emendatusenigmatica:sulfur_granite_ore
+- emendatusenigmatica:sulfur_diorite_ore
+- emendatusenigmatica:sulfur_sand_ore
+- emendatusenigmatica:sulfur_gravel_ore
+- emendatusenigmatica:sulfur_netherrack_ore
+- emendatusenigmatica:sulfur_blackstone_ore
+- emendatusenigmatica:sulfur_end_stone_ore
+- emendatusenigmatica:sulfur_gabbro_ore
+- emendatusenigmatica:sulfur_c_limestone_ore
+- emendatusenigmatica:sulfur_scoria_ore
+- emendatusenigmatica:sulfur_weathered_limestone_ore
+- emendatusenigmatica:sulfur_jasper_ore
+- emendatusenigmatica:sulfur_marble_ore
+- emendatusenigmatica:sulfur_slate_ore
+- emendatusenigmatica:sulfur_mossy_stone_ore
+
+#forge:wg_stone
+- create:limestone
+- create:weathered_limestone
+- create:gabbro
+- create:dolomite
+- create:natural_scoria
 
 #alexsmobs:crimson_mosquito_spawns
 - minecraft:crimson_nylium
@@ -1676,6 +2113,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:treated_wood_packaged
 
 #forge:fences/wooden
+- enhanced_mushrooms:red_mushroom_fence
+- enhanced_mushrooms:brown_mushroom_fence
+- enhanced_mushrooms:glowshroom_fence
 - minecraft:oak_fence
 - minecraft:spruce_fence
 - minecraft:birch_fence
@@ -1694,11 +2134,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_fence
 - atmospheric:grimwood_fence
 - autumnity:maple_fence
-- enhanced_mushrooms:red_mushroom_fence
-- enhanced_mushrooms:brown_mushroom_fence
-- enhanced_mushrooms:glowshroom_fence
 
 #forge:storage_blocks
+- create:copper_block
+- create:zinc_block
+- create:brass_block
 - #forge:storage_blocks/coal
 - #forge:storage_blocks/diamond
 - #forge:storage_blocks/emerald
@@ -1717,6 +2157,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:storage_constantan
 - immersiveengineering:storage_electrum
 - immersiveengineering:storage_steel
+- emendatusenigmatica:copper_block
+- emendatusenigmatica:aluminum_block
+- emendatusenigmatica:silver_block
+- emendatusenigmatica:lead_block
+- emendatusenigmatica:nickel_block
+- emendatusenigmatica:uranium_block
+- emendatusenigmatica:osmium_block
+- emendatusenigmatica:tin_block
+- emendatusenigmatica:zinc_block
+- emendatusenigmatica:certus_quartz_block
+- emendatusenigmatica:charged_certus_quartz_block
+- emendatusenigmatica:fluix_block
+- emendatusenigmatica:fluorite_block
+- emendatusenigmatica:bitumen_block
+- emendatusenigmatica:cinnabar_block
+- emendatusenigmatica:apatite_block
+- emendatusenigmatica:sulfur_block
+- emendatusenigmatica:potassium_nitrate_block
+- emendatusenigmatica:arcane_block
+- emendatusenigmatica:dimensional_block
+- emendatusenigmatica:coke_block
+- emendatusenigmatica:silicon_block
+- emendatusenigmatica:bronze_block
+- emendatusenigmatica:brass_block
+- emendatusenigmatica:constantan_block
+- emendatusenigmatica:electrum_block
+- emendatusenigmatica:steel_block
+- emendatusenigmatica:invar_block
+- emendatusenigmatica:signalum_block
+- emendatusenigmatica:lumium_block
+- emendatusenigmatica:enderium_block
 - #forge:storage_blocks/elementium
 - #forge:storage_blocks/manasteel
 - #forge:storage_blocks/quartz
@@ -1818,6 +2289,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_slab
 - minecraft:crimson_slab
 - minecraft:warped_slab
+- architects_palette:twisted_slab
+- enhanced_mushrooms:red_mushroom_slab
+- enhanced_mushrooms:brown_mushroom_slab
+- enhanced_mushrooms:glowshroom_slab
 - traverse:fir_slab
 - upgrade_aquatic:driftwood_slab
 - upgrade_aquatic:river_slab
@@ -1829,10 +2304,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_slab
 - atmospheric:grimwood_slab
 - autumnity:maple_slab
-- enhanced_mushrooms:red_mushroom_slab
-- enhanced_mushrooms:brown_mushroom_slab
-- enhanced_mushrooms:glowshroom_slab
-- architects_palette:twisted_slab
 
 #forge:asphalt
 - immersivepetroleum:asphalt
@@ -1861,6 +2332,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - iceandfire:frost_lily
 - upgrade_aquatic:white_searocket
 - upgrade_aquatic:pink_searocket
+- #farmersdelight:wild_crops
 - #botania:mystical_flowers
 - #botania:special_flowers
 - atmospheric:warm_monkey_brush
@@ -1898,6 +2370,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:spruce_trapdoor
 - minecraft:crimson_trapdoor
 - minecraft:warped_trapdoor
+- architects_palette:twisted_trapdoor
+- enhanced_mushrooms:red_mushroom_trapdoor
+- enhanced_mushrooms:brown_mushroom_trapdoor
+- enhanced_mushrooms:glowshroom_trapdoor
 - traverse:fir_trapdoor
 - upgrade_aquatic:driftwood_trapdoor
 - upgrade_aquatic:river_trapdoor
@@ -1909,10 +2385,44 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_trapdoor
 - atmospheric:grimwood_trapdoor
 - autumnity:maple_trapdoor
-- enhanced_mushrooms:red_mushroom_trapdoor
-- enhanced_mushrooms:brown_mushroom_trapdoor
-- enhanced_mushrooms:glowshroom_trapdoor
-- architects_palette:twisted_trapdoor
+
+#create:valve_handles
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+
+#forge:ores/osmium
+- emendatusenigmatica:osmium_ore
+- emendatusenigmatica:osmium_andesite_ore
+- emendatusenigmatica:osmium_granite_ore
+- emendatusenigmatica:osmium_diorite_ore
+- emendatusenigmatica:osmium_sand_ore
+- emendatusenigmatica:osmium_gravel_ore
+- emendatusenigmatica:osmium_netherrack_ore
+- emendatusenigmatica:osmium_blackstone_ore
+- emendatusenigmatica:osmium_end_stone_ore
+- emendatusenigmatica:osmium_gabbro_ore
+- emendatusenigmatica:osmium_c_limestone_ore
+- emendatusenigmatica:osmium_scoria_ore
+- emendatusenigmatica:osmium_weathered_limestone_ore
+- emendatusenigmatica:osmium_jasper_ore
+- emendatusenigmatica:osmium_marble_ore
+- emendatusenigmatica:osmium_slate_ore
+- emendatusenigmatica:osmium_mossy_stone_ore
 
 #forge:storage_blocks/coal
 - minecraft:coal_block
@@ -1961,6 +2471,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:glass/light_blue
 - minecraft:light_blue_stained_glass
+
+#farmersdelight:wild_crops
+- farmersdelight:wild_carrots
+- farmersdelight:wild_potatoes
+- farmersdelight:wild_beetroots
+- farmersdelight:wild_cabbages
+- farmersdelight:wild_tomatoes
+- farmersdelight:wild_onions
+- farmersdelight:wild_rice
 
 #botania:special_floating_flowers
 - botania:floating_agricarnation
@@ -2049,8 +2568,74 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:blackstone_stairs
 - minecraft:polished_blackstone_brick_stairs
 - minecraft:polished_blackstone_stairs
+- architects_palette:limestone_stairs
+- architects_palette:limestone_brick_stairs
+- architects_palette:mushy_limestone_brick_stairs
+- architects_palette:olivestone_brick_stairs
+- architects_palette:olivestone_tile_stairs
+- architects_palette:algal_brick_stairs
+- architects_palette:overgrown_algal_brick_stairs
+- architects_palette:coal_ore_brick_stairs
+- architects_palette:lapis_ore_brick_stairs
+- architects_palette:redstone_ore_brick_stairs
+- architects_palette:iron_ore_brick_stairs
+- architects_palette:gold_ore_brick_stairs
+- architects_palette:emerald_ore_brick_stairs
+- architects_palette:diamond_ore_brick_stairs
+- architects_palette:polished_packed_ice_stairs
+- architects_palette:osseous_brick_stairs
+- architects_palette:withered_osseous_brick_stairs
+- architects_palette:sunmetal_stairs
+- architects_palette:flint_tile_stairs
+- architects_palette:entwine_stairs
+- architects_palette:gilded_sandstone_stairs
+- architects_palette:plating_stairs
+- architects_palette:warpstone_stairs
+- architects_palette:basalt_tile_stairs
 - buzzier_bees:honeycomb_brick_stairs
 - buzzier_bees:honeycomb_tile_stairs
+- create:granite_cobblestone_stairs
+- create:granite_bricks_stairs
+- create:fancy_granite_bricks_stairs
+- create:paved_granite_stairs
+- create:diorite_cobblestone_stairs
+- create:diorite_bricks_stairs
+- create:fancy_diorite_bricks_stairs
+- create:paved_diorite_stairs
+- create:andesite_cobblestone_stairs
+- create:andesite_bricks_stairs
+- create:fancy_andesite_bricks_stairs
+- create:paved_andesite_stairs
+- create:limestone_cobblestone_stairs
+- create:polished_limestone_stairs
+- create:limestone_bricks_stairs
+- create:fancy_limestone_bricks_stairs
+- create:paved_limestone_stairs
+- create:weathered_limestone_cobblestone_stairs
+- create:polished_weathered_limestone_stairs
+- create:weathered_limestone_bricks_stairs
+- create:fancy_weathered_limestone_bricks_stairs
+- create:paved_weathered_limestone_stairs
+- create:dolomite_cobblestone_stairs
+- create:polished_dolomite_stairs
+- create:dolomite_bricks_stairs
+- create:fancy_dolomite_bricks_stairs
+- create:paved_dolomite_stairs
+- create:gabbro_cobblestone_stairs
+- create:polished_gabbro_stairs
+- create:gabbro_bricks_stairs
+- create:fancy_gabbro_bricks_stairs
+- create:paved_gabbro_stairs
+- create:scoria_cobblestone_stairs
+- create:polished_scoria_stairs
+- create:scoria_bricks_stairs
+- create:fancy_scoria_bricks_stairs
+- create:paved_scoria_stairs
+- create:dark_scoria_cobblestone_stairs
+- create:polished_dark_scoria_stairs
+- create:dark_scoria_bricks_stairs
+- create:fancy_dark_scoria_bricks_stairs
+- create:paved_dark_scoria_stairs
 - snowrealmagic:stairs
 - upgrade_aquatic:kelpy_cobblestone_stairs
 - upgrade_aquatic:polar_kelpy_cobblestone_stairs
@@ -2232,30 +2817,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:white_stained_planks_stairs
 - quark:yellow_shingles_stairs
 - quark:yellow_stained_planks_stairs
-- architects_palette:limestone_stairs
-- architects_palette:limestone_brick_stairs
-- architects_palette:mushy_limestone_brick_stairs
-- architects_palette:olivestone_brick_stairs
-- architects_palette:olivestone_tile_stairs
-- architects_palette:algal_brick_stairs
-- architects_palette:overgrown_algal_brick_stairs
-- architects_palette:coal_ore_brick_stairs
-- architects_palette:lapis_ore_brick_stairs
-- architects_palette:redstone_ore_brick_stairs
-- architects_palette:iron_ore_brick_stairs
-- architects_palette:gold_ore_brick_stairs
-- architects_palette:emerald_ore_brick_stairs
-- architects_palette:diamond_ore_brick_stairs
-- architects_palette:polished_packed_ice_stairs
-- architects_palette:osseous_brick_stairs
-- architects_palette:withered_osseous_brick_stairs
-- architects_palette:sunmetal_stairs
-- architects_palette:flint_tile_stairs
-- architects_palette:entwine_stairs
-- architects_palette:gilded_sandstone_stairs
-- architects_palette:plating_stairs
-- architects_palette:warpstone_stairs
-- architects_palette:basalt_tile_stairs
 
 #alexsmobs:grizzly_beehive
 - #minecraft:beehives
@@ -2285,6 +2846,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - traverse:stripped_fir_log
 - traverse:stripped_fir_wood
 
+#forge:ores/cinnabar
+- emendatusenigmatica:cinnabar_ore
+- emendatusenigmatica:cinnabar_andesite_ore
+- emendatusenigmatica:cinnabar_granite_ore
+- emendatusenigmatica:cinnabar_diorite_ore
+- emendatusenigmatica:cinnabar_sand_ore
+- emendatusenigmatica:cinnabar_gravel_ore
+- emendatusenigmatica:cinnabar_netherrack_ore
+- emendatusenigmatica:cinnabar_blackstone_ore
+- emendatusenigmatica:cinnabar_end_stone_ore
+- emendatusenigmatica:cinnabar_gabbro_ore
+- emendatusenigmatica:cinnabar_c_limestone_ore
+- emendatusenigmatica:cinnabar_scoria_ore
+- emendatusenigmatica:cinnabar_weathered_limestone_ore
+- emendatusenigmatica:cinnabar_jasper_ore
+- emendatusenigmatica:cinnabar_marble_ore
+- emendatusenigmatica:cinnabar_slate_ore
+- emendatusenigmatica:cinnabar_mossy_stone_ore
+
 #forge:sandstone/red
 - minecraft:red_sandstone
 - minecraft:cut_red_sandstone
@@ -2297,6 +2877,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:slab_treated_wood_packaged
 
 #forge:stone
+- create:limestone
+- create:polished_limestone
+- create:weathered_limestone
+- create:polished_weathered_limestone
+- create:gabbro
+- create:polished_gabbro
+- create:dolomite
+- create:polished_dolomite
+- create:scoria
+- create:polished_scoria
+- create:dark_scoria
+- create:polished_dark_scoria
 - minecraft:andesite
 - minecraft:diorite
 - minecraft:granite
@@ -2335,7 +2927,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:podzol
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
+- farmersdelight:organic_compost
+- farmersdelight:rich_soil
 - quark:glowcelium
+
+#quark:wraith_spawnable
+- minecraft:soul_sand
+- minecraft:soul_soil
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -2346,6 +2944,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_door
 - minecraft:crimson_door
 - minecraft:warped_door
+- architects_palette:twisted_door
+- enhanced_mushrooms:red_mushroom_door
+- enhanced_mushrooms:brown_mushroom_door
+- enhanced_mushrooms:glowshroom_door
 - traverse:fir_door
 - upgrade_aquatic:driftwood_door
 - upgrade_aquatic:river_door
@@ -2357,10 +2959,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_door
 - atmospheric:grimwood_door
 - autumnity:maple_door
-- enhanced_mushrooms:red_mushroom_door
-- enhanced_mushrooms:brown_mushroom_door
-- enhanced_mushrooms:glowshroom_door
-- architects_palette:twisted_door
+
+#forge:ores/certus_quartz
+- emendatusenigmatica:certus_quartz_ore
+- emendatusenigmatica:certus_quartz_andesite_ore
+- emendatusenigmatica:certus_quartz_granite_ore
+- emendatusenigmatica:certus_quartz_diorite_ore
+- emendatusenigmatica:certus_quartz_sand_ore
+- emendatusenigmatica:certus_quartz_gravel_ore
+- emendatusenigmatica:certus_quartz_netherrack_ore
+- emendatusenigmatica:certus_quartz_blackstone_ore
+- emendatusenigmatica:certus_quartz_end_stone_ore
+- emendatusenigmatica:certus_quartz_gabbro_ore
+- emendatusenigmatica:certus_quartz_c_limestone_ore
+- emendatusenigmatica:certus_quartz_scoria_ore
+- emendatusenigmatica:certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:certus_quartz_jasper_ore
+- emendatusenigmatica:certus_quartz_marble_ore
+- emendatusenigmatica:certus_quartz_slate_ore
+- emendatusenigmatica:certus_quartz_mossy_stone_ore
 
 #minecraft:standing_signs
 - minecraft:oak_sign
@@ -2371,6 +2988,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_sign
 - minecraft:crimson_sign
 - minecraft:warped_sign
+- enhanced_mushrooms:red_mushroom_sign
+- enhanced_mushrooms:brown_mushroom_sign
+- enhanced_mushrooms:glowshroom_sign
 - upgrade_aquatic:driftwood_sign
 - upgrade_aquatic:river_sign
 - endergetic:poise_sign
@@ -2381,9 +3001,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_sign
 - atmospheric:grimwood_sign
 - autumnity:maple_sign
-- enhanced_mushrooms:red_mushroom_sign
-- enhanced_mushrooms:brown_mushroom_sign
-- enhanced_mushrooms:glowshroom_sign
 
 #autumnity:maple_logs
 - autumnity:maple_log
@@ -2396,6 +3013,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #minecraft:infiniburn_end
 - #minecraft:infiniburn_overworld
 - minecraft:bedrock
+
+#forge:ores/bitumen
+- emendatusenigmatica:bitumen_ore
+- emendatusenigmatica:bitumen_andesite_ore
+- emendatusenigmatica:bitumen_granite_ore
+- emendatusenigmatica:bitumen_diorite_ore
+- emendatusenigmatica:bitumen_sand_ore
+- emendatusenigmatica:bitumen_gravel_ore
+- emendatusenigmatica:bitumen_netherrack_ore
+- emendatusenigmatica:bitumen_blackstone_ore
+- emendatusenigmatica:bitumen_end_stone_ore
+- emendatusenigmatica:bitumen_gabbro_ore
+- emendatusenigmatica:bitumen_c_limestone_ore
+- emendatusenigmatica:bitumen_scoria_ore
+- emendatusenigmatica:bitumen_weathered_limestone_ore
+- emendatusenigmatica:bitumen_jasper_ore
+- emendatusenigmatica:bitumen_marble_ore
+- emendatusenigmatica:bitumen_slate_ore
+- emendatusenigmatica:bitumen_mossy_stone_ore
 
 #forge:glass_panes/yellow
 - minecraft:yellow_stained_glass_pane
@@ -2552,6 +3188,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:nether_wart_block
 - minecraft:warped_wart_block
 
+#quark:hedges
+- quark:oak_hedge
+- quark:birch_hedge
+- quark:spruce_hedge
+- quark:jungle_hedge
+- quark:acacia_hedge
+- quark:dark_oak_hedge
+
 #botania:generating_special_flowers
 - botania:dandelifeon
 - botania:endoflame
@@ -2570,12 +3214,49 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #alexsmobs:gorilla_breakables
 - #minecraft:leaves
 
+#forge:storage_blocks/apatite
+- emendatusenigmatica:apatite_block
+
 #minecraft:beacon_base_blocks
 - minecraft:netherite_block
 - minecraft:emerald_block
 - minecraft:diamond_block
 - minecraft:gold_block
 - minecraft:iron_block
+- create:copper_block
+- create:zinc_block
+- create:brass_block
+- emendatusenigmatica:copper_block
+- emendatusenigmatica:aluminum_block
+- emendatusenigmatica:silver_block
+- emendatusenigmatica:lead_block
+- emendatusenigmatica:nickel_block
+- emendatusenigmatica:uranium_block
+- emendatusenigmatica:osmium_block
+- emendatusenigmatica:tin_block
+- emendatusenigmatica:zinc_block
+- emendatusenigmatica:certus_quartz_block
+- emendatusenigmatica:charged_certus_quartz_block
+- emendatusenigmatica:fluix_block
+- emendatusenigmatica:fluorite_block
+- emendatusenigmatica:bitumen_block
+- emendatusenigmatica:cinnabar_block
+- emendatusenigmatica:apatite_block
+- emendatusenigmatica:sulfur_block
+- emendatusenigmatica:potassium_nitrate_block
+- emendatusenigmatica:arcane_block
+- emendatusenigmatica:dimensional_block
+- emendatusenigmatica:coke_block
+- emendatusenigmatica:silicon_block
+- emendatusenigmatica:bronze_block
+- emendatusenigmatica:brass_block
+- emendatusenigmatica:constantan_block
+- emendatusenigmatica:electrum_block
+- emendatusenigmatica:steel_block
+- emendatusenigmatica:invar_block
+- emendatusenigmatica:signalum_block
+- emendatusenigmatica:lumium_block
+- emendatusenigmatica:enderium_block
 - botania:manasteel_block
 - botania:terrasteel_block
 - botania:elementium_block
@@ -2625,12 +3306,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/silver
 - immersiveengineering:ore_silver
+- emendatusenigmatica:silver_ore
+- emendatusenigmatica:silver_andesite_ore
+- emendatusenigmatica:silver_granite_ore
+- emendatusenigmatica:silver_diorite_ore
+- emendatusenigmatica:silver_sand_ore
+- emendatusenigmatica:silver_gravel_ore
+- emendatusenigmatica:silver_netherrack_ore
+- emendatusenigmatica:silver_blackstone_ore
+- emendatusenigmatica:silver_end_stone_ore
+- emendatusenigmatica:silver_gabbro_ore
+- emendatusenigmatica:silver_c_limestone_ore
+- emendatusenigmatica:silver_scoria_ore
+- emendatusenigmatica:silver_weathered_limestone_ore
+- emendatusenigmatica:silver_jasper_ore
+- emendatusenigmatica:silver_marble_ore
+- emendatusenigmatica:silver_slate_ore
+- emendatusenigmatica:silver_mossy_stone_ore
 
 #minecraft:birch_logs
 - minecraft:birch_log
 - minecraft:birch_wood
 - minecraft:stripped_birch_log
 - minecraft:stripped_birch_wood
+
+#forge:storage_blocks/enderium
+- emendatusenigmatica:enderium_block
 
 #forge:sand
 - #forge:sand/colorless
@@ -2673,6 +3374,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sweet_berry_bush
 - minecraft:dried_kelp_block
 
+#create:fan_heaters
+- create:blaze_burner
+- create:lit_blaze_burner
+- minecraft:magma_block
+- minecraft:campfire
+- minecraft:lava
+- minecraft:fire
+- farmersdelight:stove
+
 #traverse:fir_logs
 - traverse:fir_log
 - traverse:fir_wood
@@ -2699,15 +3409,36 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:storage_blocks/silver
 - immersiveengineering:storage_silver
+- emendatusenigmatica:silver_block
 
 #forge:ores/gold
 - #minecraft:gold_ores
+- emendatusenigmatica:gold_ore
+- emendatusenigmatica:gold_andesite_ore
+- emendatusenigmatica:gold_granite_ore
+- emendatusenigmatica:gold_diorite_ore
+- emendatusenigmatica:gold_sand_ore
+- emendatusenigmatica:gold_gravel_ore
+- emendatusenigmatica:gold_netherrack_ore
+- emendatusenigmatica:gold_blackstone_ore
+- emendatusenigmatica:gold_end_stone_ore
+- emendatusenigmatica:gold_gabbro_ore
+- emendatusenigmatica:gold_c_limestone_ore
+- emendatusenigmatica:gold_scoria_ore
+- emendatusenigmatica:gold_weathered_limestone_ore
+- emendatusenigmatica:gold_jasper_ore
+- emendatusenigmatica:gold_marble_ore
+- emendatusenigmatica:gold_slate_ore
+- emendatusenigmatica:gold_mossy_stone_ore
 
 #minecraft:oak_logs
 - minecraft:oak_log
 - minecraft:oak_wood
 - minecraft:stripped_oak_log
 - minecraft:stripped_oak_wood
+
+#forge:storage_blocks/arcane
+- emendatusenigmatica:arcane_block
 
 #botania:mystical_flowers
 - botania:black_mystical_flower
@@ -2743,6 +3474,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/lapis
 - minecraft:lapis_ore
+- emendatusenigmatica:lapis_ore
+- emendatusenigmatica:lapis_andesite_ore
+- emendatusenigmatica:lapis_granite_ore
+- emendatusenigmatica:lapis_diorite_ore
+- emendatusenigmatica:lapis_sand_ore
+- emendatusenigmatica:lapis_gravel_ore
+- emendatusenigmatica:lapis_netherrack_ore
+- emendatusenigmatica:lapis_blackstone_ore
+- emendatusenigmatica:lapis_end_stone_ore
+- emendatusenigmatica:lapis_gabbro_ore
+- emendatusenigmatica:lapis_c_limestone_ore
+- emendatusenigmatica:lapis_scoria_ore
+- emendatusenigmatica:lapis_weathered_limestone_ore
+- emendatusenigmatica:lapis_jasper_ore
+- emendatusenigmatica:lapis_marble_ore
+- emendatusenigmatica:lapis_slate_ore
+- emendatusenigmatica:lapis_mossy_stone_ore
 
 #forge:glass/black
 - minecraft:black_stained_glass
@@ -2760,6 +3508,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:coarse_dirt
 - minecraft:podzol
 - minecraft:mycelium
+- farmersdelight:rich_soil
 - botania:dry_grass
 - botania:golden_grass
 - botania:infused_grass
@@ -2777,6 +3526,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:podzol
 - minecraft:coarse_dirt
 - minecraft:mycelium
+- farmersdelight:rich_soil
 
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
@@ -2785,6 +3535,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:lime_stained_glass
 
 #forge:chests/wooden
+- enhanced_mushrooms:brown_mushroom_chest
+- enhanced_mushrooms:brown_mushroom_trapped_chest
+- enhanced_mushrooms:glowshroom_chest
+- enhanced_mushrooms:glowshroom_trapped_chest
+- quark:mushroom_chest?
+- quark:mushroom_trapped_chest?
 - minecraft:chest
 - minecraft:trapped_chest
 - upgrade_aquatic:driftwood_chest
@@ -2823,15 +3579,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:dark_oak_trapped_chest
 - quark:warped_trapped_chest
 - quark:crimson_trapped_chest
-- enhanced_mushrooms:brown_mushroom_chest
-- enhanced_mushrooms:brown_mushroom_trapped_chest
-- enhanced_mushrooms:glowshroom_chest
-- enhanced_mushrooms:glowshroom_trapped_chest
-- quark:mushroom_chest?
-- quark:mushroom_trapped_chest?
 
 #forge:storage_blocks/aluminum
 - immersiveengineering:storage_aluminum
+- emendatusenigmatica:aluminum_block
 
 #immersiveengineering:scaffoldings/aluminum
 - immersiveengineering:alu_scaffolding_standard
@@ -2840,6 +3591,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/iron
 - minecraft:iron_ore
+- emendatusenigmatica:iron_ore
+- emendatusenigmatica:iron_andesite_ore
+- emendatusenigmatica:iron_granite_ore
+- emendatusenigmatica:iron_diorite_ore
+- emendatusenigmatica:iron_sand_ore
+- emendatusenigmatica:iron_gravel_ore
+- emendatusenigmatica:iron_netherrack_ore
+- emendatusenigmatica:iron_blackstone_ore
+- emendatusenigmatica:iron_end_stone_ore
+- emendatusenigmatica:iron_gabbro_ore
+- emendatusenigmatica:iron_c_limestone_ore
+- emendatusenigmatica:iron_scoria_ore
+- emendatusenigmatica:iron_weathered_limestone_ore
+- emendatusenigmatica:iron_jasper_ore
+- emendatusenigmatica:iron_marble_ore
+- emendatusenigmatica:iron_slate_ore
+- emendatusenigmatica:iron_mossy_stone_ore
 
 #quark:lead_connectable
 - #minecraft:fences
@@ -2854,9 +3622,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/nickel
 - immersiveengineering:ore_nickel
+- emendatusenigmatica:nickel_ore
+- emendatusenigmatica:nickel_andesite_ore
+- emendatusenigmatica:nickel_granite_ore
+- emendatusenigmatica:nickel_diorite_ore
+- emendatusenigmatica:nickel_sand_ore
+- emendatusenigmatica:nickel_gravel_ore
+- emendatusenigmatica:nickel_netherrack_ore
+- emendatusenigmatica:nickel_blackstone_ore
+- emendatusenigmatica:nickel_end_stone_ore
+- emendatusenigmatica:nickel_gabbro_ore
+- emendatusenigmatica:nickel_c_limestone_ore
+- emendatusenigmatica:nickel_scoria_ore
+- emendatusenigmatica:nickel_weathered_limestone_ore
+- emendatusenigmatica:nickel_jasper_ore
+- emendatusenigmatica:nickel_marble_ore
+- emendatusenigmatica:nickel_slate_ore
+- emendatusenigmatica:nickel_mossy_stone_ore
+
+#create:windowable
 
 #forge:storage_blocks/biotite
 - quark:biotite_block
+
+#forge:storage_blocks/sulfur
+- emendatusenigmatica:sulfur_block
 
 #minecraft:jungle_logs
 - minecraft:jungle_log
@@ -2894,6 +3684,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
+- architects_palette:twisted_stairs
+- enhanced_mushrooms:red_mushroom_stairs
+- enhanced_mushrooms:brown_mushroom_stairs
+- enhanced_mushrooms:glowshroom_stairs
 - traverse:fir_stairs
 - upgrade_aquatic:driftwood_stairs
 - upgrade_aquatic:river_stairs
@@ -2905,10 +3699,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_stairs
 - atmospheric:grimwood_stairs
 - autumnity:maple_stairs
-- enhanced_mushrooms:red_mushroom_stairs
-- enhanced_mushrooms:brown_mushroom_stairs
-- enhanced_mushrooms:glowshroom_stairs
-- architects_palette:twisted_stairs
 
 #minecraft:spruce_logs
 - minecraft:spruce_log
@@ -2933,6 +3723,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:green_carpet
 - minecraft:red_carpet
 - minecraft:black_carpet
+- farmersdelight:full_tatami_mat
+- farmersdelight:half_tatami_mat
 
 #minecraft:base_stone_overworld
 - minecraft:stone
@@ -2953,6 +3745,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_button
 - minecraft:crimson_button
 - minecraft:warped_button
+- architects_palette:twisted_button
+- enhanced_mushrooms:red_mushroom_button
+- enhanced_mushrooms:brown_mushroom_button
+- enhanced_mushrooms:glowshroom_button
 - traverse:fir_button
 - upgrade_aquatic:driftwood_button
 - upgrade_aquatic:river_button
@@ -2964,10 +3760,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_button
 - atmospheric:grimwood_button
 - autumnity:maple_button
-- enhanced_mushrooms:red_mushroom_button
-- enhanced_mushrooms:brown_mushroom_button
-- enhanced_mushrooms:glowshroom_button
-- architects_palette:twisted_button
 
 #quark:crystal
 - quark:red_crystal
@@ -2980,10 +3772,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:white_crystal
 - quark:black_crystal
 
+#alexsmobs:crow_foodblocks
+- #minecraft:crops
+
 #forge:storage_blocks/glowstone
 - minecraft:glowstone
 
 #forge:fence_gates/wooden
+- enhanced_mushrooms:red_mushroom_fence_gate
+- enhanced_mushrooms:brown_mushroom_fence_gate
+- enhanced_mushrooms:glowshroom_fence_gate
 - minecraft:oak_fence_gate
 - minecraft:spruce_fence_gate
 - minecraft:birch_fence_gate
@@ -3002,9 +3800,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_fence_gate
 - atmospheric:grimwood_fence_gate
 - autumnity:maple_fence_gate
-- enhanced_mushrooms:red_mushroom_fence_gate
-- enhanced_mushrooms:brown_mushroom_fence_gate
-- enhanced_mushrooms:glowshroom_fence_gate
 
 #minecraft:stone_bricks
 - minecraft:stone_bricks
@@ -3029,15 +3824,69 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/aluminum
 - immersiveengineering:ore_aluminum
+- emendatusenigmatica:aluminum_ore
+- emendatusenigmatica:aluminum_andesite_ore
+- emendatusenigmatica:aluminum_granite_ore
+- emendatusenigmatica:aluminum_diorite_ore
+- emendatusenigmatica:aluminum_sand_ore
+- emendatusenigmatica:aluminum_gravel_ore
+- emendatusenigmatica:aluminum_netherrack_ore
+- emendatusenigmatica:aluminum_blackstone_ore
+- emendatusenigmatica:aluminum_end_stone_ore
+- emendatusenigmatica:aluminum_gabbro_ore
+- emendatusenigmatica:aluminum_c_limestone_ore
+- emendatusenigmatica:aluminum_scoria_ore
+- emendatusenigmatica:aluminum_weathered_limestone_ore
+- emendatusenigmatica:aluminum_jasper_ore
+- emendatusenigmatica:aluminum_marble_ore
+- emendatusenigmatica:aluminum_slate_ore
+- emendatusenigmatica:aluminum_mossy_stone_ore
 
 #forge:ores/uranium
 - immersiveengineering:ore_uranium
+- emendatusenigmatica:uranium_ore
+- emendatusenigmatica:uranium_andesite_ore
+- emendatusenigmatica:uranium_granite_ore
+- emendatusenigmatica:uranium_diorite_ore
+- emendatusenigmatica:uranium_sand_ore
+- emendatusenigmatica:uranium_gravel_ore
+- emendatusenigmatica:uranium_netherrack_ore
+- emendatusenigmatica:uranium_blackstone_ore
+- emendatusenigmatica:uranium_end_stone_ore
+- emendatusenigmatica:uranium_gabbro_ore
+- emendatusenigmatica:uranium_c_limestone_ore
+- emendatusenigmatica:uranium_scoria_ore
+- emendatusenigmatica:uranium_weathered_limestone_ore
+- emendatusenigmatica:uranium_jasper_ore
+- emendatusenigmatica:uranium_marble_ore
+- emendatusenigmatica:uranium_slate_ore
+- emendatusenigmatica:uranium_mossy_stone_ore
 
 #forge:glass/orange
 - minecraft:orange_stained_glass
 
 #forge:glass_panes/lime
 - minecraft:lime_stained_glass_pane
+
+#create:windmill_sails
+- create:sail_frame
+- create:white_sail
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+- #minecraft:wool
 
 #endergetic:poise_plantable
 - endergetic:eumus_poismoss
@@ -3086,8 +3935,77 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:blackstone_slab
 - minecraft:polished_blackstone_brick_slab
 - minecraft:polished_blackstone_slab
+- architects_palette:abyssaline_brick_slab
+- architects_palette:limestone_slab
+- architects_palette:limestone_brick_slab
+- architects_palette:mushy_limestone_brick_slab
+- architects_palette:olivestone_brick_slab
+- architects_palette:olivestone_tile_slab
+- architects_palette:algal_brick_slab
+- architects_palette:overgrown_algal_brick_slab
+- architects_palette:coal_ore_brick_slab
+- architects_palette:lapis_ore_brick_slab
+- architects_palette:redstone_ore_brick_slab
+- architects_palette:iron_ore_brick_slab
+- architects_palette:gold_ore_brick_slab
+- architects_palette:emerald_ore_brick_slab
+- architects_palette:diamond_ore_brick_slab
+- architects_palette:polished_packed_ice_slab
+- architects_palette:sunmetal_slab
+- architects_palette:osseous_brick_slab
+- architects_palette:withered_osseous_brick_slab
+- architects_palette:flint_tile_slab
+- architects_palette:entwine_slab
+- architects_palette:polished_glowstone_slab
+- architects_palette:gilded_sandstone_slab
+- architects_palette:plating_slab
+- architects_palette:warpstone_slab
+- architects_palette:basalt_tile_slab
+- architects_palette:abyssaline_tile_slab
 - buzzier_bees:honeycomb_brick_slab
 - buzzier_bees:honeycomb_tile_slab
+- create:granite_cobblestone_slab
+- create:granite_bricks_slab
+- create:fancy_granite_bricks_slab
+- create:paved_granite_slab
+- create:diorite_cobblestone_slab
+- create:diorite_bricks_slab
+- create:fancy_diorite_bricks_slab
+- create:paved_diorite_slab
+- create:andesite_cobblestone_slab
+- create:andesite_bricks_slab
+- create:fancy_andesite_bricks_slab
+- create:paved_andesite_slab
+- create:limestone_cobblestone_slab
+- create:polished_limestone_slab
+- create:limestone_bricks_slab
+- create:fancy_limestone_bricks_slab
+- create:paved_limestone_slab
+- create:weathered_limestone_cobblestone_slab
+- create:polished_weathered_limestone_slab
+- create:weathered_limestone_bricks_slab
+- create:fancy_weathered_limestone_bricks_slab
+- create:paved_weathered_limestone_slab
+- create:dolomite_cobblestone_slab
+- create:polished_dolomite_slab
+- create:dolomite_bricks_slab
+- create:fancy_dolomite_bricks_slab
+- create:paved_dolomite_slab
+- create:gabbro_cobblestone_slab
+- create:polished_gabbro_slab
+- create:gabbro_bricks_slab
+- create:fancy_gabbro_bricks_slab
+- create:paved_gabbro_slab
+- create:scoria_cobblestone_slab
+- create:polished_scoria_slab
+- create:scoria_bricks_slab
+- create:fancy_scoria_bricks_slab
+- create:paved_scoria_slab
+- create:dark_scoria_cobblestone_slab
+- create:polished_dark_scoria_slab
+- create:dark_scoria_bricks_slab
+- create:fancy_dark_scoria_bricks_slab
+- create:paved_dark_scoria_slab
 - iceandfire:dread_stone_slab
 - snowrealmagic:slab
 - upgrade_aquatic:kelpy_cobblestone_slab
@@ -3273,33 +4191,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:white_stained_planks_slab
 - quark:yellow_shingles_slab
 - quark:yellow_stained_planks_slab
-- architects_palette:abyssaline_brick_slab
-- architects_palette:limestone_slab
-- architects_palette:limestone_brick_slab
-- architects_palette:mushy_limestone_brick_slab
-- architects_palette:olivestone_brick_slab
-- architects_palette:olivestone_tile_slab
-- architects_palette:algal_brick_slab
-- architects_palette:overgrown_algal_brick_slab
-- architects_palette:coal_ore_brick_slab
-- architects_palette:lapis_ore_brick_slab
-- architects_palette:redstone_ore_brick_slab
-- architects_palette:iron_ore_brick_slab
-- architects_palette:gold_ore_brick_slab
-- architects_palette:emerald_ore_brick_slab
-- architects_palette:diamond_ore_brick_slab
-- architects_palette:polished_packed_ice_slab
-- architects_palette:sunmetal_slab
-- architects_palette:osseous_brick_slab
-- architects_palette:withered_osseous_brick_slab
-- architects_palette:flint_tile_slab
-- architects_palette:entwine_slab
-- architects_palette:polished_glowstone_slab
-- architects_palette:gilded_sandstone_slab
-- architects_palette:plating_slab
-- architects_palette:warpstone_slab
-- architects_palette:basalt_tile_slab
-- architects_palette:abyssaline_tile_slab
 
 #minecraft:guarded_by_piglins
 - minecraft:gold_block
@@ -3315,6 +4206,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 
 #forge:ores/emerald
 - minecraft:emerald_ore
+- emendatusenigmatica:emerald_ore
+- emendatusenigmatica:emerald_andesite_ore
+- emendatusenigmatica:emerald_granite_ore
+- emendatusenigmatica:emerald_diorite_ore
+- emendatusenigmatica:emerald_sand_ore
+- emendatusenigmatica:emerald_gravel_ore
+- emendatusenigmatica:emerald_netherrack_ore
+- emendatusenigmatica:emerald_blackstone_ore
+- emendatusenigmatica:emerald_end_stone_ore
+- emendatusenigmatica:emerald_gabbro_ore
+- emendatusenigmatica:emerald_c_limestone_ore
+- emendatusenigmatica:emerald_scoria_ore
+- emendatusenigmatica:emerald_weathered_limestone_ore
+- emendatusenigmatica:emerald_jasper_ore
+- emendatusenigmatica:emerald_marble_ore
+- emendatusenigmatica:emerald_slate_ore
+- emendatusenigmatica:emerald_mossy_stone_ore
+
+#forge:storage_blocks/bitumen
+- emendatusenigmatica:bitumen_block
 
 #botania:terra_plate_base
 - botania:livingrock
@@ -3324,6 +4235,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - botania:manastar
 - botania:pure_daisy
 - botania:bergamute
+
+#forge:ores/apatite
+- emendatusenigmatica:apatite_ore
+- emendatusenigmatica:apatite_andesite_ore
+- emendatusenigmatica:apatite_granite_ore
+- emendatusenigmatica:apatite_diorite_ore
+- emendatusenigmatica:apatite_sand_ore
+- emendatusenigmatica:apatite_gravel_ore
+- emendatusenigmatica:apatite_netherrack_ore
+- emendatusenigmatica:apatite_blackstone_ore
+- emendatusenigmatica:apatite_end_stone_ore
+- emendatusenigmatica:apatite_gabbro_ore
+- emendatusenigmatica:apatite_c_limestone_ore
+- emendatusenigmatica:apatite_scoria_ore
+- emendatusenigmatica:apatite_weathered_limestone_ore
+- emendatusenigmatica:apatite_jasper_ore
+- emendatusenigmatica:apatite_marble_ore
+- emendatusenigmatica:apatite_slate_ore
+- emendatusenigmatica:apatite_mossy_stone_ore
 
 #minecraft:flowers
 - #minecraft:small_flowers
@@ -3369,6 +4299,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_planks
 - minecraft:crimson_planks
 - minecraft:warped_planks
+- architects_palette:twisted_planks
+- enhanced_mushrooms:red_mushroom_planks
+- enhanced_mushrooms:brown_mushroom_planks
+- enhanced_mushrooms:glowshroom_planks
+- enhanced_mushrooms:vertical_red_mushroom_planks
+- enhanced_mushrooms:vertical_brown_mushroom_planks
+- enhanced_mushrooms:vertical_glowshroom_planks
 - traverse:fir_planks
 - upgrade_aquatic:driftwood_planks
 - upgrade_aquatic:river_planks
@@ -3427,13 +4364,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - quark:vertical_red_stained_planks
 - quark:vertical_white_stained_planks
 - quark:vertical_yellow_stained_planks
-- enhanced_mushrooms:red_mushroom_planks
-- enhanced_mushrooms:brown_mushroom_planks
-- enhanced_mushrooms:glowshroom_planks
-- enhanced_mushrooms:vertical_red_mushroom_planks
-- enhanced_mushrooms:vertical_brown_mushroom_planks
-- enhanced_mushrooms:vertical_glowshroom_planks
-- architects_palette:twisted_planks
 
 #botania:special_flowers
 - #botania:misc_special_flowers
@@ -3456,6 +4386,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:powered_rail
 - minecraft:detector_rail
 - minecraft:activator_rail
+- create:cart_assembler
+- create:reinforced_rail
+- create:controller_rail
 - botania:ghost_rail
 
 #botania:functional_special_flowers
@@ -3517,6 +4450,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - botania:natura_pylon
 - botania:gaia_pylon
 
+#forge:storage_blocks/niter
+- emendatusenigmatica:potassium_nitrate_block
+
 #minecraft:strider_warm_blocks
 - minecraft:lava
 
@@ -3541,10 +4477,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:spruce_fence_gate
 - minecraft:crimson_fence_gate
 - minecraft:warped_fence_gate
+- architects_palette:twisted_fence_gate
 - snowrealmagic:fence_gate
 - botania:dreamwood_fence_gate
 - botania:livingwood_fence_gate
-- architects_palette:twisted_fence_gate
 
 #endergetic:chorus_plantable
 - endergetic:end_corrock_block
@@ -3556,6 +4492,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:end_stone
 
 #forge:ores
+- create:copper_ore
+- create:zinc_ore
 - iceandfire:silver_ore
 - iceandfire:sapphire_ore
 - iceandfire:copper_ore
@@ -3575,6 +4513,448 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - immersiveengineering:ore_silver
 - immersiveengineering:ore_nickel
 - immersiveengineering:ore_uranium
+- emendatusenigmatica:coal_ore
+- emendatusenigmatica:iron_ore
+- emendatusenigmatica:gold_ore
+- emendatusenigmatica:diamond_ore
+- emendatusenigmatica:emerald_ore
+- emendatusenigmatica:lapis_ore
+- emendatusenigmatica:redstone_ore
+- emendatusenigmatica:copper_ore
+- emendatusenigmatica:aluminum_ore
+- emendatusenigmatica:silver_ore
+- emendatusenigmatica:lead_ore
+- emendatusenigmatica:nickel_ore
+- emendatusenigmatica:uranium_ore
+- emendatusenigmatica:osmium_ore
+- emendatusenigmatica:tin_ore
+- emendatusenigmatica:zinc_ore
+- emendatusenigmatica:certus_quartz_ore
+- emendatusenigmatica:charged_certus_quartz_ore
+- emendatusenigmatica:fluorite_ore
+- emendatusenigmatica:bitumen_ore
+- emendatusenigmatica:cinnabar_ore
+- emendatusenigmatica:apatite_ore
+- emendatusenigmatica:sulfur_ore
+- emendatusenigmatica:potassium_nitrate_ore
+- emendatusenigmatica:arcane_ore
+- emendatusenigmatica:dimensional_ore
+- emendatusenigmatica:coal_andesite_ore
+- emendatusenigmatica:iron_andesite_ore
+- emendatusenigmatica:gold_andesite_ore
+- emendatusenigmatica:diamond_andesite_ore
+- emendatusenigmatica:emerald_andesite_ore
+- emendatusenigmatica:lapis_andesite_ore
+- emendatusenigmatica:redstone_andesite_ore
+- emendatusenigmatica:copper_andesite_ore
+- emendatusenigmatica:aluminum_andesite_ore
+- emendatusenigmatica:silver_andesite_ore
+- emendatusenigmatica:lead_andesite_ore
+- emendatusenigmatica:nickel_andesite_ore
+- emendatusenigmatica:uranium_andesite_ore
+- emendatusenigmatica:osmium_andesite_ore
+- emendatusenigmatica:tin_andesite_ore
+- emendatusenigmatica:zinc_andesite_ore
+- emendatusenigmatica:certus_quartz_andesite_ore
+- emendatusenigmatica:charged_certus_quartz_andesite_ore
+- emendatusenigmatica:fluorite_andesite_ore
+- emendatusenigmatica:bitumen_andesite_ore
+- emendatusenigmatica:cinnabar_andesite_ore
+- emendatusenigmatica:apatite_andesite_ore
+- emendatusenigmatica:sulfur_andesite_ore
+- emendatusenigmatica:potassium_nitrate_andesite_ore
+- emendatusenigmatica:arcane_andesite_ore
+- emendatusenigmatica:dimensional_andesite_ore
+- emendatusenigmatica:coal_granite_ore
+- emendatusenigmatica:iron_granite_ore
+- emendatusenigmatica:gold_granite_ore
+- emendatusenigmatica:diamond_granite_ore
+- emendatusenigmatica:emerald_granite_ore
+- emendatusenigmatica:lapis_granite_ore
+- emendatusenigmatica:redstone_granite_ore
+- emendatusenigmatica:copper_granite_ore
+- emendatusenigmatica:aluminum_granite_ore
+- emendatusenigmatica:silver_granite_ore
+- emendatusenigmatica:lead_granite_ore
+- emendatusenigmatica:nickel_granite_ore
+- emendatusenigmatica:uranium_granite_ore
+- emendatusenigmatica:osmium_granite_ore
+- emendatusenigmatica:tin_granite_ore
+- emendatusenigmatica:zinc_granite_ore
+- emendatusenigmatica:certus_quartz_granite_ore
+- emendatusenigmatica:charged_certus_quartz_granite_ore
+- emendatusenigmatica:fluorite_granite_ore
+- emendatusenigmatica:bitumen_granite_ore
+- emendatusenigmatica:cinnabar_granite_ore
+- emendatusenigmatica:apatite_granite_ore
+- emendatusenigmatica:sulfur_granite_ore
+- emendatusenigmatica:potassium_nitrate_granite_ore
+- emendatusenigmatica:arcane_granite_ore
+- emendatusenigmatica:dimensional_granite_ore
+- emendatusenigmatica:coal_diorite_ore
+- emendatusenigmatica:iron_diorite_ore
+- emendatusenigmatica:gold_diorite_ore
+- emendatusenigmatica:diamond_diorite_ore
+- emendatusenigmatica:emerald_diorite_ore
+- emendatusenigmatica:lapis_diorite_ore
+- emendatusenigmatica:redstone_diorite_ore
+- emendatusenigmatica:copper_diorite_ore
+- emendatusenigmatica:aluminum_diorite_ore
+- emendatusenigmatica:silver_diorite_ore
+- emendatusenigmatica:lead_diorite_ore
+- emendatusenigmatica:nickel_diorite_ore
+- emendatusenigmatica:uranium_diorite_ore
+- emendatusenigmatica:osmium_diorite_ore
+- emendatusenigmatica:tin_diorite_ore
+- emendatusenigmatica:zinc_diorite_ore
+- emendatusenigmatica:certus_quartz_diorite_ore
+- emendatusenigmatica:charged_certus_quartz_diorite_ore
+- emendatusenigmatica:fluorite_diorite_ore
+- emendatusenigmatica:bitumen_diorite_ore
+- emendatusenigmatica:cinnabar_diorite_ore
+- emendatusenigmatica:apatite_diorite_ore
+- emendatusenigmatica:sulfur_diorite_ore
+- emendatusenigmatica:potassium_nitrate_diorite_ore
+- emendatusenigmatica:arcane_diorite_ore
+- emendatusenigmatica:dimensional_diorite_ore
+- emendatusenigmatica:coal_sand_ore
+- emendatusenigmatica:iron_sand_ore
+- emendatusenigmatica:gold_sand_ore
+- emendatusenigmatica:diamond_sand_ore
+- emendatusenigmatica:emerald_sand_ore
+- emendatusenigmatica:lapis_sand_ore
+- emendatusenigmatica:redstone_sand_ore
+- emendatusenigmatica:copper_sand_ore
+- emendatusenigmatica:aluminum_sand_ore
+- emendatusenigmatica:silver_sand_ore
+- emendatusenigmatica:lead_sand_ore
+- emendatusenigmatica:nickel_sand_ore
+- emendatusenigmatica:uranium_sand_ore
+- emendatusenigmatica:osmium_sand_ore
+- emendatusenigmatica:tin_sand_ore
+- emendatusenigmatica:zinc_sand_ore
+- emendatusenigmatica:certus_quartz_sand_ore
+- emendatusenigmatica:charged_certus_quartz_sand_ore
+- emendatusenigmatica:fluorite_sand_ore
+- emendatusenigmatica:bitumen_sand_ore
+- emendatusenigmatica:cinnabar_sand_ore
+- emendatusenigmatica:apatite_sand_ore
+- emendatusenigmatica:sulfur_sand_ore
+- emendatusenigmatica:potassium_nitrate_sand_ore
+- emendatusenigmatica:arcane_sand_ore
+- emendatusenigmatica:dimensional_sand_ore
+- emendatusenigmatica:coal_gravel_ore
+- emendatusenigmatica:iron_gravel_ore
+- emendatusenigmatica:gold_gravel_ore
+- emendatusenigmatica:diamond_gravel_ore
+- emendatusenigmatica:emerald_gravel_ore
+- emendatusenigmatica:lapis_gravel_ore
+- emendatusenigmatica:redstone_gravel_ore
+- emendatusenigmatica:copper_gravel_ore
+- emendatusenigmatica:aluminum_gravel_ore
+- emendatusenigmatica:silver_gravel_ore
+- emendatusenigmatica:lead_gravel_ore
+- emendatusenigmatica:nickel_gravel_ore
+- emendatusenigmatica:uranium_gravel_ore
+- emendatusenigmatica:osmium_gravel_ore
+- emendatusenigmatica:tin_gravel_ore
+- emendatusenigmatica:zinc_gravel_ore
+- emendatusenigmatica:certus_quartz_gravel_ore
+- emendatusenigmatica:charged_certus_quartz_gravel_ore
+- emendatusenigmatica:fluorite_gravel_ore
+- emendatusenigmatica:bitumen_gravel_ore
+- emendatusenigmatica:cinnabar_gravel_ore
+- emendatusenigmatica:apatite_gravel_ore
+- emendatusenigmatica:sulfur_gravel_ore
+- emendatusenigmatica:potassium_nitrate_gravel_ore
+- emendatusenigmatica:arcane_gravel_ore
+- emendatusenigmatica:dimensional_gravel_ore
+- emendatusenigmatica:coal_netherrack_ore
+- emendatusenigmatica:iron_netherrack_ore
+- emendatusenigmatica:gold_netherrack_ore
+- emendatusenigmatica:diamond_netherrack_ore
+- emendatusenigmatica:emerald_netherrack_ore
+- emendatusenigmatica:lapis_netherrack_ore
+- emendatusenigmatica:redstone_netherrack_ore
+- emendatusenigmatica:copper_netherrack_ore
+- emendatusenigmatica:aluminum_netherrack_ore
+- emendatusenigmatica:silver_netherrack_ore
+- emendatusenigmatica:lead_netherrack_ore
+- emendatusenigmatica:nickel_netherrack_ore
+- emendatusenigmatica:uranium_netherrack_ore
+- emendatusenigmatica:osmium_netherrack_ore
+- emendatusenigmatica:tin_netherrack_ore
+- emendatusenigmatica:zinc_netherrack_ore
+- emendatusenigmatica:certus_quartz_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_netherrack_ore
+- emendatusenigmatica:fluorite_netherrack_ore
+- emendatusenigmatica:bitumen_netherrack_ore
+- emendatusenigmatica:cinnabar_netherrack_ore
+- emendatusenigmatica:apatite_netherrack_ore
+- emendatusenigmatica:sulfur_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_netherrack_ore
+- emendatusenigmatica:arcane_netherrack_ore
+- emendatusenigmatica:dimensional_netherrack_ore
+- emendatusenigmatica:coal_blackstone_ore
+- emendatusenigmatica:iron_blackstone_ore
+- emendatusenigmatica:gold_blackstone_ore
+- emendatusenigmatica:diamond_blackstone_ore
+- emendatusenigmatica:emerald_blackstone_ore
+- emendatusenigmatica:lapis_blackstone_ore
+- emendatusenigmatica:redstone_blackstone_ore
+- emendatusenigmatica:copper_blackstone_ore
+- emendatusenigmatica:aluminum_blackstone_ore
+- emendatusenigmatica:silver_blackstone_ore
+- emendatusenigmatica:lead_blackstone_ore
+- emendatusenigmatica:nickel_blackstone_ore
+- emendatusenigmatica:uranium_blackstone_ore
+- emendatusenigmatica:osmium_blackstone_ore
+- emendatusenigmatica:tin_blackstone_ore
+- emendatusenigmatica:zinc_blackstone_ore
+- emendatusenigmatica:certus_quartz_blackstone_ore
+- emendatusenigmatica:charged_certus_quartz_blackstone_ore
+- emendatusenigmatica:fluorite_blackstone_ore
+- emendatusenigmatica:bitumen_blackstone_ore
+- emendatusenigmatica:cinnabar_blackstone_ore
+- emendatusenigmatica:apatite_blackstone_ore
+- emendatusenigmatica:sulfur_blackstone_ore
+- emendatusenigmatica:potassium_nitrate_blackstone_ore
+- emendatusenigmatica:arcane_blackstone_ore
+- emendatusenigmatica:dimensional_blackstone_ore
+- emendatusenigmatica:coal_end_stone_ore
+- emendatusenigmatica:iron_end_stone_ore
+- emendatusenigmatica:gold_end_stone_ore
+- emendatusenigmatica:diamond_end_stone_ore
+- emendatusenigmatica:emerald_end_stone_ore
+- emendatusenigmatica:lapis_end_stone_ore
+- emendatusenigmatica:redstone_end_stone_ore
+- emendatusenigmatica:copper_end_stone_ore
+- emendatusenigmatica:aluminum_end_stone_ore
+- emendatusenigmatica:silver_end_stone_ore
+- emendatusenigmatica:lead_end_stone_ore
+- emendatusenigmatica:nickel_end_stone_ore
+- emendatusenigmatica:uranium_end_stone_ore
+- emendatusenigmatica:osmium_end_stone_ore
+- emendatusenigmatica:tin_end_stone_ore
+- emendatusenigmatica:zinc_end_stone_ore
+- emendatusenigmatica:certus_quartz_end_stone_ore
+- emendatusenigmatica:charged_certus_quartz_end_stone_ore
+- emendatusenigmatica:fluorite_end_stone_ore
+- emendatusenigmatica:bitumen_end_stone_ore
+- emendatusenigmatica:cinnabar_end_stone_ore
+- emendatusenigmatica:apatite_end_stone_ore
+- emendatusenigmatica:sulfur_end_stone_ore
+- emendatusenigmatica:potassium_nitrate_end_stone_ore
+- emendatusenigmatica:arcane_end_stone_ore
+- emendatusenigmatica:dimensional_end_stone_ore
+- emendatusenigmatica:coal_gabbro_ore
+- emendatusenigmatica:iron_gabbro_ore
+- emendatusenigmatica:gold_gabbro_ore
+- emendatusenigmatica:diamond_gabbro_ore
+- emendatusenigmatica:emerald_gabbro_ore
+- emendatusenigmatica:lapis_gabbro_ore
+- emendatusenigmatica:redstone_gabbro_ore
+- emendatusenigmatica:copper_gabbro_ore
+- emendatusenigmatica:aluminum_gabbro_ore
+- emendatusenigmatica:silver_gabbro_ore
+- emendatusenigmatica:lead_gabbro_ore
+- emendatusenigmatica:nickel_gabbro_ore
+- emendatusenigmatica:uranium_gabbro_ore
+- emendatusenigmatica:osmium_gabbro_ore
+- emendatusenigmatica:tin_gabbro_ore
+- emendatusenigmatica:zinc_gabbro_ore
+- emendatusenigmatica:certus_quartz_gabbro_ore
+- emendatusenigmatica:charged_certus_quartz_gabbro_ore
+- emendatusenigmatica:fluorite_gabbro_ore
+- emendatusenigmatica:bitumen_gabbro_ore
+- emendatusenigmatica:cinnabar_gabbro_ore
+- emendatusenigmatica:apatite_gabbro_ore
+- emendatusenigmatica:sulfur_gabbro_ore
+- emendatusenigmatica:potassium_nitrate_gabbro_ore
+- emendatusenigmatica:arcane_gabbro_ore
+- emendatusenigmatica:dimensional_gabbro_ore
+- emendatusenigmatica:coal_c_limestone_ore
+- emendatusenigmatica:iron_c_limestone_ore
+- emendatusenigmatica:gold_c_limestone_ore
+- emendatusenigmatica:diamond_c_limestone_ore
+- emendatusenigmatica:emerald_c_limestone_ore
+- emendatusenigmatica:lapis_c_limestone_ore
+- emendatusenigmatica:redstone_c_limestone_ore
+- emendatusenigmatica:copper_c_limestone_ore
+- emendatusenigmatica:aluminum_c_limestone_ore
+- emendatusenigmatica:silver_c_limestone_ore
+- emendatusenigmatica:lead_c_limestone_ore
+- emendatusenigmatica:nickel_c_limestone_ore
+- emendatusenigmatica:uranium_c_limestone_ore
+- emendatusenigmatica:osmium_c_limestone_ore
+- emendatusenigmatica:tin_c_limestone_ore
+- emendatusenigmatica:zinc_c_limestone_ore
+- emendatusenigmatica:certus_quartz_c_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_c_limestone_ore
+- emendatusenigmatica:fluorite_c_limestone_ore
+- emendatusenigmatica:bitumen_c_limestone_ore
+- emendatusenigmatica:cinnabar_c_limestone_ore
+- emendatusenigmatica:apatite_c_limestone_ore
+- emendatusenigmatica:sulfur_c_limestone_ore
+- emendatusenigmatica:potassium_nitrate_c_limestone_ore
+- emendatusenigmatica:arcane_c_limestone_ore
+- emendatusenigmatica:dimensional_c_limestone_ore
+- emendatusenigmatica:coal_scoria_ore
+- emendatusenigmatica:iron_scoria_ore
+- emendatusenigmatica:gold_scoria_ore
+- emendatusenigmatica:diamond_scoria_ore
+- emendatusenigmatica:emerald_scoria_ore
+- emendatusenigmatica:lapis_scoria_ore
+- emendatusenigmatica:redstone_scoria_ore
+- emendatusenigmatica:copper_scoria_ore
+- emendatusenigmatica:aluminum_scoria_ore
+- emendatusenigmatica:silver_scoria_ore
+- emendatusenigmatica:lead_scoria_ore
+- emendatusenigmatica:nickel_scoria_ore
+- emendatusenigmatica:uranium_scoria_ore
+- emendatusenigmatica:osmium_scoria_ore
+- emendatusenigmatica:tin_scoria_ore
+- emendatusenigmatica:zinc_scoria_ore
+- emendatusenigmatica:certus_quartz_scoria_ore
+- emendatusenigmatica:charged_certus_quartz_scoria_ore
+- emendatusenigmatica:fluorite_scoria_ore
+- emendatusenigmatica:bitumen_scoria_ore
+- emendatusenigmatica:cinnabar_scoria_ore
+- emendatusenigmatica:apatite_scoria_ore
+- emendatusenigmatica:sulfur_scoria_ore
+- emendatusenigmatica:potassium_nitrate_scoria_ore
+- emendatusenigmatica:arcane_scoria_ore
+- emendatusenigmatica:dimensional_scoria_ore
+- emendatusenigmatica:coal_weathered_limestone_ore
+- emendatusenigmatica:iron_weathered_limestone_ore
+- emendatusenigmatica:gold_weathered_limestone_ore
+- emendatusenigmatica:diamond_weathered_limestone_ore
+- emendatusenigmatica:emerald_weathered_limestone_ore
+- emendatusenigmatica:lapis_weathered_limestone_ore
+- emendatusenigmatica:redstone_weathered_limestone_ore
+- emendatusenigmatica:copper_weathered_limestone_ore
+- emendatusenigmatica:aluminum_weathered_limestone_ore
+- emendatusenigmatica:silver_weathered_limestone_ore
+- emendatusenigmatica:lead_weathered_limestone_ore
+- emendatusenigmatica:nickel_weathered_limestone_ore
+- emendatusenigmatica:uranium_weathered_limestone_ore
+- emendatusenigmatica:osmium_weathered_limestone_ore
+- emendatusenigmatica:tin_weathered_limestone_ore
+- emendatusenigmatica:zinc_weathered_limestone_ore
+- emendatusenigmatica:certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:fluorite_weathered_limestone_ore
+- emendatusenigmatica:bitumen_weathered_limestone_ore
+- emendatusenigmatica:cinnabar_weathered_limestone_ore
+- emendatusenigmatica:apatite_weathered_limestone_ore
+- emendatusenigmatica:sulfur_weathered_limestone_ore
+- emendatusenigmatica:potassium_nitrate_weathered_limestone_ore
+- emendatusenigmatica:arcane_weathered_limestone_ore
+- emendatusenigmatica:dimensional_weathered_limestone_ore
+- emendatusenigmatica:coal_jasper_ore
+- emendatusenigmatica:iron_jasper_ore
+- emendatusenigmatica:gold_jasper_ore
+- emendatusenigmatica:diamond_jasper_ore
+- emendatusenigmatica:emerald_jasper_ore
+- emendatusenigmatica:lapis_jasper_ore
+- emendatusenigmatica:redstone_jasper_ore
+- emendatusenigmatica:copper_jasper_ore
+- emendatusenigmatica:aluminum_jasper_ore
+- emendatusenigmatica:silver_jasper_ore
+- emendatusenigmatica:lead_jasper_ore
+- emendatusenigmatica:nickel_jasper_ore
+- emendatusenigmatica:uranium_jasper_ore
+- emendatusenigmatica:osmium_jasper_ore
+- emendatusenigmatica:tin_jasper_ore
+- emendatusenigmatica:zinc_jasper_ore
+- emendatusenigmatica:certus_quartz_jasper_ore
+- emendatusenigmatica:charged_certus_quartz_jasper_ore
+- emendatusenigmatica:fluorite_jasper_ore
+- emendatusenigmatica:bitumen_jasper_ore
+- emendatusenigmatica:cinnabar_jasper_ore
+- emendatusenigmatica:apatite_jasper_ore
+- emendatusenigmatica:sulfur_jasper_ore
+- emendatusenigmatica:potassium_nitrate_jasper_ore
+- emendatusenigmatica:arcane_jasper_ore
+- emendatusenigmatica:dimensional_jasper_ore
+- emendatusenigmatica:coal_marble_ore
+- emendatusenigmatica:iron_marble_ore
+- emendatusenigmatica:gold_marble_ore
+- emendatusenigmatica:diamond_marble_ore
+- emendatusenigmatica:emerald_marble_ore
+- emendatusenigmatica:lapis_marble_ore
+- emendatusenigmatica:redstone_marble_ore
+- emendatusenigmatica:copper_marble_ore
+- emendatusenigmatica:aluminum_marble_ore
+- emendatusenigmatica:silver_marble_ore
+- emendatusenigmatica:lead_marble_ore
+- emendatusenigmatica:nickel_marble_ore
+- emendatusenigmatica:uranium_marble_ore
+- emendatusenigmatica:osmium_marble_ore
+- emendatusenigmatica:tin_marble_ore
+- emendatusenigmatica:zinc_marble_ore
+- emendatusenigmatica:certus_quartz_marble_ore
+- emendatusenigmatica:charged_certus_quartz_marble_ore
+- emendatusenigmatica:fluorite_marble_ore
+- emendatusenigmatica:bitumen_marble_ore
+- emendatusenigmatica:cinnabar_marble_ore
+- emendatusenigmatica:apatite_marble_ore
+- emendatusenigmatica:sulfur_marble_ore
+- emendatusenigmatica:potassium_nitrate_marble_ore
+- emendatusenigmatica:arcane_marble_ore
+- emendatusenigmatica:dimensional_marble_ore
+- emendatusenigmatica:coal_slate_ore
+- emendatusenigmatica:iron_slate_ore
+- emendatusenigmatica:gold_slate_ore
+- emendatusenigmatica:diamond_slate_ore
+- emendatusenigmatica:emerald_slate_ore
+- emendatusenigmatica:lapis_slate_ore
+- emendatusenigmatica:redstone_slate_ore
+- emendatusenigmatica:copper_slate_ore
+- emendatusenigmatica:aluminum_slate_ore
+- emendatusenigmatica:silver_slate_ore
+- emendatusenigmatica:lead_slate_ore
+- emendatusenigmatica:nickel_slate_ore
+- emendatusenigmatica:uranium_slate_ore
+- emendatusenigmatica:osmium_slate_ore
+- emendatusenigmatica:tin_slate_ore
+- emendatusenigmatica:zinc_slate_ore
+- emendatusenigmatica:certus_quartz_slate_ore
+- emendatusenigmatica:charged_certus_quartz_slate_ore
+- emendatusenigmatica:fluorite_slate_ore
+- emendatusenigmatica:bitumen_slate_ore
+- emendatusenigmatica:cinnabar_slate_ore
+- emendatusenigmatica:apatite_slate_ore
+- emendatusenigmatica:sulfur_slate_ore
+- emendatusenigmatica:potassium_nitrate_slate_ore
+- emendatusenigmatica:arcane_slate_ore
+- emendatusenigmatica:dimensional_slate_ore
+- emendatusenigmatica:coal_mossy_stone_ore
+- emendatusenigmatica:iron_mossy_stone_ore
+- emendatusenigmatica:gold_mossy_stone_ore
+- emendatusenigmatica:diamond_mossy_stone_ore
+- emendatusenigmatica:emerald_mossy_stone_ore
+- emendatusenigmatica:lapis_mossy_stone_ore
+- emendatusenigmatica:redstone_mossy_stone_ore
+- emendatusenigmatica:copper_mossy_stone_ore
+- emendatusenigmatica:aluminum_mossy_stone_ore
+- emendatusenigmatica:silver_mossy_stone_ore
+- emendatusenigmatica:lead_mossy_stone_ore
+- emendatusenigmatica:nickel_mossy_stone_ore
+- emendatusenigmatica:uranium_mossy_stone_ore
+- emendatusenigmatica:osmium_mossy_stone_ore
+- emendatusenigmatica:tin_mossy_stone_ore
+- emendatusenigmatica:zinc_mossy_stone_ore
+- emendatusenigmatica:certus_quartz_mossy_stone_ore
+- emendatusenigmatica:charged_certus_quartz_mossy_stone_ore
+- emendatusenigmatica:fluorite_mossy_stone_ore
+- emendatusenigmatica:bitumen_mossy_stone_ore
+- emendatusenigmatica:cinnabar_mossy_stone_ore
+- emendatusenigmatica:apatite_mossy_stone_ore
+- emendatusenigmatica:sulfur_mossy_stone_ore
+- emendatusenigmatica:potassium_nitrate_mossy_stone_ore
+- emendatusenigmatica:arcane_mossy_stone_ore
+- emendatusenigmatica:dimensional_mossy_stone_ore
 - #forge:ores/biotite
 
 #minecraft:bee_growables
@@ -3595,6 +4975,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:dark_oak_pressure_plate
 - minecraft:crimson_pressure_plate
 - minecraft:warped_pressure_plate
+- architects_palette:twisted_pressure_plate
+- enhanced_mushrooms:red_mushroom_pressure_plate
+- enhanced_mushrooms:brown_mushroom_pressure_plate
+- enhanced_mushrooms:glowshroom_pressure_plate
 - traverse:fir_pressure_plate
 - upgrade_aquatic:driftwood_pressure_plate
 - upgrade_aquatic:river_pressure_plate
@@ -3606,10 +4990,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - atmospheric:aspen_pressure_plate
 - atmospheric:grimwood_pressure_plate
 - autumnity:maple_pressure_plate
-- enhanced_mushrooms:red_mushroom_pressure_plate
-- enhanced_mushrooms:brown_mushroom_pressure_plate
-- enhanced_mushrooms:glowshroom_pressure_plate
-- architects_palette:twisted_pressure_plate
+
+#create:brittle
+- create:nozzle
+- create:hand_crank
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+- create:rope
+- create:pulley_magnet
+- create:furnace_engine
+- create:redstone_link
+- #minecraft:doors
+- minecraft:flower_pot
+- minecraft:bell
+- minecraft:cocoa
 
 #architects_palette:twisted_logs
 - architects_palette:twisted_log
