@@ -10,7 +10,6 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-
 # Instance Sync
 **/*.jar
 !InstanceSync*.jar
@@ -24,6 +23,7 @@ Thumbs.db
 /saves
 /downloads
 /resourcepacks
+/kubejs2
 /local
 /logs
 /natives
@@ -38,6 +38,7 @@ optionsof.txt
 
 #config.json
 patchouli_data.json
+mode.json
 realms_persistence.json
 usercache.json
 usernamecache.json
