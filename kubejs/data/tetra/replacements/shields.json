@@ -1,0 +1,10 @@
+[
+    {
+        "predicate": {"item": "immersiveengineering:shield"},
+        "item": "tetra:modular_shield",
+        "modules": {
+            "shield/plate": ["shield/tower", "tower/steel"],
+            "shield/grip": ["shield/basic_grip", "basic_grip/steel"]
+        }
+    }
+]
