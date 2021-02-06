@@ -8,7 +8,7 @@
         "min": 2,
         "max": 64
       },
-      "unitWorth": 300,
+      "unitWorth": 450,
       "weight": 1000
     },
     {
@@ -18,8 +18,8 @@
         "min": 2,
         "max": 32
       },
-      "unitWorth": 660,
-      "weight": 1000
+      "unitWorth": 750,
+      "weight": 800
     },
     {
       "type": "item",
@@ -28,8 +28,8 @@
         "min": 2,
         "max": 32
       },
-      "unitWorth": 550,
-      "weight": 1000
+      "unitWorth": 1050,
+      "weight": 600
     },
     {
       "type": "item",
@@ -58,8 +58,8 @@
         "min": 2,
         "max": 32
       },
-      "unitWorth": 300,
-      "weight": 1000
+      "unitWorth": 320,
+      "weight": 800
     },
     {
       "type": "item",
@@ -68,7 +68,7 @@
         "min": 2,
         "max": 32
       },
-      "unitWorth": 320,
+      "unitWorth": 500,
       "weight": 1000
     },
     {
@@ -78,7 +78,7 @@
         "min": 2,
         "max": 32
       },
-      "unitWorth": 700,
+      "unitWorth": 800,
       "weight": 1000
     }
   ]
