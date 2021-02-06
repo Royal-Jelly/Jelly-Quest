@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Feb 4, 2021 2:11:48 AM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 6, 2021 1:55:23 AM
 
 #forge:ores/biotite
 - quark:biotite_ore
@@ -73,6 +73,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dyes/gray
 - minecraft:gray_dye
+
+#bloodmagic:arc/explosive
+- bloodmagic:explosivepowder
+- bloodmagic:primitive_explosive_cell
 
 #quark:planks_vertical_slab
 - quark:black_stained_planks_vertical_slab
@@ -305,6 +309,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:dusts/lithium
 - emendatusenigmatica:lithium_dust
 
+#bloodmagic:crystals/demon
+- bloodmagic:defaultcrystal
+- bloodmagic:corrosivecrystal
+- bloodmagic:destructivecrystal
+- bloodmagic:vengefulcrystal
+- bloodmagic:steadfastcrystal
+
 #forge:scales/sea_serpent
 - iceandfire:sea_serpent_scales_blue
 - iceandfire:sea_serpent_scales_bronze
@@ -432,9 +443,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - immersiveengineering:plate_silver
 - emendatusenigmatica:silver_plate
 
-#forge:storage_blocks/psimetal
-- psi:psimetal_block
-
 #alexsmobs:seal_foodstuffs
 - #minecraft:fishes
 - alexsmobs:lobster_tail
@@ -451,9 +459,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:glass_panes/red
 - minecraft:red_stained_glass_pane
-
-#forge:storage_blocks/psigem
-- psi:psigem_block
 
 #botania:mundane_floating_flowers
 - botania:black_floating_flower
@@ -1121,6 +1126,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:cobblestone
 - minecraft:blackstone
 
+#bloodmagic:gravels/gold
+- bloodmagic:goldgravel
+
 #forge:dyes/cyan
 - minecraft:cyan_dye
 
@@ -1217,6 +1225,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - emendatusenigmatica:gold_mossy_stone_ore
 - emendatusenigmatica:gold_chunk
 
+#minecraft:mushroom_stem
+- minecraft:mushroom_stem
+- minecraft:crimson_stem
+- minecraft:warped_stem
+- minecraft:mushroom_stem
+- minecraft:crimson_stem
+- minecraft:warped_stem
+
 #forge:storage_blocks/arcane
 - emendatusenigmatica:arcane_block
 
@@ -1265,6 +1281,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:wheat
 
 #forge:dusts/coal
+- bloodmagic:coalsand
 - emendatusenigmatica:coal_dust
 
 #forge:glass/lime
@@ -1963,6 +1980,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:crops/carrot
 - minecraft:carrot
 
+#bloodmagic:gravels/netherite_scrap
+- bloodmagic:gravel_netherite_scrap
+
 #minecraft:warped_stems
 - minecraft:warped_stem
 - minecraft:stripped_warped_stem
@@ -2229,6 +2249,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:gears/gold
 - emendatusenigmatica:gold_gear
 
+#bloodmagic:fragments/gold
+- bloodmagic:goldfragment
+
 #forge:obsidian
 - minecraft:obsidian
 
@@ -2279,6 +2302,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:pasta
 - #forge:pasta/raw_pasta
+
+#bloodmagic:arc/reverter
+- bloodmagic:sanguinereverter
 
 #minecraft:trapdoors
 - #minecraft:wooden_trapdoors
@@ -2421,6 +2447,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - iceandfire:dragonbone
 
 #forge:dusts/gold
+- bloodmagic:goldsand
 - immersiveengineering:dust_gold
 - emendatusenigmatica:gold_dust
 
@@ -2487,9 +2514,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dyes/pink
 - minecraft:pink_dye
-
-#psi:ivory_substance
-- psi:ivory_substance
 
 #forge:glass_panes/blue
 - minecraft:blue_stained_glass_pane
@@ -2558,6 +2582,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:gunpowder
 - minecraft:gunpowder
 
+#bloodmagic:arc/tool
+- #bloodmagic:arc/furnace
+- #bloodmagic:arc/reverter
+- #bloodmagic:arc/sieve
+- #bloodmagic:arc/explosive
+- #bloodmagic:arc/hydrate
+- #bloodmagic:arc/resonator
+- #bloodmagic:arc/cuttingfluid
+
 #botania:runes/mana
 - botania:rune_mana
 
@@ -2615,6 +2648,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:rods/osmium
 - emendatusenigmatica:osmium_rod
+
+#bloodmagic:arc/furnace
+- bloodmagic:furnacecell_primitive
+- bloodmagic:lavacrystal
 
 #upgrade_aquatic:dead_chrome_fans_corals
 - upgrade_aquatic:dead_chrome_coral
@@ -2728,6 +2765,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - emendatusenigmatica:lapis_slate_ore
 - emendatusenigmatica:lapis_mossy_stone_ore
 - emendatusenigmatica:lapis_chunk
+
+#bloodmagic:dusts/corrupted
+- bloodmagic:corrupted_dust
 
 #forge:bread
 - #forge:bread/wheat
@@ -2967,6 +3007,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:gears/lumium
 - emendatusenigmatica:lumium_gear
+
+#bloodmagic:arc/cuttingfluid
+- bloodmagic:basiccuttingfluid
 
 #forge:ores
 - create:copper_ore
@@ -3921,6 +3964,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - immersiveengineering:dust_uranium
 - emendatusenigmatica:uranium_dust
 
+#minecraft:mushroom_hyphae
+- minecraft:brown_mushroom_block
+- minecraft:red_mushroom_block
+- minecraft:crimson_hyphae
+- minecraft:warped_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:shroomlight
+- minecraft:brown_mushroom_block
+- minecraft:red_mushroom_block
+- minecraft:crimson_hyphae
+- minecraft:warped_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+- minecraft:shroomlight
+
 #forge:glass_panes/green
 - minecraft:green_stained_glass_pane
 
@@ -3983,6 +4046,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:ingots/osmium
 - emendatusenigmatica:osmium_ingot
 
+#forge:dusts/netherite_scrap
+- bloodmagic:sand_netherite
+
 #forge:raw_fishes
 - #forge:raw_fishes/cod
 - #forge:raw_fishes/salmon
@@ -4005,6 +4071,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:gears/enderium
 - emendatusenigmatica:enderium_gear
+
+#bloodmagic:arc/sieve
+- bloodmagic:airscribetool
 
 #forge:storage_blocks/charged_certus_quartz
 - emendatusenigmatica:charged_certus_quartz_block
@@ -4146,9 +4215,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - farmersdelight:golden_knife
 - farmersdelight:netherite_knife
 
-#psi:ebony_substance
-- psi:ebony_substance
-
 #forge:ores/dimensional
 - emendatusenigmatica:dimensional_ore
 - emendatusenigmatica:dimensional_andesite_ore
@@ -4237,6 +4303,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:glass/green
 - minecraft:green_stained_glass
+
+#bloodmagic:gravels/iron
+- bloodmagic:irongravel
 
 #forge:plates/emerald
 - emendatusenigmatica:emerald_plate
@@ -4393,14 +4462,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:diamond
 - minecraft:gold_ingot
 - minecraft:iron_ingot
-- upgradednetherite:gold_upgraded_netherite_ingot
-- upgradednetherite:fire_upgraded_netherite_ingot
-- upgradednetherite:ender_upgraded_netherite_ingot
-- upgradednetherite:water_upgraded_netherite_ingot
-- upgradednetherite:wither_upgraded_netherite_ingot
-- upgradednetherite:poison_upgraded_netherite_ingot
-- upgradednetherite:phantom_upgraded_netherite_ingot
-- upgradednetherite:feather_upgraded_netherite_ingot
 - emendatusenigmatica:copper_ingot
 - emendatusenigmatica:aluminum_ingot
 - emendatusenigmatica:silver_ingot
@@ -4456,6 +4517,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:plates/electrum
 - immersiveengineering:plate_electrum
 - emendatusenigmatica:electrum_plate
+
+#bloodmagic:tiny_dusts/corrupted
+- bloodmagic:corrupted_tinydust
 
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
@@ -4799,9 +4863,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - autumnity:stripped_maple_wood
 - autumnity:sappy_maple_log
 - autumnity:sappy_maple_wood
-
-#forge:gems/psigem
-- psi:psigem
 
 #forge:gears/bronze
 - emendatusenigmatica:bronze_gear
@@ -5419,9 +5480,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:glass_panes/pink
 - minecraft:pink_stained_glass_pane
 
-#forge:ingots/psimetal
-- psi:psimetal
-
 #forge:dusts/obsidian
 - emendatusenigmatica:obsidian_dust
 
@@ -5503,11 +5561,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:dyes/red
 - minecraft:red_dye
 
+#bloodmagic:fragments/iron
+- bloodmagic:ironfragment
+
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
 
 #forge:plates/signalum
 - emendatusenigmatica:signalum_plate
+
+#forge:ingots/hellforged
+- bloodmagic:ingot_hellforged
+
+#bloodmagic:fragments/netherite_scrap
+- bloodmagic:fragment_netherite_scrap
 
 #forge:raw_fishes/tropical_fish
 - minecraft:tropical_fish
@@ -5747,6 +5814,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - emendatusenigmatica:fluorite_chunk
 
 #forge:dusts/iron
+- bloodmagic:ironsand
 - immersiveengineering:dust_iron
 - emendatusenigmatica:iron_dust
 
@@ -5902,9 +5970,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:ingots/manasteel
 - botania:manasteel_ingot
 
-#forge:storage_blocks/ivory_psimetal
-- psi:ivory_psimetal_block
-
 #forge:sheetmetals/electrum
 - immersiveengineering:sheetmetal_electrum
 
@@ -5918,6 +5983,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:feathers
 - minecraft:feather
+
+#bloodmagic:arc/hydrate
+- bloodmagic:primitive_hydration_cell
 
 #forge:dusts/fluix
 - emendatusenigmatica:fluix_dust
@@ -6029,6 +6097,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:stripped_acacia_wood
 
 #forge:dusts/saltpeter
+- bloodmagic:saltpeter
 - immersiveengineering:dust_saltpeter
 - emendatusenigmatica:potassium_nitrate_dust
 
@@ -6054,16 +6123,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:golden_shovel
 - minecraft:golden_axe
 - minecraft:golden_hoe
-- upgradednetherite:gold_upgraded_netherite_ingot
-- upgradednetherite:gold_upgraded_netherite_helmet
-- upgradednetherite:gold_upgraded_netherite_chestplate
-- upgradednetherite:gold_upgraded_netherite_leggings
-- upgradednetherite:gold_upgraded_netherite_boots
-- upgradednetherite:gold_upgraded_netherite_horse_armor
-- upgradednetherite:gold_upgraded_netherite_sword
-- upgradednetherite:gold_upgraded_netherite_pickaxe
-- upgradednetherite:gold_upgraded_netherite_shovel
-- upgradednetherite:gold_upgraded_netherite_axe
 - farmersdelight:golden_knife
 - botania:alchemy_catalyst
 - botania:cacophonium
@@ -6258,6 +6317,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:dusts/redstone
 - minecraft:redstone
 
+#bloodmagic:arc/resonator
+- bloodmagic:primitive_crystalline_resonator
+- bloodmagic:crystalline_resonator
+
 #forge:storage_blocks/manasteel
 - botania:manasteel_block
 
@@ -6350,9 +6413,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:crops/tomato
 - farmersdelight:tomato
 
-#psi:psidust
-- psi:psidust
-
 #botania:generating_special_flowers
 - botania:dandelifeon
 - botania:endoflame
@@ -6368,9 +6428,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - botania:spectrolus
 - botania:thermalily
 
-#forge:ingots/ivory_psimetal
-- psi:ivory_psimetal
-
 #forge:clay
 - minecraft:clay_ball
 
@@ -6380,6 +6437,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:ingots/dragonsteel_ice
 - iceandfire:dragonsteel_ice_ingot
+
+#forge:dusts/hellforged
+- bloodmagic:sand_hellforged
 
 #forge:ores/silver
 - immersiveengineering:ore_silver
@@ -6491,9 +6551,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:plates/uranium
 - immersiveengineering:plate_uranium
 - emendatusenigmatica:uranium_plate
-
-#forge:ingots/ebony_psimetal
-- psi:ebony_psimetal
 
 #quark:reacharound_able
 - quark:trowel
@@ -6710,6 +6767,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - quark:cobbedstone
 
 #forge:dusts/sulfur
+- bloodmagic:sulfur
 - immersiveengineering:dust_sulfur
 - emendatusenigmatica:sulfur_dust
 
@@ -6740,9 +6798,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:fences
 - #forge:fences/nether_brick
 - #forge:fences/wooden
-
-#forge:storage_blocks/ebony_psimetal
-- psi:ebony_psimetal_block
 
 #forge:plates/copper
 - create:copper_sheet
