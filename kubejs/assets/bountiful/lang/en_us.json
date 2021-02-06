@@ -1,6 +1,24 @@
 {
-  "bountiful.decree.botanist.name": "Botania",
-  "bountiful.decree.colonial.name": "Colonial",
-  "bountiful.decree.engineer.name": "Engineering",
-  "bountiful.decree.prospector.name": "Spelunking"
+  "bountiful.decree.architect.name": "Architect",
+  "bountiful.decree.botanist.name": "Botanist",
+  "bountiful.decree.engineer.name": "Engineer",
+  "bountiful.decree.prospector.name": "Prospector",
+
+  "bountiful.decree.armorer.name": "Armor Smith",
+  "bountiful.decree.butcher.name": "Butcher",
+  "bountiful.decree.chef.name": "Chef",
+  "bountiful.decree.cleric.name": "Cleric",
+  "bountiful.decree.farmer.name": "Farmer",
+  "bountiful.decree.fisherman.name": "Fisherman",
+  "bountiful.decree.fletcher.name": "Fletcher",
+  "bountiful.decree.hunting.name": "Hunter",
+  "bountiful.decree.leatherer.name": "Leatherworker",
+  "bountiful.decree.librarian.name": "Librarian",
+  "bountiful.decree.mapper.name": "Cartograper",
+  "bountiful.decree.mason.name": "Mason",
+  "bountiful.decree.shepherd.name": "Shepherd",
+  "bountiful.decree.tinker.name": "Tinkerer",
+  "bountiful.decree.toolsmith.name": "Tool Smith",
+
+  "bountiful.decree.invalid_decree.name": "Invalid Decree"
 }
