@@ -115,22 +115,7 @@ var itemsToHide = [
     'powah:uraninite_raw_poor',
     'quark:biotite',
     'quark:biotite_ore',
-    'quark:tallow',
-    'thermal:coal_coke',
-    'thermal:coal_coke_block',
-    'thermal:ender_pearl_dust',
-    'thermal:sawdust',
-    'supplementaries:pedestal',
-    'supplementaries:crank',
-    'supplementaries:cog_block',
-    'supplementaries:redstone_illuminator',
-    'supplementaries:turn_table',
-    'supplementaries:jar',
-    'supplementaries:jar_tinted',
-    'supplementaries:firefly_jar',
-    'supplementaries:stone_lamp',
-    'supplementaries:sack',
-    'supplementaries:blackboard'
+    'quark:tallow'
 ];
 
 var regexHide = [
@@ -150,18 +135,6 @@ var regexHide = [
     /emendatusenigmatica:\w+_diorite_ore/,
     /emendatusenigmatica:\w+_sand_ore/,
     /emendatusenigmatica:\w+_gravel_ore/,
-    /titanium:\w+_gear/,
-    /thermal:\w+_dust/,
-    /thermal:\w+_gear/,
-    /thermal:\w+_ingot/,
-    /thermal:\w+_nugget/,
-    /thermal:\w+_ore/,
-    /thermal:\w+_plate/,
-    /tmechworks:\w+_ingot/,
-    /tmechworks:\w+_nugget/,
-    /tmechworks:\w+_ore/,
-    /pedestals:dust/,
-    /mekanism:\w+_ore/,
     /minecraft:\w+_ore/,
     /immersiveengineering:plate_/,
     /immersiveengineering:stick_/,
@@ -170,71 +143,21 @@ var regexHide = [
     /create:\w+_ingot/,
     /create:\w+_ore/,
     /immersiveposts:stick_/,
-    /buildersaddition:\w+_rod/,
-    /eidolon:\w+_ore/,
-    /byg:pendorite/,
-    /byg:ametrine/,
     /emendatusenigmatica:\w+certus/,
-    /emendatusenigmatica:\w+fluix/,
-    /mapperbase:steel/,
-    /rftoolsbase:dimensionalshard/
+    /emendatusenigmatica:\w+fluix/
 ];
 
 const disabledItems = [
-    'aquaculture:wooden_fillet_knife',
-    'aquaculture:stone_fillet_knife',
-    'aquaculture:iron_fillet_knife',
-    'aquaculture:gold_fillet_knife',
-    'aquaculture:diamond_fillet_knife',
-
     'bloodmagic:sand_netherite',
     'bloodmagic:gravel_netherite_scrap',
     'bloodmagic:fragment_netherite_scrap',
 
-    'byg:ametrine_block',
-    'byg:ametrine_boots',
-    'byg:ametrine_chestplate',
-    'byg:ametrine_gems',
-    'byg:ametrine_helmet',
-    'byg:ametrine_horse_armor',
-    'byg:ametrine_leggings',
-    'byg:ametrine_ore',
-    'byg:pendorite_axe',
-    'byg:pendorite_battleaxe',
-    'byg:pendorite_block',
-    'byg:pendorite_hoe',
-    'byg:pendorite_horse_armor',
-    'byg:pendorite_ore',
-    'byg:pendorite_pickaxe',
-    'byg:pendorite_scraps',
-    'byg:pendorite_shovel',
-    'byg:pendorite_sword',
-
-    'mapperbase:steel_fence',
-    'mapperbase:steel_axe',
-    'mapperbase:steel_pickaxe',
-    'mapperbase:steel_shovel',
-    'mapperbase:steel_hoe',
-    'mapperbase:steel_sword',
-    'mapperbase:steel_helmet',
-    'mapperbase:steel_chestplate',
-    'mapperbase:steel_leggings',
-    'mapperbase:steel_boots',
-
-    'mythicbotany:raindeletia',
-    'mythicbotany:raindeletia_floating',
-    'mythicbotany:wither_aconite',
-    'mythicbotany:wither_aconite_floating',
+    'immersiveengineering:coke',
 
     'quark:pipe',
     'quark:potato_crate',
     'quark:beetroot_crate',
-    'quark:carrot_crate',
-
-    'thermal:beetroot_block',
-    'thermal:carrot_block',
-    'thermal:potato_block',
-    'thermal:sugar_cane_block'
+    'quark:carrot_crate'
 ];
 const materialsToUnify = [
     'iron',

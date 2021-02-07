@@ -6,16 +6,18 @@ events.listen('recipes', function (event) {
     event.remove({ input: 'emendatusenigmatica:enigmatic_hammer'});
     event.remove({ output: 'emendatusenigmatica:enigmatic_hammer'});
 
+    event.remove({ output: 'immersiveengineering:ingot_hop_graphite'});
     event.remove({ input: 'immersiveengineering:wirecutter'});
+
+    event.remove({type: 'minecraft:shaped', input: 'twilightforest:fiery_tears'});
+    event.remove({type: 'minecraft:shaped', input: 'twilightforest:fiery_blood'});
 
     event.remove({ mod: 'coins'});
 
     var outputRemovals = [
         'create:crushing/obsidian',
 
-        'craftingstation:crafting_station',
-
-        'akashictome:tome',
+        'create:crushing/obsidian',
 
         'minecraft:sticky_piston'
     ];
@@ -29,8 +31,6 @@ events.listen('recipes', function (event) {
         'create:mechanical_crafting/integrated_circuit',
         'create:pressing/lapis_block',
         'create:fill_minecraft_bucket_with_create_honey',
-
-        'engineersdecor:dependent/slag_brick_block_recipe',
 
         'immersiveengineering:crafting/stick_steel',
         'immersiveengineering:crafting/stick_aluminum',
