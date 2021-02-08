@@ -6,9 +6,8 @@ const beamRecipes = [];
 
 // priority of which mod output should come from, if applicable
 const modPriorities = [
-    'emendatusenigmatica',
-    'minecraft',
     'immersiveengineering',
+    'minecraft',
     'kubejs',
     'create',
     'botania',

@@ -1,7 +1,7 @@
 events.listen('recipes', function (event) {
     buildWoodVariants.forEach((variant) => {
         var modID = variant.logBlock.split(':')[0];
-        var sawDust = 'emendatusenigmatica:wood_dust';
+        var sawDust = 'immersiveengineering:dust_wood';
 
         // mod blacklist
         if (modID == 'minecraft') {

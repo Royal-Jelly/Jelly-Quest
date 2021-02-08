@@ -18,7 +18,7 @@ events.listen('player.logged_in', (event) => {
                             patchouli: {
                                 id: 'patchouli:guide_book',
                                 Count: 1,
-                                tag: { 'patchouli:book': 'patchouli:modded_for_dummies' }
+                                tag: { 'patchouli:book': 'twilightforest:guide' }
                             },
                             cookingforblockheads: {
                                 id: 'cookingforblockheads:crafting_book',

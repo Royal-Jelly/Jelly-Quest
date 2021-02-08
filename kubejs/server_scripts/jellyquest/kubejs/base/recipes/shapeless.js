@@ -11,18 +11,6 @@ events.listen('recipes', (event) => {
         shapelessRecipe('minecraft:chest', ['#forge:chests/wooden']),
         shapelessRecipe('minecraft:wheat_seeds', ['minecraft:wheat']),
         shapelessRecipe('quark:root', ['minecraft:vine', '#forge:dyes/brown']),
-        shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
-            'minecraft:book',
-            '#forge:dyes/yellow'
-        ]),
-        shapelessRecipe('minecraft:crafting_table', ['#forge:workbench']),
-        shapelessRecipe('botania:fertilizer', [
-            '#forge:fertilizer',
-            '#forge:dyes',
-            '#forge:dyes',
-            '#forge:dyes',
-            '#forge:dyes'
-        ]),
         shapelessRecipe(
             Item.of('akashictome:tome').nbt({
                 'akashictome:data': {
@@ -39,11 +27,6 @@ events.listen('recipes', (event) => {
                     alexsmobs: { id: 'alexsmobs:animal_dictionary', Count: 1 },
                     immersiveengineering: { id: 'immersiveengineering:manual', Count: 1 },
                     botania: { id: 'botania:lexicon', Count: 1, tag: {} },
-                    patchouli: {
-                        id: 'patchouli:guide_book',
-                        Count: 1,
-                        tag: { 'patchouli:book': 'patchouli:modded_for_dummies' }
-                    },
                     cookingforblockheads: {
                         id: 'cookingforblockheads:crafting_book',
                         Count: 1

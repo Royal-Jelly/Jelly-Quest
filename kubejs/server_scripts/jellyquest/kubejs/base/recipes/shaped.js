@@ -27,53 +27,6 @@ events.listen('recipes', function (event) {
         shapedRecipe('coins:coin_pile_diamond', ['LLL', 'LLL', 'LLL'], {
             L: 'coins:coin_diamond'
         }),
-        shapedRecipe(item.of('minecraft:stick', 16), ['A', 'A'], {
-            A: '#minecraft:logs'
-        }),
-        shapedRecipe('minecraft:hopper', ['ABA', 'ABA', ' A '], {
-            A: '#forge:ingots/iron',
-            B: '#minecraft:logs'
-        }),
-        shapedRecipe('minecraft:furnace', ['LLL', 'L L', 'LLL'], {
-            L: '#forge:stone'
-        }),
-        shapedRecipe('minecraft:tube_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:tube_coral_fan'
-        }),
-        shapedRecipe('minecraft:brain_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:brain_coral_fan'
-        }),
-        shapedRecipe('minecraft:bubble_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:bubble_coral_fan'
-        }),
-        shapedRecipe('minecraft:fire_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:fire_coral_fan'
-        }),
-        shapedRecipe('minecraft:horn_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:horn_coral_fan'
-        }),
-        shapedRecipe('minecraft:tube_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:tube_coral'
-        }),
-        shapedRecipe('minecraft:brain_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:brain_coral'
-        }),
-        shapedRecipe('minecraft:bubble_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:bubble_coral'
-        }),
-        shapedRecipe('minecraft:fire_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:fire_coral'
-        }),
-        shapedRecipe('minecraft:horn_coral_block', ['AA', 'AA'], {
-            A: 'minecraft:horn_coral'
-        }),
-        shapedRecipe(item.of('minecraft:ladder', 4), ['A A', 'ABA', 'A A'], {
-            A: '#forge:rods/wooden',
-            B: '#minecraft:planks'
-        }),
-        shapedRecipe(item.of('emendatusenigmatica:steel_ingot', 2), ['AA'], {
-            A: 'immersiveengineering:ingot_steel'
-        }),
         shapedRecipe(item.of('quark:white_candle', 2), ['B', 'A', 'A'], {
             A: '#forge:wax',
             B: '#forge:string'

@@ -1,39 +1,12 @@
 events.listen('recipes', function (event) {
-    event.replaceInput({}, 'mapperbase:raw_bitumen', '#forge:gems/bitumen');
-    event.replaceInput({}, '#forge:fillet_knife', '#forge:tools/knife');
-    event.replaceInput({}, '#farmersdelight:tools/knife', '#forge:tools/knife');
-    event.replaceInput({}, 'immersivepetroleum:bitumen', '#forge:gems/bitumen');
-    event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
-    event.replaceInput({}, 'farmersdelight:fried_egg', '#forge:cooked_eggs');
-    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'powah:uraninite', '#forge:ingots/radioactive');
     event.replaceInput({ id: 'tetra:hammer/stone' }, 'minecraft:cobblestone', '#quark:stone_tool_materials');
 
-
-    event.replaceInput(
-        { type: 'minecraft:crafting_shaped', output: 'minecraft:piston' },
-        '#forge:cobblestone',
-        '#quark:stone_tool_materials'
-    );
-
     event.replaceInput({}, 'quark:tallow', '#forge:tallow');
-
-
-    event.replaceInput(
-        { id: 'dustrial_decor:iron_bar_trapdoor' },
-        'minecraft:iron_bars',
-        'dustrial_decor:barbed_iron_bars'
-    );
 
     event.replaceInput(
         { id: 'bloodmagic:alchemytable/basic_cutting_fluid' },
         'minecraft:potion',
         item.of('minecraft:potion', { Potion: 'minecraft:water' })
-    );
-
-    event.replaceInput(
-        { id: 'create:mixing/chromatic_compound' },
-        'create:powdered_obsidian',
-        ingredient.of('#forge:dusts/obsidian')
     );
 
     colors.forEach((color) => {
@@ -109,7 +82,7 @@ events.listen('recipes', function (event) {
             {
                 type: 'ingots',
                 replace: 'gold',
-                replaceWith: 'bronze',
+                replaceWith: 'brass',
                 items: [
                     'bloodmagic:alchemytable',
                     'bloodmagic:altar',
@@ -118,41 +91,6 @@ events.listen('recipes', function (event) {
                     'bloodmagic:soulforge',
                     'minecraft:clock'
                 ]
-            },
-            {
-                type: 'ingots',
-                replace: 'gold',
-                replaceWith: 'copper',
-                items: [
-                    'mekanismgenerators:electromagnetic_coil',
-                    'mekanism:energy_tablet',
-                    'mininggadgets:upgrade_magnet',
-                    'xnet:controller',
-                    'thermal:rf_coil_xfer_augment',
-                    'thermal:rf_coil_storage_augment',
-                    'thermal:rf_coil_augment',
-                    'thermal:rf_coil',
-                    'rftoolsstorage:storage_scanner',
-                    'rftoolsbuilder:shield_block1',
-                    'pneumaticcraft:vortex_tube',
-                    'pneumaticcraft:heat_sink',
-                    'modularrouters:speed_upgrade',
-                    'xnet:connector_blue',
-                    'xnet:connector_red',
-                    'xnet:connector_green'
-                ]
-            },
-            {
-                type: 'ingots',
-                replace: 'gold',
-                replaceWith: 'silver',
-                items: ['torchmaster:feral_flare_lantern', 'mekanism:teleportation_core', 'botania:mana_spreader']
-            },
-            {
-                type: 'ingots',
-                replace: 'gold',
-                replaceWith: 'tin',
-                items: ['pneumaticcraft:memory_stick']
             },
             {
                 type: 'ingots',
@@ -169,11 +107,8 @@ events.listen('recipes', function (event) {
                     'immersiveengineering:furnace_heater',
                     'immersiveengineering:toolupgrade_drill_lube',
                     'cookingforblockheads:preservation_chamber',
-                    'buildersaddition:arcade',
                     'minecraft:compass',
-                    'minecraft:piston',
-                    'engineersdecor:metal_bar'
-                ]
+                    'minecraft:piston'                ]
             },
             {
                 type: 'ingots',
@@ -202,8 +137,7 @@ events.listen('recipes', function (event) {
         recipe.items.forEach((item) => {
             event.replaceInput(
                 { output: item },
-                '#forge:' + recipe.type + '/' + recipe.replace,
-                '#forge:' + recipe.type + '/' + recipe.replace + '_' + recipe.replaceWith
+                '#forge:' + recipe.type + '/' + recipe.replaceWith
             );
         });
     });

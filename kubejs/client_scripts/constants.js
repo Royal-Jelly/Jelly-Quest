@@ -1,76 +1,3 @@
-//priority: 1000
-
-const refinedStorageItems = [
-    'grid',
-    'crafting_grid',
-    'pattern_grid',
-    'fluid_grid',
-    'controller',
-    'creative_controller',
-    'network_receiver',
-    'network_transmitter',
-    'relay',
-    'detector',
-    'security_manager',
-    'wireless_transmitter',
-    'crafter',
-    'crafting_monitor',
-    'disk_manipulator',
-    'crafter_manager'
-];
-// Items added here will get recipes for Pedestals & Cobblegen Randomizer cobblegens.
-const generatableCobblestone = [
-    'create:andesite_cobblestone',
-    'create:diorite_cobblestone',
-    'create:granite_cobblestone',
-    'quark:cobbedstone',
-    'create:dark_scoria_cobblestone',
-    'create:scoria_cobblestone',
-    'create:gabbro_cobblestone',
-    'create:dolomite_cobblestone',
-    'create:weathered_limestone_cobblestone',
-    'create:limestone_cobblestone'
-];
-// Items added here will get recipes for Pedestals & Cobblegen Randomizer stonegens.
-const generatableStone = [
-    'minecraft:andesite',
-    'minecraft:diorite',
-    'minecraft:granite',
-    'biomesoplenty:black_sandstone',
-    'biomesoplenty:orange_sandstone',
-    'biomesoplenty:white_sandstone',
-    'byg:black_sandstone',
-    'byg:blue_sandstone',
-    'byg:dacite',
-    'byg:purple_sandstone',
-    'byg:pink_sandstone',
-    'byg:scoria_stone',
-    'byg:white_sandstone',
-    'embellishcraft:basalt',
-    'embellishcraft:gneiss',
-    'embellishcraft:jade',
-    'embellishcraft:larvikite',
-    'embellishcraft:marble',
-    'embellishcraft:slate',
-    'minecraft:red_sandstone',
-    'minecraft:sandstone',
-    'quark:basalt',
-    'quark:brimstone',
-    'quark:jasper',
-    'quark:limestone',
-    'quark:marble',
-    'quark:permafrost',
-    'quark:slate',
-    'astralsorcery:marble_raw',
-    'create:dark_scoria',
-    'create:scoria',
-    'create:gabbro',
-    'create:dolomite',
-    'create:weathered_limestone',
-    'create:limestone'
-];
-const generatableBasalt = [];
-
 const colors = [
     'cyan',
     'purple',
@@ -91,126 +18,24 @@ const colors = [
 ];
 
 var itemsToHide = [
-    'ars_nouveau:arcane_brick',
-    'ars_nouveau:arcane_ore',
-    'bloodmagic:coalsand',
-    'bloodmagic:saltpeter',
-    'bloodmagic:sulfur',
-    'create:powdered_obsidian',
-    'create:honey_bucket',
-    'eidolon:tallow',
-    'immersiveengineering:dust_saltpeter',
-    'immersiveengineering:dust_wood',
-    'mapperbase:bitumen_ore',
-    'mapperbase:iron_plate',
-    'mapperbase:iron_rod',
-    'mapperbase:raw_bitumen',
-    'morevanillalib:obsidian_shard',
-    'pedestals:dustflour',
-    'powah:uraninite_ore',
-    'powah:uraninite_ore_dense',
-    'powah:uraninite_ore_poor',
-    'powah:uraninite_raw',
-    'powah:uraninite_raw_dense',
-    'powah:uraninite_raw_poor',
-    'quark:biotite',
-    'quark:biotite_ore',
-    'quark:tallow'
-];
-
-var regexHide = [
-    /emendatusenigmatica:\w+_andesite_ore/,
-    /emendatusenigmatica:\w+_gabbro_ore/,
-    /emendatusenigmatica:\w+_c_limestone_ore/,
-    /emendatusenigmatica:\w+_scoria_ore/,
-    /emendatusenigmatica:\w+_weathered_limestone_ore/,
-    /emendatusenigmatica:\w+_jasper_ore/,
-    /emendatusenigmatica:\w+_marble_ore/,
-    /emendatusenigmatica:\w+_slate_ore/,
-    /emendatusenigmatica:\w+_netherrack_ore/,
-    /emendatusenigmatica:\w+_blackstone_ore/,
-    /emendatusenigmatica:\w+_end_stone_ore/,
-    /emendatusenigmatica:\w+_mossy_stone_ore/,
-    /emendatusenigmatica:\w+_granite_ore/,
-    /emendatusenigmatica:\w+_diorite_ore/,
-    /emendatusenigmatica:\w+_sand_ore/,
-    /emendatusenigmatica:\w+_gravel_ore/,
-    /minecraft:\w+_ore/,
-    /immersiveengineering:plate_/,
-    /immersiveengineering:stick_/,
-    /create:\w+_sheet/,
-    /create:\w+_nugget/,
-    /create:\w+_ingot/,
-    /create:\w+_ore/,
-    /immersiveposts:stick_/,
-    /emendatusenigmatica:\w+certus/,
-    /emendatusenigmatica:\w+fluix/
 ];
 
 const disabledItems = [
+    'minecraft:stonecutter'
+
+    'bloodmagic:coalsand',
+    'bloodmagic:ironsand'
+    'bloodmagic:goldsand'
     'bloodmagic:sand_netherite',
+    'bloodmagic:sand_hellforged',
+
+    'bloodmagic:gravel_iron_scrap',
+    'bloodmagic:gravel_gold_scrap',
     'bloodmagic:gravel_netherite_scrap',
+
+    'bloodmagic:fragment_iron_scrap',
+    'bloodmagic:fragment_gold_scrap',
     'bloodmagic:fragment_netherite_scrap',
 
-    'immersiveengineering:coke',
-
-    'quark:pipe',
-    'quark:potato_crate',
-    'quark:beetroot_crate',
-    'quark:carrot_crate'
-];
-const materialsToUnify = [
-    'iron',
-    'gold',
-    'copper',
-    'silver',
-    'zinc',
-    'brass',
-    'lead',
-    'tin',
-    'compressed_iron',
-    'nickel',
-    'aluminum',
-    'uranium',
-    'bronze',
-    'electrum',
-    'constantan',
-    'steel',
-    'osmium',
-    'diamond',
-    'lapis',
-    'emerald',
-    'quartz',
-    'coal',
-    'charcoal',
-    'obsidian',
-    'ender',
-    'fluix',
-    'saltpeter',
-    'fluorite',
-    'invar',
-    'signalum',
-    'lumium',
-    'enderium',
-    'sulfur',
-    'cinnabar',
-    'niter',
-    'potassium_nitrate',
-    'saltpeter',
-    'apatite',
-    'bitumen',
-    'redstone',
-    'glowstone',
-    'arcane',
-    'mana',
-    'certus_quartz',
-    'charged_certus_quartz',
-    'iesnium',
-    'dimensional',
-    'cloggrum',
-    'froststeel',
-    'regalium',
-    'utherium',
-    'coal_coke',
-    'starmetal'
+    '#quark:candles'
 ];

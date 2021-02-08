@@ -4,7 +4,7 @@ events.listen('recipes', (event) => {
             {
                 input1: '#forge:ingots/copper',
                 input2: '#forge:ingots/zinc',
-                output: item.of('emendatusenigmatica:brass_ingot', 2)
+                output: item.of('create:brass_ingot', 2)
 
             }
         ]
