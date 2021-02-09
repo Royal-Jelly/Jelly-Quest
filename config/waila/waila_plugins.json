@@ -12,6 +12,7 @@
   },
   "jade": {
     "horse_inventory": true,
+    "show_entity_armor": true,
     "total_ench_power": true,
     "chicken_egg": true,
     "horse_stat": true,
@@ -25,6 +26,7 @@
     "hide_mod_name": false,
     "armor_stand": true,
     "profession": true,
+    "item_tooltip": true,
     "hide_item_mod_name": false,
     "breaking_progress": true,
     "tnt_stability": true,

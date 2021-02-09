@@ -1,11 +1,11 @@
 //priority: 1001
 
 const disabledItems = [
-  'minecraft:stonecutter'
+  'minecraft:stonecutter',
 
   'bloodmagic:coalsand',
-  'bloodmagic:ironsand'
-  'bloodmagic:goldsand'
+  'bloodmagic:ironsand',
+  'bloodmagic:goldsand',
   'bloodmagic:sand_netherite',
   'bloodmagic:sand_hellforged',
 
@@ -15,9 +15,7 @@ const disabledItems = [
 
   'bloodmagic:fragment_iron_scrap',
   'bloodmagic:fragment_gold_scrap',
-  'bloodmagic:fragment_netherite_scrap',
-
-  '#quark:candles'
+  'bloodmagic:fragment_netherite_scrap'
 ];
 
 global.disabledItems = disabledItems;

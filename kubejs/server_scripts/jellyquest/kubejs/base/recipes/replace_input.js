@@ -1,4 +1,7 @@
 events.listen('recipes', function (event) {
+    //event.replaceInput({mod: 'create'}, '#minecraft:planks', '#forge:treated_wood')
+    //event.replaceInput({mod: 'create'}, '#minecraft:buttons', '#forge:treated_wood_slab')
+
     event.replaceInput({ id: 'tetra:hammer/stone' }, 'minecraft:cobblestone', '#quark:stone_tool_materials');
 
     event.replaceInput({}, 'quark:tallow', '#forge:tallow');

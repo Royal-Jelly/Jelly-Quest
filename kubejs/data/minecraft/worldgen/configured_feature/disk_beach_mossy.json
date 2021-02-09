@@ -1,0 +1,39 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "state": {
+          "Name": "minecraft:mossy_cobblestone"
+        },
+        "radius": {
+          "base": 2,
+          "spread": 3
+        },
+        "half_height": 2,
+        "targets": [
+			  {
+				"Name": "minecraft:andesite"
+			  },
+			  {
+				"Name": "minecraft:cobblestone"
+			  }
+        ]
+      },
+      "type": "minecraft:disk"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:square"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:top_solid_heightmap"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

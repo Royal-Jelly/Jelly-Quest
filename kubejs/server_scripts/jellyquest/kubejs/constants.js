@@ -2,8 +2,6 @@
 
 const air = 'minecraft:air';
 
-const beamRecipes = [];
-
 // priority of which mod output should come from, if applicable
 const modPriorities = [
     'immersiveengineering',
