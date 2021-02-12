@@ -18,7 +18,7 @@ events.listen('player.logged_in', (event) => {
                             patchouli: {
                                 id: 'patchouli:guide_book',
                                 Count: 1,
-                                tag: { 'patchouli:book': 'twilightforest:guide' }
+                                tag: { 'patchouli:book': 'resourcefulbees:fifty_shades_of_bees' }
                             },
                             cookingforblockheads: {
                                 id: 'cookingforblockheads:crafting_book',

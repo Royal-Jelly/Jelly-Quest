@@ -15,12 +15,9 @@ events.listen('recipes', (event) => {
             {
                 inputs: [
                     '#forge:dusts/coal_coke',
-                    '#forge:ingots/iron',
-                    '#forge:ingots/iron',
-                    '#forge:ingots/iron',
                     '#forge:ingots/iron'
                 ],
-                output: Item.of('immersiveengineering:ingot_steel', 4)
+                output: Item.of('immersiveengineering:ingot_steel', 1)
             }
         ]
     };

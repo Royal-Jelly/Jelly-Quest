@@ -7,7 +7,7 @@ Each of these JSON files contains the 'variants' property, which is a list of al
 Each dimensional rift in rifts.json is an object with the following properties:
  - blockSelector: A BlockSetSelector describing the blocks this rift is made of.
        See the bottom of this README for documentation on BlockSetSelectors.
- - fluidColor: The color of ANY DIMENSIONAL PLASMA IN THIS DIMENSION.
+ - fluidColor: The color of ANY DIMENSIONAL PLASMA IN THIS DIMENSION. Keep in mind this hue is added to the base purple hue
    - red: Any hex string from 00 to FF.
    - green: Any hex string from 00 to FF.
    - blue: Any hex string from 00 to FF.
