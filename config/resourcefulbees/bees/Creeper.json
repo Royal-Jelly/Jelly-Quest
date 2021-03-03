@@ -1,0 +1,46 @@
+{
+  "flower": "tag:minecraft:bee_growables",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "/creeper/creeper_bee",
+  "traits" : ["creeper"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#0C9F0A",
+    "isGlowing": true,
+    "glowColor": "#E2D3D3",
+    "glowingPulse": 2,
+    "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "tag:minecraft:stone",
+    "mutationOutput": "minecraft:coal_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+
+    "mainOutput": "minecraft:gunpowder",
+    "mainOutputWeight": 0.30,
+    "mainOutputCount": 1,
+
+    "secondaryOutput": "minecraft:gunpowder",
+    "secondaryOutputWeight": 0.70,
+    "secondaryOutputCount": 2,
+
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {},
+  "TraitData": {
+    "hasTraits": true
+  }
+}

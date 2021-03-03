@@ -12,7 +12,6 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_helmet',
         'minecraft:leather_helmet',
         'minecraft:netherite_helmet',
-        'bloodmagic:livinghelmet',
         'alexsmobs:sombrero',
         'alexsmobs:frontier_cap',
         'alexsmobs:moose_headgear'

@@ -12,7 +12,6 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_boots',
         'minecraft:leather_boots',
         'minecraft:netherite_boots',
-        'bloodmagic:livingboots',
         'alexsmobs:roadrunner_boots'
     ];
     event.get('forge:armor').add(items);

@@ -1,7 +1,10 @@
-To refresh this file, delete it and run /reload command again! Last updated: Feb 7, 2021 11:55:42 PM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 20, 2021 7:10:44 PM
 
 #forge:glass_panes/magenta
 - minecraft:magenta_stained_glass_pane
+
+#forge:wax
+- resourcefulbees:wax
 
 #forge:nuggets
 - create:copper_nugget
@@ -46,10 +49,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dyes/gray
 - minecraft:gray_dye
-
-#bloodmagic:arc/explosive
-- bloodmagic:explosivepowder
-- bloodmagic:primitive_explosive_cell
 
 #quark:planks_vertical_slab
 - quark:black_stained_planks_vertical_slab
@@ -162,10 +161,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #upgrade_aquatic:dead_tube_fans_corals
 - minecraft:dead_tube_coral
 - minecraft:dead_tube_coral_fan
-
-#forge:feather
-- minecraft:feather
-- twilightforest:raven_feather
 
 #fairylights:dyeable
 - #fairylights:dyeable_lights
@@ -288,9 +283,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:glass/red
 - minecraft:red_stained_glass
 
-#twilightforest:knightmetal_ingots
-- twilightforest:knightmetal_ingot
-
 #forge:sheetmetals/steel
 - immersiveengineering:sheetmetal_steel
 
@@ -299,26 +291,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dusts/uranium
 - immersiveengineering:dust_uranium
-
-#minecraft:mushroom_hyphae
-- minecraft:brown_mushroom_block
-- minecraft:red_mushroom_block
-- minecraft:crimson_hyphae
-- minecraft:warped_hyphae
-- minecraft:stripped_crimson_hyphae
-- minecraft:stripped_warped_hyphae
-- minecraft:nether_wart_block
-- minecraft:warped_wart_block
-- minecraft:shroomlight
-- minecraft:brown_mushroom_block
-- minecraft:red_mushroom_block
-- minecraft:crimson_hyphae
-- minecraft:warped_hyphae
-- minecraft:stripped_crimson_hyphae
-- minecraft:stripped_warped_hyphae
-- minecraft:nether_wart_block
-- minecraft:warped_wart_block
-- minecraft:shroomlight
 
 #forge:glass_panes/green
 - minecraft:green_stained_glass_pane
@@ -419,6 +391,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - atmospheric:chiseled_red_arid_sandstone
 - atmospheric:smooth_red_arid_sandstone
 
+#resourcefulbees:resourceful_honeycomb
+- minecraft:honeycomb
+- resourcefulbees:catnip_honeycomb
+
 #forge:storage_blocks/copper
 - create:copper_block
 - iceandfire:copper_block
@@ -448,9 +424,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:bread/wheat
 - minecraft:bread
 
-#forge:dusts/netherite_scrap
-- bloodmagic:sand_netherite
-
 #forge:raw_fishes
 - #forge:raw_fishes/cod
 - #forge:raw_fishes/salmon
@@ -461,13 +434,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:turtle_egg
 - minecraft:sugar
 - #forge:seeds
-
-#bloodmagic:crystals/demon
-- bloodmagic:defaultcrystal
-- bloodmagic:corrosivecrystal
-- bloodmagic:destructivecrystal
-- bloodmagic:vengefulcrystal
-- bloodmagic:steadfastcrystal
 
 #forge:scales/sea_serpent
 - iceandfire:sea_serpent_scales_blue
@@ -480,10 +446,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:ingots/dragonsteel_fire
 - iceandfire:dragonsteel_fire_ingot
-
-#twilightforest:canopy_logs
-- twilightforest:canopy_log
-- twilightforest:canopy_wood
 
 #forge:plates/constantan
 - immersiveengineering:plate_constantan
@@ -517,9 +479,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - quark:white_rune
 - quark:yellow_rune
 - quark:rainbow_rune
-
-#bloodmagic:arc/sieve
-- bloodmagic:airscribetool
 
 #forge:scales/lightning_dragon
 - iceandfire:dragonscales_electric
@@ -619,8 +578,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #botania:runes/gluttony
 - botania:rune_gluttony
 
-#twilightforest:gems/carminite
-- twilightforest:carminite
+#forge:storage_blocks/wax
+- resourcefulbees:wax_block
 
 #forge:ores/tin
 
@@ -701,12 +660,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:fabric_hemp
 - immersiveengineering:hemp_fabric
-
-#twilightforest:towerwood
-- twilightforest:tower_wood
-- twilightforest:tower_wood_mossy
-- twilightforest:tower_wood_cracked
-- twilightforest:tower_wood_infested
 
 #forge:dusts/wood
 - immersiveengineering:dust_wood
@@ -1009,13 +962,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:dusts/mana
 - botania:mana_powder
 
-#chiselsandbits:bit_bag
-- chiselsandbits:bit_bag
-- chiselsandbits:bit_bag_dyed
-
-#twilightforest:steeleaf_blocks
-- twilightforest:steeleaf_block
-
 #forge:glass/green
 - minecraft:green_stained_glass
 
@@ -1025,18 +971,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:bones/wither
 - iceandfire:witherbone
 
-#bloodmagic:gravels/iron
-- bloodmagic:irongravel
-
 #minecraft:music_discs
 - #minecraft:creeper_drop_music_discs
 - minecraft:music_disc_pigstep
 - endergetic:music_disc_kilobyte
 - botania:record_gaia_1
 - botania:record_gaia_2
-
-#twilightforest:storage_blocks/fiery
-- twilightforest:fiery_block
 
 #atmospheric:aspen_logs
 - atmospheric:aspen_log
@@ -1047,9 +987,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - atmospheric:crustose_wood
 - atmospheric:watchful_aspen_log
 - atmospheric:watchful_aspen_wood
-
-#twilightforest:fiery_blocks
-- twilightforest:fiery_block
 
 #forge:gems
 - #forge:gems/diamond
@@ -1088,9 +1025,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:storage_blocks/terrasteel
 - botania:terrasteel_block
 
-#twilightforest:ingots/steeleaf
-- twilightforest:steeleaf_ingot
-
 #forge:ingots/aluminum
 - immersiveengineering:ingot_aluminum
 
@@ -1114,14 +1048,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:dark_oak_fence
 - minecraft:crimson_fence
 - minecraft:warped_fence
-- twilightforest:twilight_oak_fence
-- twilightforest:canopy_fence
-- twilightforest:mangrove_fence
-- twilightforest:dark_fence
-- twilightforest:time_fence
-- twilightforest:trans_fence
-- twilightforest:mine_fence
-- twilightforest:sort_fence
 - upgrade_aquatic:driftwood_fence
 - upgrade_aquatic:river_fence
 - endergetic:poise_fence
@@ -1149,6 +1075,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - #forge:storage_blocks/quartz
 - #forge:storage_blocks/redstone
 - #forge:storage_blocks/netherite
+- #forge:storage_blocks/wax
 - immersiveengineering:storage_copper
 - immersiveengineering:storage_aluminum
 - immersiveengineering:storage_lead
@@ -1238,15 +1165,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_trapdoor
 - enhanced_mushrooms:brown_mushroom_trapdoor
 - enhanced_mushrooms:glowshroom_trapdoor
-- traverse:fir_trapdoor
-- twilightforest:twilight_oak_trapdoor
-- twilightforest:canopy_trapdoor
-- twilightforest:mangrove_trapdoor
-- twilightforest:dark_trapdoor
-- twilightforest:time_trapdoor
-- twilightforest:trans_trapdoor
-- twilightforest:mine_trapdoor
-- twilightforest:sort_trapdoor
 - upgrade_aquatic:driftwood_trapdoor
 - upgrade_aquatic:river_trapdoor
 - endergetic:poise_trapdoor
@@ -1298,9 +1216,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - createaddition:copper_wire
 - createaddition:iron_wire
 - createaddition:gold_wire
-
-#twilightforest:storage_blocks/knightmetal
-- twilightforest:knightmetal_block
 
 #forge:ingots/brass
 - create:brass_ingot
@@ -1356,9 +1271,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - botania:floating_tigerseye
 - botania:floating_vinculotus
 
-#bloodmagic:tiny_dusts/corrupted
-- bloodmagic:corrupted_tinydust
-
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
 
@@ -1402,6 +1314,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:blackstone_stairs
 - minecraft:polished_blackstone_brick_stairs
 - minecraft:polished_blackstone_stairs
+- linkingbooks:bookshelf_stairs
 - architects_palette:limestone_stairs
 - architects_palette:limestone_brick_stairs
 - architects_palette:mushy_limestone_brick_stairs
@@ -1471,18 +1384,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - create:fancy_dark_scoria_bricks_stairs
 - create:paved_dark_scoria_stairs
 - snowrealmagic:stairs
-- twilightforest:castle_stairs_brick
-- twilightforest:castle_stairs_worn
-- twilightforest:castle_stairs_cracked
-- twilightforest:castle_stairs_mossy
-- twilightforest:castle_stairs_encased
-- twilightforest:castle_stairs_bold
-- twilightforest:nagastone_stairs_left
-- twilightforest:nagastone_stairs_right
-- twilightforest:nagastone_stairs_mossy_left
-- twilightforest:nagastone_stairs_mossy_right
-- twilightforest:nagastone_stairs_weathered_left
-- twilightforest:nagastone_stairs_weathered_right
 - upgrade_aquatic:kelpy_cobblestone_stairs
 - upgrade_aquatic:polar_kelpy_cobblestone_stairs
 - upgrade_aquatic:thorny_kelpy_cobblestone_stairs
@@ -1670,11 +1571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
 - #minecraft:warped_stems
-- traverse:fir_log
-- traverse:fir_wood
-- traverse:stripped_fir_log
-- traverse:stripped_fir_wood
-- #twilightforest:logs
 
 #forge:cooked_bacon
 - farmersdelight:cooked_bacon
@@ -1684,9 +1580,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:cut_red_sandstone
 - minecraft:chiseled_red_sandstone
 - minecraft:smooth_red_sandstone
-
-#twilightforest:ingots/fiery
-- twilightforest:fiery_ingot
 
 #upgrade_aquatic:dead_fire_fans_corals
 - minecraft:dead_fire_coral
@@ -1737,15 +1630,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_door
 - enhanced_mushrooms:brown_mushroom_door
 - enhanced_mushrooms:glowshroom_door
-- traverse:fir_door
-- twilightforest:twilight_oak_door
-- twilightforest:canopy_door
-- twilightforest:mangrove_door
-- twilightforest:dark_door
-- twilightforest:time_door
-- twilightforest:trans_door
-- twilightforest:mine_door
-- twilightforest:sort_door
 - upgrade_aquatic:driftwood_door
 - upgrade_aquatic:river_door
 - endergetic:poise_door
@@ -1789,12 +1673,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:glass/purple
 - minecraft:purple_stained_glass
 
-#twilightforest:carminite_blocks
-- twilightforest:carminite_block
-
-#twilightforest:storage_blocks/steeleaf
-- twilightforest:steeleaf_block
-
 #forge:tools/shovels
 - minecraft:wooden_shovel
 - minecraft:stone_shovel
@@ -1823,9 +1701,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #upgrade_aquatic:brain_fans_corals
 - minecraft:brain_coral
 - minecraft:brain_coral_fan
-
-#twilightforest:arctic_fur_blocks
-- twilightforest:arctic_fur_block
 
 #upgrade_aquatic:dead_rock_fans_corals
 - upgrade_aquatic:dead_rock_coral
@@ -1956,9 +1831,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:cobblestone
 - minecraft:blackstone
 
-#bloodmagic:gravels/gold
-- bloodmagic:goldgravel
-
 #forge:dyes/cyan
 - minecraft:cyan_dye
 
@@ -2007,10 +1879,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:ingots/iron
 - minecraft:iron_ingot
 
-#twilightforest:fiery_vial
-- twilightforest:fiery_blood
-- twilightforest:fiery_tears
-
 #forge:rods/uranium
 - immersiveposts:stick_uranium
 
@@ -2046,13 +1914,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - botania:water_ring
 - curios:ring
 
-#twilightforest:darkwood_logs
-- twilightforest:dark_log
-- twilightforest:dark_wood
-
-#twilightforest:fiery_ingots
-- twilightforest:fiery_ingot
-
 #minecraft:anvil
 - minecraft:anvil
 - minecraft:chipped_anvil
@@ -2064,12 +1925,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:sheetmetals/lead
 - immersiveengineering:sheetmetal_lead
-
-#traverse:fir_logs
-- traverse:fir_log
-- traverse:fir_wood
-- traverse:stripped_fir_log
-- traverse:stripped_fir_wood
 
 #forge:rods/prismarine
 - upgrade_aquatic:prismarine_rod
@@ -2114,14 +1969,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:ores/gold
 - #minecraft:gold_ores
-
-#minecraft:mushroom_stem
-- minecraft:mushroom_stem
-- minecraft:crimson_stem
-- minecraft:warped_stem
-- minecraft:mushroom_stem
-- minecraft:crimson_stem
-- minecraft:warped_stem
 
 #botania:mystical_flowers
 - botania:black_mystical_flower
@@ -2209,9 +2056,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:grain/wheat
 - minecraft:wheat
 
-#forge:dusts/coal
-- bloodmagic:coalsand
-
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
 
@@ -2284,16 +2128,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:ores/iron
 - minecraft:iron_ore
 
-#twilightforest:logs
-- #twilightforest:twilight_oak_logs
-- #twilightforest:canopy_logs
-- #twilightforest:mangrove_logs
-- #twilightforest:darkwood_logs
-- #twilightforest:timewood_logs
-- #twilightforest:transwood_logs
-- #twilightforest:mining_logs
-- #twilightforest:sortwood_logs
-
 #forge:storage_blocks/biotite
 - quark:biotite_block
 
@@ -2344,19 +2178,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:dark_oak_stairs
 - minecraft:crimson_stairs
 - minecraft:warped_stairs
+- linkingbooks:bookshelf_stairs
 - architects_palette:twisted_stairs
 - enhanced_mushrooms:red_mushroom_stairs
 - enhanced_mushrooms:brown_mushroom_stairs
 - enhanced_mushrooms:glowshroom_stairs
-- traverse:fir_stairs
-- twilightforest:twilight_oak_stairs
-- twilightforest:canopy_stairs
-- twilightforest:mangrove_stairs
-- twilightforest:dark_stairs
-- twilightforest:time_stairs
-- twilightforest:trans_stairs
-- twilightforest:mine_stairs
-- twilightforest:sort_stairs
 - upgrade_aquatic:driftwood_stairs
 - upgrade_aquatic:river_stairs
 - endergetic:poise_stairs
@@ -2401,15 +2227,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_button
 - enhanced_mushrooms:brown_mushroom_button
 - enhanced_mushrooms:glowshroom_button
-- traverse:fir_button
-- twilightforest:twilight_oak_button
-- twilightforest:canopy_button
-- twilightforest:mangrove_button
-- twilightforest:dark_button
-- twilightforest:time_button
-- twilightforest:trans_button
-- twilightforest:mine_button
-- twilightforest:sort_button
 - upgrade_aquatic:driftwood_button
 - upgrade_aquatic:river_button
 - endergetic:poise_button
@@ -2457,9 +2274,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:cracked_stone_bricks
 - minecraft:chiseled_stone_bricks
 
-#twilightforest:ironwood_ores
-- twilightforest:ironwood_raw
-
 #forge:storage_blocks/quartz
 - minecraft:quartz_block
 - botania:dark_quartz
@@ -2490,10 +2304,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:plates/gold
 - create:golden_sheet
 - immersiveengineering:plate_gold
-
-#forge:paper
-- minecraft:paper
-- minecraft:paper
 
 #forge:crops/onion
 - farmersdelight:onion
@@ -2604,7 +2414,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - create:fancy_dark_scoria_bricks_slab
 - create:paved_dark_scoria_slab
 - snowrealmagic:slab
-- twilightforest:aurora_slab
 - upgrade_aquatic:kelpy_cobblestone_slab
 - upgrade_aquatic:polar_kelpy_cobblestone_slab
 - upgrade_aquatic:thorny_kelpy_cobblestone_slab
@@ -2788,9 +2597,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - quark:yellow_shingles_slab
 - quark:yellow_stained_planks_slab
 
-#twilightforest:knightmetal_ores
-- twilightforest:armor_shard_cluster
-
 #coins:coin_pile
 - coins:coin_pile_copper
 - coins:coin_pile_iron
@@ -2810,9 +2616,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dyes/lime
 - minecraft:lime_dye
-
-#twilightforest:ingots/ironwood
-- twilightforest:ironwood_ingot
 
 #forge:dusts/diamond
 - createaddition:diamond_grit
@@ -2893,9 +2696,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - iceandfire:silver_nugget
 - immersiveengineering:nugget_silver
 
-#twilightforest:knightmetal_blocks
-- twilightforest:knightmetal_block
-
 #upgrade_aquatic:driftwood_logs
 - upgrade_aquatic:driftwood_log
 - upgrade_aquatic:driftwood
@@ -2945,15 +2745,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_pressure_plate
 - enhanced_mushrooms:brown_mushroom_pressure_plate
 - enhanced_mushrooms:glowshroom_pressure_plate
-- traverse:fir_pressure_plate
-- twilightforest:twilight_oak_plate
-- twilightforest:canopy_plate
-- twilightforest:mangrove_plate
-- twilightforest:dark_plate
-- twilightforest:time_plate
-- twilightforest:trans_plate
-- twilightforest:mine_plate
-- twilightforest:sort_plate
 - upgrade_aquatic:driftwood_pressure_plate
 - upgrade_aquatic:river_pressure_plate
 - endergetic:poise_pressure_plate
@@ -3123,27 +2914,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:dyes/red
 - minecraft:red_dye
 
-#twilightforest:twilight_oak_logs
-- twilightforest:twilight_oak_log
-- twilightforest:twilight_oak_wood
-
 #forge:gravel
 - minecraft:gravel
-
-#bloodmagic:fragments/iron
-- bloodmagic:ironfragment
 
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
 
 #forge:dyes/black
 - minecraft:black_dye
-
-#forge:ingots/hellforged
-- bloodmagic:ingot_hellforged
-
-#bloodmagic:fragments/netherite_scrap
-- bloodmagic:fragment_netherite_scrap
 
 #upgrade_aquatic:dead_horn_fans_corals
 - minecraft:dead_horn_coral
@@ -3194,9 +2972,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:vegetables/beetroot
 - minecraft:beetroot
 
-#twilightforest:ores/knightmetal
-- twilightforest:armor_shard_cluster
-
 #forge:glass_panes/light_blue
 - minecraft:light_blue_stained_glass_pane
 
@@ -3207,10 +2982,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_beehive
 - enhanced_mushrooms:brown_mushroom_beehive
 - enhanced_mushrooms:glowshroom_beehive
-
-#twilightforest:timewood_logs
-- twilightforest:time_log
-- twilightforest:time_wood
+- minecraft:beehive
+- minecraft:bee_nest
+- resourcefulbees:t1_beehive
+- resourcefulbees:t2_beehive
+- resourcefulbees:t3_beehive
+- resourcefulbees:t4_beehive
+- resourcefulbees:bee_nest
+- resourcefulbees:acacia_bee_nest
+- resourcefulbees:jungle_bee_nest
+- resourcefulbees:grass_bee_nest
+- resourcefulbees:nether_bee_nest
+- resourcefulbees:prismarine_bee_nest
+- resourcefulbees:purpur_bee_nest
+- resourcefulbees:wither_bee_nest
+- resourcefulbees:birch_bee_nest
+- resourcefulbees:brown_mushroom_bee_nest
+- resourcefulbees:crimson_bee_nest
+- resourcefulbees:crimson_nylium_bee_nest
+- resourcefulbees:dark_oak_bee_nest
+- resourcefulbees:red_mushroom_bee_nest
+- resourcefulbees:spruce_bee_nest
+- resourcefulbees:warped_bee_nest
+- resourcefulbees:warped_nylium_bee_nest
 
 #forge:nuggets/constantan
 - immersiveengineering:nugget_constantan
@@ -3274,18 +3068,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:crops/carrot
 - minecraft:carrot
 
-#twilightforest:arctic_fur
-- twilightforest:arctic_fur
-
 #forge:salad_ingredients/cabbage
 - farmersdelight:cabbage
 - farmersdelight:cabbage_leaf
 
 #forge:nuggets/gold
 - minecraft:gold_nugget
-
-#bloodmagic:gravels/netherite_scrap
-- bloodmagic:gravel_netherite_scrap
 
 #minecraft:warped_stems
 - minecraft:warped_stem
@@ -3348,10 +3136,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:rods/nickel
 - immersiveposts:stick_nickel
 
-#twilightforest:mangrove_logs
-- twilightforest:mangrove_log
-- twilightforest:mangrove_log
-
 #forge:heads
 - minecraft:creeper_head
 - minecraft:dragon_head
@@ -3370,10 +3154,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:nuggets/manasteel
 - botania:manasteel_nugget
-
-#twilightforest:sortwood_logs
-- twilightforest:sorting_log
-- twilightforest:sorting_wood
 
 #storagedrawers:drawers
 - storagedrawers:oak_full_drawers_1
@@ -3424,9 +3204,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:storage_blocks/steel
 - immersiveengineering:storage_steel
-
-#twilightforest:steeleaf_ingots
-- twilightforest:steeleaf_ingot
 
 #quark:ladders
 - enhanced_mushrooms:red_mushroom_ladder
@@ -3538,7 +3315,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - farmersdelight:bacon
 
 #forge:dusts/iron
-- bloodmagic:ironsand
 - immersiveengineering:dust_iron
 
 #forge:gems/mana_diamond
@@ -3567,13 +3343,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:ingots/steel
 - immersiveengineering:ingot_steel
 
+#forge:honey_bottle
+- minecraft:honey_bottle
+- resourcefulbees:catnip_honey_bottle
+
 #buzzier_bees:candle_base
 - minecraft:honeycomb
 - quark:tallow
-
-#twilightforest:mining_logs
-- twilightforest:mining_log
-- twilightforest:mining_wood
 
 #forge:crops/banana
 - alexsmobs:banana
@@ -3637,21 +3413,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:brown_mushroom
 - minecraft:crimson_fungus
 - minecraft:warped_fungus
-- traverse:brown_autumnal_sapling
-- traverse:red_autumnal_sapling
-- traverse:yellow_autumnal_sapling
-- traverse:orange_autumnal_sapling
-- traverse:fir_sapling
-- twilightforest:twilight_oak_sapling
-- twilightforest:canopy_sapling
-- twilightforest:mangrove_sapling
-- twilightforest:darkwood_sapling
-- twilightforest:time_sapling
-- twilightforest:transformation_sapling
-- twilightforest:mining_sapling
-- twilightforest:sorting_sapling
-- twilightforest:hollow_oak_sapling
-- twilightforest:rainboak_sapling
 - upgrade_aquatic:river_sapling
 - atmospheric:rosewood_sapling
 - atmospheric:morado_sapling
@@ -3676,9 +3437,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:seeds/beetroot
 - minecraft:beetroot_seeds
-
-#twilightforest:storage_blocks/ironwood
-- twilightforest:ironwood_block
 
 #botania:petals/cyan
 - botania:cyan_petal
@@ -3728,15 +3486,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:brown_mushroom_fence
 - enhanced_mushrooms:glowshroom_fence
 - snowrealmagic:fence
-- traverse:fir_fence
-- twilightforest:twilight_oak_fence
-- twilightforest:canopy_fence
-- twilightforest:mangrove_fence
-- twilightforest:dark_fence
-- twilightforest:time_fence
-- twilightforest:trans_fence
-- twilightforest:mine_fence
-- twilightforest:sort_fence
 - upgrade_aquatic:driftwood_fence
 - upgrade_aquatic:river_fence
 - endergetic:poise_fence
@@ -3747,9 +3496,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - atmospheric:aspen_fence
 - atmospheric:grimwood_fence
 - autumnity:maple_fence
-
-#twilightforest:carminite
-- twilightforest:carminite
 
 #forge:fruits/banana
 - alexsmobs:banana
@@ -3763,13 +3509,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:storage_blocks/dragonsteel_fire
 - iceandfire:dragonsteel_fire_block
-
-#bloodmagic:fragments/gold
-- bloodmagic:goldfragment
-
-#twilightforest:transwood_logs
-- twilightforest:transformation_log
-- twilightforest:transformation_wood
 
 #forge:obsidian
 - minecraft:obsidian
@@ -3813,9 +3552,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - iceandfire:seaserpent_skull
 - iceandfire:hydra_skull
 
-#twilightforest:ores/ironwood
-- twilightforest:ironwood_raw
-
 #forge:glass/magenta
 - minecraft:magenta_stained_glass
 
@@ -3852,9 +3588,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:pasta
 - #forge:pasta/raw_pasta
 
-#bloodmagic:arc/hydrate
-- bloodmagic:primitive_hydration_cell
-
 #upgrade_aquatic:tube_fans_corals
 - minecraft:tube_coral
 - minecraft:tube_coral_fan
@@ -3873,17 +3606,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:plates/lead
 - immersiveengineering:plate_lead
 
-#bloodmagic:arc/reverter
-- bloodmagic:sanguinereverter
-
 #forge:storage_blocks/elementium
 - botania:elementium_block
-
-#chiselsandbits:chisel
-- chiselsandbits:chisel_diamond
-- chiselsandbits:chisel_gold
-- chiselsandbits:chisel_iron
-- chiselsandbits:chisel_stone
 
 #forge:string
 - minecraft:string
@@ -3982,22 +3706,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:acacia_leaves
 - minecraft:birch_leaves
 - architects_palette:twisted_leaves
-- traverse:brown_autumnal_leaves
-- traverse:red_autumnal_leaves
-- traverse:yellow_autumnal_leaves
-- traverse:orange_autumnal_leaves
-- traverse:fir_leaves
-- twilightforest:rainboak_leaves
-- twilightforest:twilight_oak_leaves
-- twilightforest:canopy_leaves
-- twilightforest:mangrove_leaves
-- twilightforest:dark_leaves
-- twilightforest:time_leaves
-- twilightforest:transformation_leaves
-- twilightforest:mining_leaves
-- twilightforest:sorting_leaves
-- twilightforest:thorn_leaves
-- twilightforest:beanstalk_leaves
 - upgrade_aquatic:river_leaves
 - atmospheric:rosewood_leaves
 - atmospheric:morado_leaves
@@ -4057,7 +3765,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:stripped_acacia_wood
 
 #forge:dusts/saltpeter
-- bloodmagic:saltpeter
 - immersiveengineering:dust_saltpeter
 
 #forge:scales/dragon
@@ -4109,8 +3816,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - quark:gold_bars
 - quark:golden_frog_leg
 - quark:golden_apple_crate
-- chiselsandbits:bitsaw_gold
-- chiselsandbits:chisel_gold
 
 #forge:stained_glass_panes
 - minecraft:white_stained_glass_pane
@@ -4166,7 +3871,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:brown_stained_glass
 
 #forge:dusts/gold
-- bloodmagic:goldsand
 - immersiveengineering:dust_gold
 
 #forge:vegetables
@@ -4190,10 +3894,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - #enhanced_mushrooms:red_mushroom_stems
 - #enhanced_mushrooms:brown_mushroom_stems
 - #enhanced_mushrooms:glowshroom_stems
-- traverse:fir_log
-- traverse:fir_wood
-- traverse:stripped_fir_log
-- traverse:stripped_fir_wood
 - #upgrade_aquatic:driftwood_logs
 - #upgrade_aquatic:river_logs
 - #endergetic:poise_stems
@@ -4267,15 +3967,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_slab
 - enhanced_mushrooms:brown_mushroom_slab
 - enhanced_mushrooms:glowshroom_slab
-- traverse:fir_slab
-- twilightforest:twilight_oak_slab
-- twilightforest:canopy_slab
-- twilightforest:mangrove_slab
-- twilightforest:dark_slab
-- twilightforest:time_slab
-- twilightforest:trans_slab
-- twilightforest:mine_slab
-- twilightforest:sort_slab
 - upgrade_aquatic:driftwood_slab
 - upgrade_aquatic:river_slab
 - endergetic:poise_slab
@@ -4332,9 +4023,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:bitumen
 - immersivepetroleum:bitumen
 
-#twilightforest:ingots/knightmetal
-- twilightforest:knightmetal_ingot
-
 #forge:seeds/pumpkin
 - minecraft:pumpkin_seeds
 
@@ -4352,10 +4040,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:dusts/redstone
 - minecraft:redstone
-
-#bloodmagic:arc/resonator
-- bloodmagic:primitive_crystalline_resonator
-- bloodmagic:crystalline_resonator
 
 #farmersdelight:wild_crops
 - farmersdelight:wild_carrots
@@ -4481,17 +4165,45 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:gunpowder
 - minecraft:gunpowder
 
-#bloodmagic:arc/tool
-- #bloodmagic:arc/furnace
-- #bloodmagic:arc/reverter
-- #bloodmagic:arc/sieve
-- #bloodmagic:arc/explosive
-- #bloodmagic:arc/hydrate
-- #bloodmagic:arc/resonator
-- #bloodmagic:arc/cuttingfluid
-
 #forge:plates/brass
 - create:brass_sheet
+
+#resourcefulbees:valid_apiary
+- resourcefulbees:t1_apiary
+- resourcefulbees:t2_apiary
+- resourcefulbees:t3_apiary
+- resourcefulbees:t4_apiary
+- resourcefulbees:apiary_storage
+- resourcefulbees:apiary_breeder
+- #minecraft:wool
+- #minecraft:planks
+- #minecraft:sand
+- #minecraft:logs
+- #minecraft:doors
+- #minecraft:stairs
+- #minecraft:slabs
+- #minecraft:walls
+- #minecraft:leaves
+- #minecraft:trapdoors
+- #minecraft:fences
+- #forge:end_stones
+- #forge:fences
+- #forge:glass
+- #forge:glass_panes
+- #forge:gravel
+- #forge:netherrack
+- #forge:obsidian
+- #forge:ores
+- #forge:sand
+- #forge:sandstone
+- #forge:stone
+- #forge:storage_blocks
+- #forge:fence_gates
+- minecraft:bricks
+- minecraft:farmland
+- minecraft:glowstone
+- minecraft:redstone_lamp
+- minecraft:shroomlight
 
 #botania:runes/mana
 - botania:rune_mana
@@ -4553,10 +4265,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #farmersdelight:straw_harvesters
 - #farmersdelight:tools/knives
 
-#bloodmagic:arc/furnace
-- bloodmagic:furnacecell_primitive
-- bloodmagic:lavacrystal
-
 #upgrade_aquatic:dead_chrome_fans_corals
 - upgrade_aquatic:dead_chrome_coral
 - upgrade_aquatic:dead_chrome_coral_fan
@@ -4611,9 +4319,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - quark:prismarine_chest
 - quark:purpur_chest
 
-#forge:dusts/hellforged
-- bloodmagic:sand_hellforged
-
 #botania:runes/winter
 - botania:rune_winter
 
@@ -4658,17 +4363,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - minecraft:mushroom_stew
 - minecraft:suspicious_stew
 
-#twilightforest:storage_blocks/arctic_fur
-- twilightforest:arctic_fur_block
-
 #forge:rods/aluminum
 - immersiveengineering:stick_aluminum
 
 #botania:runes/wrath
 - botania:rune_wrath
-
-#twilightforest:storage_blocks/carminite
-- twilightforest:carminite_block
 
 #botania:contributor_headflowers
 - #botania:special_flowers
@@ -4697,9 +4396,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #autumnity:snail_glowing_foods
 - quark:glowshroom?
 
-#twilightforest:ironwood_ingots
-- twilightforest:ironwood_ingot
-
 #forge:plates/uranium
 - immersiveengineering:plate_uranium
 
@@ -4714,9 +4410,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:ores/lapis
 - minecraft:lapis_ore
-
-#bloodmagic:dusts/corrupted
-- bloodmagic:corrupted_dust
 
 #forge:bread
 - #forge:bread/wheat
@@ -4837,6 +4530,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 
 #forge:shears
 - minecraft:shears
+- minecraft:shears
 - botania:elementium_shears
 - botania:manasteel_shears
 
@@ -4867,9 +4561,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - #botania:runes/wrath
 - #botania:runes/envy
 - #botania:runes/pride
-
-#twilightforest:portal/activator
-- #forge:gems/diamond?
 
 #botania:runes/water
 - botania:rune_water
@@ -4934,6 +4625,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:vegetables/potato
 - minecraft:potato
 
+#resourcefulbees:resourceful_honeycomb_block
+- minecraft:honeycomb_block
+- resourcefulbees:catnip_honeycomb_block
+
 #forge:wires/steel
 - immersiveengineering:wire_steel
 
@@ -4950,20 +4645,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - enhanced_mushrooms:red_mushroom_planks
 - enhanced_mushrooms:brown_mushroom_planks
 - enhanced_mushrooms:glowshroom_planks
-- traverse:fir_planks
-- twilightforest:twilight_oak_planks
-- twilightforest:canopy_planks
-- twilightforest:mangrove_planks
-- twilightforest:dark_planks
-- twilightforest:time_planks
-- twilightforest:trans_planks
-- twilightforest:mine_planks
-- twilightforest:sort_planks
-- twilightforest:tower_wood
-- twilightforest:tower_wood_encased
-- twilightforest:tower_wood_cracked
-- twilightforest:tower_wood_mossy
-- twilightforest:tower_wood_infested
 - upgrade_aquatic:driftwood_planks
 - upgrade_aquatic:river_planks
 - endergetic:poise_planks
@@ -5087,7 +4768,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 - iceandfire:amythest_gem
 
 #forge:dusts/sulfur
-- bloodmagic:sulfur
 - immersiveengineering:dust_sulfur
 
 #forge:dyes/brown
@@ -5102,9 +4782,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Feb
 #forge:raw_fishes/cod
 - minecraft:cod
 - farmersdelight:cod_slice
-
-#bloodmagic:arc/cuttingfluid
-- bloodmagic:basiccuttingfluid
 
 #forge:ores
 - create:copper_ore

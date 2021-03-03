@@ -9,8 +9,7 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_axe',
         'minecraft:netherite_axe',
         'minecraft:stone_axe',
-        'minecraft:wooden_axe',
-        'bloodmagic:soulaxe'
+        'minecraft:wooden_axe'
     ];
     event.get('forge:tools').add(items);
     event.get('forge:tools/axe').add(items);

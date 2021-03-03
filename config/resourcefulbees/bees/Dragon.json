@@ -14,7 +14,8 @@
     "primaryColor": "#222222",
     "secondaryColor": "#171717",
     "glowColor": "#E400FF",
-    "honeycombColor": "#E400FF"
+    "honeycombColor": "#E400FF",
+    "isEnchanted": true
   },
   "MutationData": {
     "hasMutation": true,
@@ -24,17 +25,21 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:dragon_egg",
+
+    "mainOutput": "minecraft:ender_pearl",
+    "mainOutputWeight": 0.10,
+    "mainOutputCount": 2,
+
     "bottleOutput": "minecraft:dragon_breath",
-    "mainOutputWeight": 0.005,
-    "bottleOutputWeight": 0.5
+    "bottleOutputWeight": 0.05,
+    "bottleOutputCount": 1
   },
   "SpawnData": {},
   "BreedData": {
     "isBreedable": true,
     "parent1": "Wither",
     "parent2": "Ender",
-    "feedItem": "minecraft:end_stone",
+    "feedItem": "minecraft:ender_pearl",
     "feedAmount": 12
   },
   "TraitData": {

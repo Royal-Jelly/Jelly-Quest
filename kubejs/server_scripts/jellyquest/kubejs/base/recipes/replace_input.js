@@ -6,11 +6,7 @@ events.listen('recipes', function (event) {
 
     event.replaceInput({}, 'quark:tallow', '#forge:tallow');
 
-    event.replaceInput(
-        { id: 'bloodmagic:alchemytable/basic_cutting_fluid' },
-        'minecraft:potion',
-        item.of('minecraft:potion', { Potion: 'minecraft:water' })
-    );
+    event.replaceInput({}, 'architects_palette:withered_bone', 'iceandfire:witherbone');
 
     colors.forEach((color) => {
         var dyeTag = `#forge:dyes/${color}`;
@@ -68,30 +64,10 @@ events.listen('recipes', function (event) {
     var data = {
         recipes: [
             {
-                type: 'storage_blocks',
-                replace: 'iron',
-                replaceWith: 'aluminum',
-                items: [
-                    'bloodmagic:soulforge'
-                ]
-            },
-
-            {
-                type: 'storage_blocks',
-                replace: 'iron',
-                replaceWith: 'lead',
-                items: [ 'bloodmagic:alchemicalreactionchamber']
-            },
-            {
                 type: 'ingots',
                 replace: 'gold',
                 replaceWith: 'brass',
                 items: [
-                    'bloodmagic:alchemytable',
-                    'bloodmagic:altar',
-                    'bloodmagic:sacrificialdagger',
-                    'bloodmagic:experiencebook',
-                    'bloodmagic:soulforge',
                     'minecraft:clock'
                 ]
             },
@@ -120,12 +96,6 @@ events.listen('recipes', function (event) {
                 items: [
                     'immersiveengineering:charging_station',
                     'cookingforblockheads:heating_unit'                ]
-            },
-            {
-                type: 'ingots',
-                replace: 'iron',
-                replaceWith: 'tin',
-                items: ['bloodmagic:soulsnare']
             },
             {
                 type: 'nuggets',

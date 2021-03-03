@@ -12,9 +12,7 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_sword',
         'minecraft:netherite_sword',
         'minecraft:stone_sword',
-        'minecraft:wooden_sword',
-        'bloodmagic:soulsword',
-        'bloodmagic:soulscythe'
+        'minecraft:wooden_sword'
     ];
     event.get('forge:weapons').add(items);
     event.get('forge:weapons/melee').add(items);

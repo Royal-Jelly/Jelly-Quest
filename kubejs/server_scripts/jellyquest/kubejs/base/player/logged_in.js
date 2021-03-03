@@ -3,8 +3,8 @@ events.listen('player.logged_in', (event) => {
         event.player.give(Item.of('akashictome:tome').nbt({
                         'akashictome:data': {
                             tetra: {
-                                id: 'tetra:holo',
                                 Count: 1,
+                                id: 'tetra:holo',
                                 tag: {
                                     'holo/core_material': 'frame/dim',
                                     'holo/frame': 'holo/frame',
@@ -12,23 +12,21 @@ events.listen('player.logged_in', (event) => {
                                     'holo/frame_material': 'core/ancient'
                                 }
                             },
-                            alexsmobs: { id: 'alexsmobs:animal_dictionary', Count: 1 },
-                            immersiveengineering: { id: 'immersiveengineering:manual', Count: 1 },
-                            botania: { id: 'botania:lexicon', Count: 1, tag: {} },
-                            patchouli: {
-                                id: 'patchouli:guide_book',
+                            resourcefulbees: {
                                 Count: 1,
+                                id: 'patchouli:guide_book',
                                 tag: { 'patchouli:book': 'resourcefulbees:fifty_shades_of_bees' }
                             },
-                            cookingforblockheads: {
-                                id: 'cookingforblockheads:crafting_book',
-                                Count: 1
-                            },
+                            cookingforblockheads: { id: 'cookingforblockheads:recipe_book', Count: 1 },
+                            immersiveengineering: {id: 'immersiveengineering:manual', Count: 1 },
+                            alexsmobs: { id: 'alexsmobs:animal_dictionary', Count: 1 },
+                            sereneseasons: { id: 'sereneseasons:calendar', Count: 1 },
+                            fd_cookbook: { id: 'fd_cookbook:cook_book', Count: 1 },
+                            iceandfire: { id: 'iceandfire:bestiary', Count: 1 },
                             solcarrot: { id: 'solcarrot:food_book', Count: 1 },
-                            bloodmagic: { id: 'patchouli:guide_book', Count: 1, tag: { 'patchouli:book': 'bloodmagic:guide' } }
-                        }
-                    }));
-        //event.player.give(item.of('ftbquests:book'));
+                            botania: { id: 'botania:lexicon', Count: 1 }
+                      }
+              }));
         event.addGameStage('starting_items');
     }
 });

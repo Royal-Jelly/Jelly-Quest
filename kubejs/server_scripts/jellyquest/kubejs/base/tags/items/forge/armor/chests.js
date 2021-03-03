@@ -12,7 +12,6 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_chestplate',
         'minecraft:leather_chestplate',
         'minecraft:netherite_chestplate',
-        'bloodmagic:livingplate',
         'alexsmobs:crocodile_chestplate'
     ];
     event.get('forge:armor').add(items);

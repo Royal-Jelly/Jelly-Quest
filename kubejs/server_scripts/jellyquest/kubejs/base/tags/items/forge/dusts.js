@@ -13,6 +13,4 @@ events.listen('item.tags', function (event) {
 
     event.get('forge:dusts').remove('minecraft:prismarine_shard');
     event.get('forge:dusts/prismarine').remove('minecraft:prismarine_shard');
-
-    event.get('forge:dusts/netherite_scrap').remove('bloodmagic:sand_netherite');
 });

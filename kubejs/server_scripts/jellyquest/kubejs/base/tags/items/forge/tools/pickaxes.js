@@ -10,8 +10,7 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_pickaxe',
         'minecraft:netherite_pickaxe',
         'minecraft:stone_pickaxe',
-        'minecraft:wooden_pickaxe',
-        'bloodmagic:soulpickaxe'
+        'minecraft:wooden_pickaxe'
     ];
     event.get('forge:tools').add(items);
     event.get('forge:tools/pickaxe').add(items);

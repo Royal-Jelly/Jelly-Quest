@@ -1,11 +1,6 @@
 events.listen('recipes', (event) => {
     var data = {
         recipes: [
-            {
-                input: '#forge:netherrack',
-                output: item.of('create:cinder_flour', 2),
-                secondary: [item.of('create:cinder_flour').chance(0.1)]
-            }
         ]
     };
     data.recipes.forEach((recipe) => {

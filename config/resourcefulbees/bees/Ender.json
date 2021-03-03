@@ -1,64 +1,50 @@
 {
-    "flower": "minecraft:chorus_flower",
-    "maxTimeInHive": 4800,
-    "sizeModifier": 1,
-    "hasHoneycomb": true,
-    "apiaryOutputAmounts": [3, 6, 1, 2],
-    "traits": ["ender"],
-    "baseLayerTexture": "other/ender",
-    "ColorData": {
-        "honeycombColor": "#339786",
-        "isBeeColored": false,
-        "isRainbowBee": false,
-        "isGlowing": false,
-        "isEnchanted": false
-    },
-    "CombatData": {
-        "isPassive": false,
-        "removeStingerOnAttack": false,
-        "inflictsPoison": true,
-        "attackDamage": 2
-    },
-    "MutationData": {
-        "hasMutation": true,
-        "mutationInput": "tag:forge:stone",
-        "mutationOutput": "minecraft:end_stone",
-        "mutationType": "BLOCK_TO_BLOCK"
-    },
-    "CentrifugeData": {
-        "hasCentrifugeOutput": true,
+  "flower": "minecraft:chorus_flower",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture" : "dragon/dragon_bee",
+  "traits": [ "ender" ],
+  "ColorData": {
+    "isBeeColored": true,
+    "isGlowing": true,
+    "modelType": "DRAGON",
+    "primaryLayerTexture": "dragon/dragon_bee_primary",
+    "secondaryLayerTexture": "dragon/dragon_bee_secondary",
+    "emissiveLayerTexture": "dragon/dragon_bee_emissive",
+    "primaryColor": "#222222",
+    "secondaryColor": "#171717",
+    "glowColor": "#E400FF",
+    "honeycombColor": "#E400FF"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:obsidian",
+    "mutationOutput": "minecraft:end_stone",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
 
-        "mainOutput": "minecraft:ender_pearl",
-        "mainOutputWeight": 0.2,
-        "mainOutputCount": 2,
+    "mainOutput": "minecraft:ender_pearl",
+    "mainOutputWeight": 0.10,
+    "mainOutputCount": 2,
 
-        "secondaryOutput": "emendatusenigmatica:enderium_nugget",
-        "secondaryOutputWeight": 0.01,
-        "secondaryOutputCount": 3,
-
-        "bottleOutput": "minecraft:dragon_breath",
-        "bottleOutputWeight": 0.01,
-        "bottleOutputCount": 1,
-
-        "mainInputCount": 1
-    },
-    "SpawnData": {
-        "canSpawnInWorld": true,
-        "biomeWhitelist": "tag:ENDER",
-        "biomeBlacklist": "tag:OVERWORLD,NETHER",
-        "lightLevel": "NIGHT",
-        "minGroupSize": 0,
-        "maxGroupSize": 1,
-        "spawnWeight": 10
-    },
-    "BreedData": {
-        "isBreedable": true,
-        "feedItem": "tag:forge:gems/ender",
-        "feedAmount": 4,
-        "childGrowthDelay": -24000,
-        "breedDelay": 6000
-    },
-    "TraitData": {
-        "hasTraits": true
-    }
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "TAG:end",
+    "lightLevel": "NIGHT",
+    "spawnWeight": 20
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:ender_eye",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
 }

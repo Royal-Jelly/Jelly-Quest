@@ -12,7 +12,6 @@ events.listen('item.tags', function (event) {
         'minecraft:iron_leggings',
         'minecraft:leather_leggings',
         'minecraft:netherite_leggings',
-        'bloodmagic:livingleggings',
         'alexsmobs:centipede_leggings'
     ];
     event.get('forge:armor').add(items);

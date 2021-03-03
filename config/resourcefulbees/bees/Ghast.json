@@ -1,61 +1,37 @@
 {
-    "flower": "minecraft:crimson_fungus",
-    "maxTimeInHive": 4800,
-    "sizeModifier": 1,
-    "hasHoneycomb": true,
-    "apiaryOutputAmounts": [3, 6, 1, 2],
-    "traits": ["nether", "blaze"],
-    "baseLayerTexture": "other/ghast",
-    "ColorData": {
-        "honeycombColor": "#faebd7",
-        "isBeeColored": false,
-        "isRainbowBee": false,
-        "isGlowing": false,
-        "isEnchanted": false
-    },
-    "CombatData": {
-        "isPassive": false,
-        "removeStingerOnAttack": false,
-        "inflictsPoison": true,
-        "attackDamage": 3
-    },
-    "MutationData": {
-        "hasMutation": true,
-        "mutationInput": "tag:forge:netherrack",
-        "mutationOutput": "minecraft:tnt",
-        "mutationType": "BLOCK_TO_BLOCK"
-    },
-    "CentrifugeData": {
-        "hasCentrifugeOutput": true,
+  "flower": "minecraft:crimson_fungus",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ghast/ghast_bee",
+  "traits": ["nether"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#faebd7"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
 
-        "mainOutput": "minecraft:ghast_tear",
-        "mainOutputWeight": 0.15,
-        "mainOutputCount": 2,
+    "mainOutput": "minecraft:ghast_tear",
+    "mainOutputWeight": 0.30,
+    "mainOutputCount": 1,
 
-        "secondaryOutput": "emendatusenigmatica:potassium_nitrate_gem",
-        "secondaryOutputWeight": 0.1,
-        "secondaryOutputCount": 3,
+    "secondaryOutput": "minecraft:gunpowder",
+    "secondaryOutputWeight": 0.70,
+    "secondaryOutputCount": 2,
 
-        "bottleOutput": "minecraft:honey_bottle",
-        "bottleOutputWeight": 0.25,
-        "bottleOutputCount": 1,
-
-        "mainInputCount": 1
-    },
-    "SpawnData": {
-        "canSpawnInWorld": false,
-        "biomeWhitelist": "tag:NETHER",
-        "biomeBlacklist": "tag:OVERWORLD,END",
-        "lightLevel": "NIGHT"
-    },
-    "BreedData": {
-        "isBreedable": true,
-        "feedItem": "minecraft:ghast_tear",
-        "feedAmount": 24,
-        "childGrowthDelay": -24000,
-        "breedDelay": 6000
-    },
-    "TraitData": {
-        "hasTraits": true
-    }
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether",
+    "lightLevel": "NIGHT"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
 }

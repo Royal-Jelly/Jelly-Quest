@@ -22,7 +22,4 @@ events.listen('item.tags', function (event) {
     event.get('forge:stones/granite').add(['minecraft:granite', 'minecraft:polished_granite']);
     event.get('forge:stones/diorite').add(['minecraft:diorite', 'minecraft:polished_diorite']);
     event.get('forge:stones/andesite').add(['minecraft:andesite', 'minecraft:polished_andesite']);
-    createStoneTypes.forEach(function (stone) {
-        event.get('forge:stones/' + stone).add('create:' + stone);
-    });
 });

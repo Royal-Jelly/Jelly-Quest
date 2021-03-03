@@ -2,8 +2,7 @@ events.listen('item.tags', function (event) {
     var items = [
         'botania:bauble_box',
         'botania:ender_hand',
-        'botania:flower_bag',
-        'chiselsandbits:bit_bag'
+        'botania:flower_bag'
     ];
 
     event.get('forge:storage').add(items);

@@ -1,7 +1,7 @@
 events.listen('recipes', (event) => {
     var data = {
         recipes: [
-            { input: 'simplefarming:cumin_seeds', fluid: 'immersiveengineering:plantoil', amount: 20, energy: 6400 },
+            //{ input: 'simplefarming:cumin_seeds', fluid: 'immersiveengineering:plantoil', amount: 20, energy: 6400 },
           ]
     };
     data.recipes.forEach((recipe) => {

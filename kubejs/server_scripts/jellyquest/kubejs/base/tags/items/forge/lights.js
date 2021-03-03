@@ -1,7 +1,5 @@
 events.listen('item.tags', function (event) {
     var items = [
-        'bloodmagic:bloodlightsigil',
-
         'botania:bifrost_pane',
         'botania:bifrost_perm',
         'botania:black_floating_flower',

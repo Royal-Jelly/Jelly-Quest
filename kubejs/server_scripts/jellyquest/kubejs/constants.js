@@ -9,8 +9,7 @@ const modPriorities = [
     'kubejs',
     'create',
     'botania',
-    'quark',
-    'bloodmagic'
+    'quark'
 ];
 
 // Used for recipes/tags that use colors

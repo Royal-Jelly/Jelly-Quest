@@ -7,12 +7,10 @@ events.listen('item.tags', function (event) {
          .add('immersiveengineering:ingot_uranium')
          .add('immersiveengineering:ingot_constantan')
          .add('immersiveengineering:ingot_electrum')
-         .add('immersiveengineering:ingot_hop_graphite')
-         .add('create:andesite_alloy');
+         .add('immersiveengineering:ingot_hop_graphite');
 
     event.get('forge:ingots/copper').add('immersiveengineering:ingot_copper');
     event.get('forge:ingots/gaia').add('botania:gaia_ingot');
     event.get('forge:ingots/gaia_spirit').add('botania:gaia_ingot');
     event.get('forge:ingots').add('botania:gaia_ingot');
-    event.add('forge:ingots/andesite_alloy', ['create:andesite_alloy']);
 });
