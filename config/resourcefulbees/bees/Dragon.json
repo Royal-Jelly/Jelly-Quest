@@ -19,16 +19,26 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 4,
+    "mutationCount": 2,
     "mutations": [
       {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "minecraft:obsidian",
+        "type": "FLUID_TO_BLOCK",
+        "inputID": "minecraft:lava",
         "defaultWeight": 10,
         "defaultChance" : 1,
         "outputs": [
-          {"outputID": "minecraft:ender_eye", "weight": 3},
-          {"outputID": "minecraft:obsidian", "weight": 7}
+          {"outputID": "minecraft:obsidian", "weight": 85},
+          {"outputID": "minecraft:crying_obsidian", "weight": 15}
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:crying_obsidian",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:ender_eye", "weight": 15},
+          {"outputID": "minecraft:crying_obsidian", "weight": 85}
         ]
       }
     ]

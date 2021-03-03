@@ -18,25 +18,29 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 4,
+    "mutationCount": 2,
     "mutations": [
+      {
+        "type": "FLUID_TO_BLOCK",
+        "inputID": "minecraft:lava",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:end_stone", "weight": 85},
+          {"outputID": "minecraft:obsidian", "weight": 15}
+        ]
+      },
       {
         "type": "BLOCK_TO_ITEM",
         "inputID": "minecraft:obsidian",
         "defaultWeight": 10,
         "defaultChance" : 1,
         "outputs": [
-          {"outputID": "minecraft:ender_pearl", "weight": 3},
-          {"outputID": "minecraft:obsidian", "weight": 7}
+          {"outputID": "minecraft:ender_pearl", "weight": 15},
+          {"outputID": "minecraft:obsidian", "weight": 85}
         ]
       }
     ]
-  },
-  "MutationData": {
-    "hasMutation": true,
-    "mutationInput": "minecraft:obsidian",
-    "mutationOutput": "minecraft:end_stone",
-    "mutationType": "BLOCK_TO_BLOCK"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
