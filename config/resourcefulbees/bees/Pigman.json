@@ -10,28 +10,39 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 1,
+    "mutationCount": 2,
     "mutations": [
       {
         "type": "BLOCK_TO_BLOCK",
         "inputID": "minecraft:netherrack",
         "defaultWeight": 10,
-        "defaultChance" : 0.75,
+        "defaultChance" : 1,
         "outputs": [
-          {"outputID": "minecraft:glowstone", "weight": 6, "chance": 0.60},
-          {"outputID": "minecraft:nether_gold_ore", "weight": 4, "chance": 0.40}
+          {"outputID": "minecraft:glowstone", "weight": 3},
+          {"outputID": "minecraft:nether_gold_ore", "weight": 7}
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:nether_gold_ore",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:glowstone_dust", "weight": 3},
+          {"outputID": "minecraft:nether_gold_ore", "weight": 7}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:glowstone_dust",
-    "mainOutputWeight": 0.60,
-    "mainOutputCount": 3,
-    "secondaryOutput": "minecraft:gold_nugget",
-    "secondaryOutputWeight": 0.40,
-    "secondaryOutputCount": 1
+    "mainOutput": "minecraft:gold_nugget",
+    "mainOutputWeight": 0.30,
+    "mainOutputCount": 1,
+
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:obsidian",
+  "flower": "minecraft:end_crystal",
   "maxTimeInHive": 2400,
   "hasHoneycomb": true,
   "baseLayerTexture" : "dragon/dragon_bee",
@@ -19,16 +19,26 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:stone",
-    "mutationOutput": "minecraft:end_stone",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutationCount": 4,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:obsidian",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:ender_eye", "weight": 3},
+          {"outputID": "minecraft:obsidian", "weight": 7}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
 
-    "mainOutput": "minecraft:ender_pearl",
-    "mainOutputWeight": 0.10,
-    "mainOutputCount": 2,
+    "mainOutput": "minecraft:ender_eye",
+    "mainOutputWeight": 0.15,
+    "mainOutputCount": 1,
 
     "bottleOutput": "minecraft:dragon_breath",
     "bottleOutputWeight": 0.05,
@@ -36,11 +46,11 @@
   },
   "SpawnData": {},
   "BreedData": {
-    "isBreedable": true,
+    "isBreedable": false,
     "parent1": "Wither",
     "parent2": "Ender",
-    "feedItem": "minecraft:ender_pearl",
-    "feedAmount": 12
+    "feedItem": "minecraft:ender_eye",
+    "feedAmount": 2
   },
   "TraitData": {
     "hasTraits": true

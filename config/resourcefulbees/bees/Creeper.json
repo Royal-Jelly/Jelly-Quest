@@ -14,9 +14,28 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "tag:minecraft:stone",
-    "mutationOutput": "minecraft:coal_ore",
-    "mutationType": "BLOCK_TO_BLOCK"
+    "mutationCount": 8,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:stone",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:coal_ore"}
+        ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:coal_ore",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:gunpowder", "weight": 3},
+          {"outputID": "minecraft:coal_ore", "weight": 7}
+        ]
+      }
+    ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -24,10 +43,6 @@
     "mainOutput": "minecraft:gunpowder",
     "mainOutputWeight": 0.30,
     "mainOutputCount": 1,
-
-    "secondaryOutput": "minecraft:gunpowder",
-    "secondaryOutputWeight": 0.70,
-    "secondaryOutputCount": 2,
 
     "bottleOutput": "minecraft:honey_bottle",
     "bottleOutputWeight": 0.25,

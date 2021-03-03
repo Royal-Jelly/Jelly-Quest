@@ -10,17 +10,25 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 1,
+    "mutationCount": 6,
     "mutations": [
       {
         "type": "BLOCK_TO_BLOCK",
         "inputID": "minecraft:stone",
         "defaultWeight": 10,
-        "defaultChance" : 0.75,
+        "defaultChance" : 1,
         "outputs": [
-          {"outputID": "minecraft:iron_ore", "weight": 6, "chance": 0.60},
-          {"outputID": "minecraft:nether_gold_ore", "weight": 4, "chance": 0.40}
+          {"outputID": "minecraft:iron_ore"}
         ]
+      },
+      {
+        "type": "BLOCK_TO_ITEM",
+        "inputID": "minecraft:iron_ore",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:rotten_flesh", "weight": 3},
+          {"outputID": "minecraft:iron_ore", "weight": 7}        ]
       }
     ]
   },

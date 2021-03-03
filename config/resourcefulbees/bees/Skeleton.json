@@ -15,7 +15,7 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    
+
     "mainOutput": "minecraft:bone",
     "mainOutputWeight": 0.15,
     "mainOutputCount": 1,
@@ -33,7 +33,7 @@
   "BreedData": {
     "isBreedable": true,
     "feedItem": "minecraft:bone",
-    "feedAmount": 8
+    "feedAmount": 2
   },
   "TraitData": {}
 }

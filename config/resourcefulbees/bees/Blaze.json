@@ -10,16 +10,25 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 1,
+    "mutationCount": 4,
     "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:netherrack",
+        "defaultWeight": 10,
+        "defaultChance" : 1,
+        "outputs": [
+          {"outputID": "minecraft:nether_quartz_ore"}
+        ]
+      },
       {
         "type": "BLOCK_TO_ITEM",
         "inputID": "minecraft:nether_quartz_ore",
         "defaultWeight": 10,
         "defaultChance" : 1,
         "outputs": [
-          {"outputID": "minecraft:blaze_powder", "weight": 3},
-          {"outputID": "botania:quartz_blaze", "weight": 7}
+          {"outputID": "botania:quartz_blaze", "weight": 3},
+          {"outputID": "minecraft:nether_quartz_ore", "weight": 7}
         ]
       }
     ]
@@ -30,10 +39,6 @@
     "mainOutput": "minecraft:blaze_powder",
     "mainOutputWeight": 0.30,
     "mainOutputCount": 1,
-
-    "secondaryOutput": "minecraft:blaze_powder",
-    "secondaryOutputWeight": 0.70,
-    "secondaryOutputCount": 2,
 
     "bottleOutput": "minecraft:honey_bottle",
     "bottleOutputWeight": 0.25,
