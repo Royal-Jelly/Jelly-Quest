@@ -2,7 +2,7 @@
     "spawnsInBoard": true,
     "objectivePools": [
       "all_villager_objs",
-      "farmer_objs"
+      "botanist_objs"
     ],
     "rewardPools": [
       "coins_rews"

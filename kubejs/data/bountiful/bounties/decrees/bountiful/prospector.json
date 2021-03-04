@@ -2,7 +2,7 @@
     "spawnsInBoard": true,
     "objectivePools": [
       "all_villager_objs",
-      "mason_objs"
+      "prospector_objs"
     ],
     "rewardPools": [
       "coins_rews"
