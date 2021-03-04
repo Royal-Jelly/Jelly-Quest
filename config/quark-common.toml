@@ -1646,7 +1646,7 @@
 	Backpack = true
 	Magnets = true
 	"Matrix Enchanting" = true
-	Pipes = true
+	Pipes = false
 	"Totem Of Holding" = true
 	Crate = false
 
@@ -1764,4 +1764,3 @@
 		#Some useful shaders include 'desaturate', 'oversaturate', 'bumpy'
 		#Colorblind simulation shaders are available in the form of 'deuteranopia', 'protanopia', 'tritanopia', and 'achromatopsia'
 		Shader = "none"
-
