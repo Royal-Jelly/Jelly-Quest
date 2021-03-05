@@ -70,7 +70,7 @@
       },
       "unitWorth": 800,
       "weight": 500
-    },    
+    },
     {
       "type": "item",
       "content": "coins:coin_iron",
@@ -150,8 +150,7 @@
       },
       "unitWorth": 5,
       "weight": 1300
-    }
-,
+    },
     {
       "type": "item",
       "content": "coins:coin_copper",
@@ -162,5 +161,5 @@
       "unitWorth": 5,
       "weight": 1400
     }
-  ]   
+  ]
 }

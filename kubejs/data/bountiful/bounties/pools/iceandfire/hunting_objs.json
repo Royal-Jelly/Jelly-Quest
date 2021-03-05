@@ -1,0 +1,155 @@
+{
+  "modsRequired": ["iceandfire"],
+  "content": [
+    {
+      "type": "entity",
+      "content": "iceandfire:ice_dragon",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8200,
+      "weight": 1000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:fire_dragon",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8200,
+      "weight": 1000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:lightning_dragon",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8200,
+      "weight": 1000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:gorgon",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6400,
+      "weight": 1100
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:siren",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 2800,
+      "weight": 2000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:deathworm",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 3650,
+      "weight": 1200
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:troll",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1900,
+      "weight": 1600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:cockatrice",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1850,
+      "weight": 1000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_beast",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2850,
+      "weight": 600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_ghoul",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2850,
+      "weight": 600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_horse",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3250,
+      "weight": 600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_knight",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3050,
+      "weight": 600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_lich",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8200,
+      "weight": 1000
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_scuttler",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2450,
+      "weight": 600
+    },
+    {
+      "type": "entity",
+      "content": "iceandfire:dread_thrall",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 3850,
+      "weight": 600
+    }
+  ]
+}
