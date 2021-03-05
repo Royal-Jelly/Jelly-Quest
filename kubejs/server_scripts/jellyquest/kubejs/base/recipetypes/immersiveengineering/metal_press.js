@@ -19,6 +19,11 @@ events.listen('recipes', (event) => {
             mod: 'immersiveengineering',
             type: 'immersiveengineering:metal_press'
         });
+        event.remove({
+            output: recipe.input,
+            mod: 'immersiveengineering',
+            type: 'immersiveengineering:metal_press'
+        });
         event.recipes.immersiveengineering.metal_press(recipe.output, recipe.input, recipe.mold).energy(2400);
     });
 });
