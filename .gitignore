@@ -1,6 +1,5 @@
-#Do not include with Modpack instance
-
-#OS generated garbage
+# Do not include with Mod Pack instance
+# OS generated garbage
 */.DS_Store
 .DS_Store
 .DS_Store?
@@ -16,8 +15,9 @@ Thumbs.db
 **/*.jar.disabled
 **/*.jar.meta
 
-# Optional: Generic Modpack Ignores
+# Generic client Ignores
 **/*.log
+**/*.toml.bak
 /.mixin.out
 /crash-reports
 /saves
@@ -26,18 +26,20 @@ Thumbs.db
 /kubejs2
 /local
 /logs
+/libraries
 /natives
 /screenshots
 /scripts
 /shaderpacks
 /structurize
 /themes
+/world
 .curseclient
 
-options.txt
-optionsof.txt
+background.png
 
 #config.json
+manifest.json
 patchouli_data.json
 mode.json
 realms_persistence.json
@@ -45,3 +47,21 @@ usercache.json
 usernamecache.json
 
 BotaniaVars.dat
+servers.dat
+servers.dat_old
+
+options.txt
+optionsof.txt
+
+# Generic Server Ignores
+run-server.bat
+run-server.sh
+server.properties
+
+eula.txt
+
+1.16.5.json
+ops.json
+banned-ips.json
+banned-players.json
+whitelist.json
