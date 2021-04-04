@@ -16,7 +16,6 @@
     "total_ench_power": true,
     "chicken_egg": true,
     "horse_stat": true,
-    "misc_entity": true,
     "brewing_stand": true,
     "note_block": true,
     "inventory": true,
