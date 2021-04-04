@@ -54,6 +54,8 @@ servers.dat_old
 options.txt
 optionsof.txt
 
+WailaErrorOutput.txt
+
 # Generic Server Ignores
 run-server.bat
 run-server.sh
