@@ -1,8 +1,8 @@
 {
-    "item.kubejs.mold_blank": "Blank Mold",
-    "item.kubejs.mold_ingot": "Ingot Mold",
-    "item.kubejs.mold_block": "Block Mold",
-    "item.kubejs.mold_hopper": "Hopper Mold",
+    "item.kubejs.mold_blank": "Metal Press Mold: Blank",
+    "item.kubejs.mold_ingot": "Metal Press Mold: Ingot",
+    "item.kubejs.mold_block": "Metal Press Mold: Block",
+    "item.kubejs.mold_hopper": "Metal Press Mold: Hopper",
     "item.kubejs.powder_ash": "Wood Ash",
     "item.kubejs.powder_chalk": "Chalk Dust",
     "item.kubejs.rubber": "Rubber",
