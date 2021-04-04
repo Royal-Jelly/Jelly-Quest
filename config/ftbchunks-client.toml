@@ -42,7 +42,7 @@ minimap_entity_heads = false
 #Show player heads on minimap
 minimap_player_heads = true
 #Entities in minimap will be larger
-minimap_large_entities = false
+minimap_large_entities = true
 #Show XYZ under minimap
 minimap_xyz = true
 #Show biome under minimap
