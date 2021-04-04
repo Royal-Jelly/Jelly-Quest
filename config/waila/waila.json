@@ -12,12 +12,13 @@
     "fluldMode": "NONE"
   },
   "overlay": {
-    "overlayPosX": 0.5,
+    "overlayPosX": 0.005,
     "overlayPosY": 0.99,
     "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
+    "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
-    "overlaySquare": false,
+    "overlaySquare": true,
+    "flipMainHand": false,
     "color": {
       "alpha": 50,
       "themes": [
