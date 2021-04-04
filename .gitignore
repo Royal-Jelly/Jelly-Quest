@@ -20,6 +20,7 @@ Thumbs.db
 **/*.toml.bak
 /.mixin.out
 /crash-reports
+/config/jei
 /saves
 /downloads
 /resourcepacks
