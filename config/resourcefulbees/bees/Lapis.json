@@ -1,12 +1,12 @@
 {
-  "flower": "tag:minecraft:bee_growables",
+  "flower": "ALL",
   "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "baseLayerTexture": "zombie/zombie_bee",
-  "traits": ["zombie"],
+  "baseLayerTexture": "ores/lapis/lapis_bee",
   "ColorData": {
     "isBeeColored": false,
-    "honeycombColor": "#2F4E32"
+    "honeycombColor": "#345ec3",
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": true,
@@ -15,26 +15,24 @@
         "type": "BLOCK",
         "inputID": "minecraft:stone",
         "outputs": [
-          {"outputID": "minecraft:cobblestone", "weight": 10},
-          {"outputID": "minecraft:cobblestone", "weight": 30}
+          {"outputID": "minecraft:lapis_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:rotten_flesh"
+    "mainOutput": "minecraft:lapis_lazuli",
+    "mainOutputCount": 8
   },
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:OVERWORLD",
-    "biomeBlacklist": "tag:ocean",
-    "lightLevel": "NIGHT"
+    "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
     "isBreedable": true
   },
-  "TraitData": {
-    "hasTraits": true
-  }
+  "TraitData": {}
 }

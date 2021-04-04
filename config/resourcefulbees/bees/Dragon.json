@@ -1,5 +1,5 @@
 {
-  "flower": "minecraft:end_crystal",
+  "flower": "minecraft:obsidian",
   "maxTimeInHive": 2400,
   "hasHoneycomb": true,
   "baseLayerTexture" : "dragon/dragon_bee",
@@ -14,53 +14,35 @@
     "primaryColor": "#222222",
     "secondaryColor": "#171717",
     "glowColor": "#E400FF",
-    "honeycombColor": "#E400FF",
-    "isEnchanted": true
+    "honeycombColor": "#E400FF"
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationCount": 2,
-    "mutations": [
+    "mutations" : [
       {
-        "type": "FLUID_TO_BLOCK",
-        "inputID": "minecraft:lava",
-        "defaultWeight": 10,
-        "defaultChance" : 1,
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "chance": 0.5,
         "outputs": [
-          {"outputID": "minecraft:obsidian", "weight": 85},
-          {"outputID": "minecraft:crying_obsidian", "weight": 15}
-        ]
-      },
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "minecraft:crying_obsidian",
-        "defaultWeight": 10,
-        "defaultChance" : 1,
-        "outputs": [
-          {"outputID": "minecraft:ender_eye", "weight": 15},
-          {"outputID": "minecraft:crying_obsidian", "weight": 85}
+          {"outputID": "minecraft:end_stone", "weight": 10}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-
-    "mainOutput": "minecraft:ender_eye",
-    "mainOutputWeight": 0.15,
-    "mainOutputCount": 1,
-
+    "mainOutput": "minecraft:dragon_egg",
     "bottleOutput": "minecraft:dragon_breath",
-    "bottleOutputWeight": 0.05,
-    "bottleOutputCount": 1
+    "mainOutputWeight": 0.01,
+    "bottleOutputWeight": 0.5
   },
   "SpawnData": {},
   "BreedData": {
-    "isBreedable": false,
+    "isBreedable": true,
     "parent1": "Wither",
     "parent2": "Ender",
-    "feedItem": "minecraft:ender_eye",
-    "feedAmount": 2
+    "feedItem": "minecraft:end_stone",
+    "feedAmount": 12
   },
   "TraitData": {
     "hasTraits": true

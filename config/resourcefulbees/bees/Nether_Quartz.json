@@ -1,12 +1,12 @@
 {
-  "flower": "minecraft:chorus_flower",
+  "flower": "minecraft:nether_wart",
+  "maxTimeInHive": 1000,
   "hasHoneycomb": true,
-  "traits": ["ender"],
-  "maxTimeInHive": 1800,
+  "traits": ["nether"],
   "ColorData": {
     "isBeeColored": true,
-    "honeycombColor": "#339786",
-    "primaryColor": "#339786",
+    "honeycombColor": "#D4CABA",
+    "primaryColor": "#D4CABA",
     "secondaryColor": "#303030"
   },
   "MutationData": {
@@ -14,24 +14,23 @@
     "mutations" : [
       {
         "type": "BLOCK",
-        "inputID": "minecraft:obsidian",
-        "chance": 0.5,
+        "inputID": "minecraft:netherrack",
         "outputs": [
-          {"outputID": "minecraft:end_stone", "weight": 10}
+          {"outputID": "minecraft:nether_quartz_ore", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:ender_pearl",
-    "bottleOutput" : "minecraft:dragon_breath"
+    "mainOutput": "minecraft:quartz",
+    "mainOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:end",
-    "lightLevel": "NIGHT",
-    "spawnWeight": 20
+    "biomeWhitelist": "tag:nether",
+    "lightLevel": "NIGHT"
   },
   "BreedData": {
     "isBreedable": true

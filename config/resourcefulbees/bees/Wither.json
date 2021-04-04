@@ -10,55 +10,29 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutationInput": "minecraft:bone_block",
-    "mutationOutput": "architects_palette:withered_bone_block",
-    "mutationType": "FLUID_TO_BLOCK"
-  },
-  "MutationData": {
-    "hasMutation": true,
-    "mutationCount": 2,
-    "mutations": [
+    "mutations" : [
       {
-        "type": "BLOCK_TO_BLOCK",
-        "inputID": "minecraft:bone_block",
-        "defaultWeight": 10,
-        "defaultChance" : 1,
+        "type": "BLOCK",
+        "inputID": "minecraft:lava",
         "outputs": [
-          {"outputID": "architects_palette:withered_bone_block"}
-        ]
-      },
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "architects_palette:withered_bone_block",
-        "defaultWeight": 10,
-        "defaultChance" : 1,
-        "outputs": [
-          {"outputID": "minecraft:nether_star", "weight": 1},
-          {"outputID": "iceandfire:witherbone", "weight": 99}
+          {"outputID": "minecraft:obsidian", "weight": 10},
+          {"outputID": "minecraft:stone", "weight": 10}
         ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-
-    "mainOutput": "iceandfire:witherbone",
-    "mainOutputWeight": 0.15,
-    "mainOutputCount": 1,
-
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1
+    "mainOutput": "minecraft:nether_star",
+    "mainOutputWeight": 0.01
   },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
-    "lightLevel": "NIGHT"
-  },
+  "SpawnData": {},
   "BreedData": {
-    "isBreedable": false,
-    "feedItem": "iceandfire:witherbone",
-    "feedAmount": 2
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Skeleton",
+    "feedItem": "minecraft:rotten_flesh",
+    "feedAmount": 12
   },
   "TraitData": {
     "hasTraits": true
