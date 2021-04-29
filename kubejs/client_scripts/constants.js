@@ -20,11 +20,9 @@ const colors = [
 ];
 
 var itemsToHide = [
-  'architects_palette:withered_bone',
   '#quark:candles'
 ];
 
 const disabledItems = [
-  'architects_palette:withered_bone',
   '#quark:candles'
 ];

@@ -4,3 +4,4 @@
 	#Setting to 3 will make the overlay indicate phantom spawns
 	#Setting to 0 will disable the overlay
 	"Days until insomnia overlay" = 3
+

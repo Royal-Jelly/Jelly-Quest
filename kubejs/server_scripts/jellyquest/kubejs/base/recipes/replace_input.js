@@ -4,10 +4,6 @@ events.listen('recipes', function (event) {
 
     event.replaceInput({ id: 'tetra:hammer/stone' }, 'minecraft:cobblestone', '#quark:stone_tool_materials');
 
-    event.replaceInput({}, 'quark:tallow', '#forge:tallow');
-
-    event.replaceInput({}, 'architects_palette:withered_bone', 'iceandfire:witherbone');
-
     colors.forEach((color) => {
         var dyeTag = `#forge:dyes/${color}`;
 

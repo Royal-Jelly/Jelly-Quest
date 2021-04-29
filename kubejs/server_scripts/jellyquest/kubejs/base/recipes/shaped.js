@@ -26,10 +26,6 @@ events.listen('recipes', function (event) {
         }),
         shapedRecipe('coins:coin_pile_diamond', ['LLL', 'LLL', 'LLL'], {
             L: 'coins:coin_diamond'
-        }),
-        shapedRecipe(item.of('quark:white_candle', 2), ['B', 'A', 'A'], {
-            A: '#forge:wax',
-            B: '#forge:string'
         })
     ];
 

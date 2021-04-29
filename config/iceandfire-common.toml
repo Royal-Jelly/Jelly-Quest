@@ -50,9 +50,9 @@
 	"Dragon Egg Hatch Time" = 7200
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
-	"Dragon Griefing" = 2
+	"Dragon Griefing" = 0
 	#True if tamed dragons can follow the griefing rules.
-	"Tamed Dragon Griefing" = false
+	"Tamed Dragon Griefing" = true
 	#Dragon Flap Noise Distance - Larger number, further away you can hear it
 	#Range: 0 ~ 10000
 	"Dragon Flap Noise Distance" = 4
@@ -300,7 +300,7 @@
 	#Range: 1 ~ 10000
 	"Spawn Sea Serpent Chance" = 250
 	#Whether or not sea serpents can break weak blocks in their way
-	"Sea Serpent Griefing" = false
+	"Sea Serpent Griefing" = true
 	#Default sea serpent health, this is scaled to the sea serpent's particular size
 	#Range: 1.0 ~ 10000.0
 	"Sea Serpent Base Health" = 20.0

@@ -20,7 +20,7 @@ events.listen('recipes', (event) => {
             type: 'immersiveengineering:metal_press'
         });
         event.remove({
-            output: recipe.input,
+            output: recipe.output,
             mod: 'immersiveengineering',
             type: 'immersiveengineering:metal_press'
         });

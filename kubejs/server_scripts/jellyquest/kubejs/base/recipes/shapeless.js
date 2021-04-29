@@ -1,10 +1,20 @@
 events.listen('recipes', (event) => {
     var recipes = [
-        shapelessRecipe(Item.of('coins:coin_copper', 9), ['coins:coin_pile_copper']),
-        shapelessRecipe(Item.of('coins:coin_iron', 9), ['coins:coin_pile_iron']),
-        shapelessRecipe(Item.of('coins:coin_gold', 9), ['coins:coin_pile_gold']),
-        shapelessRecipe(Item.of('coins:coin_platinum', 9), ['coins:coin_pile_platinum']),
-        shapelessRecipe(Item.of('coins:coin_diamond', 9), ['coins:coin_pile_diamond']),
+        shapelessRecipe('9x coins:coin_copper', ['coins:coin_pile_copper']),
+        shapelessRecipe('9x coins:coin_iron', ['coins:coin_pile_iron']),
+        shapelessRecipe('9x coins:coin_gold', ['coins:coin_pile_gold']),
+        shapelessRecipe('9x coins:coin_platinum', ['coins:coin_pile_platinum']),
+        shapelessRecipe('9x coins:coin_diamond', ['coins:coin_pile_diamond']),
+
+        shapelessRecipe('9x coins:coin_pile_copper', ['coins:coin_iron']),
+        shapelessRecipe('9x coins:coin_pile_iron', ['coins:coin_gold']),
+        shapelessRecipe('9x coins:coin_pile_gold', ['coins:coin_platinum']),
+        shapelessRecipe('9x coins:coin_pile_platinum', ['coins:coin_diamond']),
+
+        shapelessRecipe('3x architects_palette:withered_bone', ['iceandfire:witherbone']),
+        shapelessRecipe('9x architects_palette:withered_bone', ['architects_palette:withered_bone_block']),
+        shapelessRecipe('architects_palette:withered_bone_block', ['9x architects_palette:withered_bone']),
+
         shapelessRecipe('botania:enchanted_soil', ['minecraft:grass_block', 'botania:overgrowth_seed']),
         shapelessRecipe('minecraft:sticky_piston', ['minecraft:piston', '#forge:slimeballs']),
         shapelessRecipe('minecraft:flint', ['#forge:gravel', '#forge:gravel', '#forge:gravel']),
