@@ -1,0 +1,15 @@
+{
+  "modsRequired": ["abundance"],
+  "content": [
+    {
+      "type": "item",
+      "content": "abundance:nemophila",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "modsRequired": ["tetra"],
+  "content": [
+    {
+      "type": "item",
+      "content": "tetra:geode",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 1560,
+      "weight": 125
+    },
+    {
+      "type": "item",
+      "content": "tetra:pristine_lapis",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3150,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "tetra:pristine_diamond",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7200,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "tetra:pristine_emerald",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10800,
+      "weight": 50
+    }
+  ]
+}

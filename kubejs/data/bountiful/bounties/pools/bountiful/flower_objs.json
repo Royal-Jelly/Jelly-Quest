@@ -1,0 +1,36 @@
+{
+  "modsRequired": [],
+  "content": [
+    {
+      "type": "item-tag",
+      "name": "Any Small Flower",
+      "content": "minecraft:small_flowers",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 30,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:lily_of_the_valley",
+      "amountRange": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 35,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:wither_rose",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 565,
+      "weight": 1000
+    }
+  ]
+}

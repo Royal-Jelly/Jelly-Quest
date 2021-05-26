@@ -2,8 +2,7 @@
     "spawnsInBoard": true,
     "objectivePools": [
       "all_villager_objs",
-      "engineer_objs",
-      "tinker_objs"
+      "engineer_objs"
     ],
     "rewardPools": [
       "coins_rews"

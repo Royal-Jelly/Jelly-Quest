@@ -1,0 +1,36 @@
+{
+  "modsRequired": ["resourcefulbees"],
+  "content": [
+    {
+      "type": "item-tag",
+      "name": "Any Honeycomb",
+      "content": "resourcefulbees:resourceful_honeycomb",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 100,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "resourcefulbees:skeleton_honeycomb",
+      "amountRange": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 125,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "resourcefulbees:wax",
+      "amountRange": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 85,
+      "weight": 1000
+    }
+  ]
+}

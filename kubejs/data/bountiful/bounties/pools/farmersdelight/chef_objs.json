@@ -1,0 +1,25 @@
+{
+  "modsRequired": ["farmersdelight"],
+  "content": [
+    {
+      "type": "item",
+      "content": "farmersdelight:stuffed_potato",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 350,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "farmersdelight:honey_cookie",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 150,
+      "weight": 800
+    }
+  ]
+}

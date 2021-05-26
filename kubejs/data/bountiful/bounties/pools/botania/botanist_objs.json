@@ -2,123 +2,55 @@
   "modsRequired": ["botania"],
   "content": [
     {
-      "type": "item",
-      "content": "botania:white_petal",
+      "type": "item-tag",
+      "name": "Any Mystical Petal",
+      "content": "botania:petals",
       "amountRange": {
-        "min": 2,
-        "max": 64
+        "min": 1,
+        "max": 4
       },
-      "unitWorth": 80,
+      "unitWorth": 100,
       "weight": 1000
     },
     {
-      "type": "item",
-      "content": "botania:magenta_petal",
+      "type": "item-tag",
+      "name": "Any Mystical Flower",
+      "content": "botania:mystical_flowers",
       "amountRange": {
-        "min": 2,
-        "max": 64
+        "min": 1,
+        "max": 8
       },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:light_blue_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:yellow_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:lime_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:pink_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:light_gray_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:blue_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:brown_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:green_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
-      "weight": 1000
-    },
-    {
-      "type": "item",
-      "content": "botania:red_petal",
-      "amountRange": {
-        "min": 2,
-        "max": 64
-      },
-      "unitWorth": 80,
+      "unitWorth": 200,
       "weight": 1000
     },
     {
       "type": "item",
       "content": "botania:black_petal",
       "amountRange": {
-        "min": 2,
-        "max": 64
+        "min": 1,
+        "max": 6
       },
-      "unitWorth": 80,
+      "unitWorth": 120,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "botania:purple_petal",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 140,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "botania:pure_daisy",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 450,
       "weight": 1000
     },
     {
@@ -128,7 +60,27 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 240,
+      "unitWorth": 540,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "botania:livingwood",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 460,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "botania:livingrock",
+      "amountRange": {
+        "min": 1,
+        "max": 16
+      },
+      "unitWorth": 540,
       "weight": 100
     },
     {
@@ -138,8 +90,8 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 200,
-      "weight": 100
+      "unitWorth": 1500,
+      "weight": 50
     }
   ]
 }

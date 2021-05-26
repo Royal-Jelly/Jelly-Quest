@@ -1,0 +1,49 @@
+{
+  "modsRequired": ["iceandfire"],
+  "content": [
+    {
+      "type": "item-tag",
+      "name": "Sapphire",
+      "content": "forge:gems/sapphire",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000,
+      "weight": 3000
+    },
+    {
+      "type": "item-tag",
+      "name": "Sapphire Block",
+      "content": "forge:storage_blocks/sapphire",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9000,
+      "weight": 300
+    },
+    {
+      "type": "item-tag",
+      "name": "Amethyst",
+      "content": "forge:gems/amethyst",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000,
+      "weight": 3000
+    },
+    {
+      "type": "item-tag",
+      "name": "Amethyst Block",
+      "content": "forge:storage_blocks/amethyst",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9000,
+      "weight": 300
+    }
+  ]
+}

@@ -5,71 +5,71 @@
       "type": "item",
       "content": "botania:quartz_dark",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 340,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_mana",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 380,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_blaze",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 320,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_lavender",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 360,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_red",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 370,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_elven",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 440,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     },
     {
       "type": "item",
       "content": "botania:quartz_sunny",
       "amountRange": {
-        "min": 2,
-        "max": 32
+        "min": 4,
+        "max": 16
       },
-      "unitWorth": 365,
-      "weight": 800
+      "unitWorth": 450,
+      "weight": 80
     }
   ]
 }

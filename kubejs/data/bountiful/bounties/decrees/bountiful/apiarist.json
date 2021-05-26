@@ -3,7 +3,7 @@
     "objectivePools": [
       "all_villager_objs",
       "flower_objs",
-      "botanist_objs"
+      "apiarist_objs"
     ],
     "rewardPools": [
       "coins_rews"

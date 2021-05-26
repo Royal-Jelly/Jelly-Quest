@@ -1,0 +1,45 @@
+{
+  "modsRequired": ["farmersdelight"],
+  "content": [
+    {
+      "type": "item",
+      "content": "farmersdelight:cabbage",
+      "amountRange": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "farmersdelight:tomato",
+      "amountRange": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "farmersdelight:onion",
+      "amountRange": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "farmersdelight:rice_panicle",
+      "amountRange": {
+        "min": 12,
+        "max": 48
+      },
+      "unitWorth": 40,
+      "weight": 1000
+    }
+  ]
+}
