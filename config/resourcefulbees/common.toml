@@ -7,7 +7,7 @@
 	#
 	#Set this to false when you want to overwrite the default provided Biome Dictionary files. [true/false]
 	#This should be run at least once for initial generation.
-	generateBiomeDictionaries = false
+	generateBiomeDictionaries = true
 	#
 	#Set this to false when you want to use our custom Biome Dictionary system. [true/false]
 	#At a later time we will look into either combining with the Forge system or making the Forge system data pack capable.
